@@ -1,0 +1,15 @@
+{
+  "Bi-Mutual": 106,
+  "Cascade": 115321,
+  "Clique": 269,
+  "FBL": 11,
+  "FFL": 128179,
+  "Fan-In": 35348,
+  "Fan-Out": 159099089,
+  "Mutual-Cascade": 94,
+  "Mutual-In": 83,
+  "Mutual-Out": 414128,
+  "Regulated-Mutual": 80,
+  "Regulating-Mutual": 239137,
+  "Semi-Clique": 394
+}

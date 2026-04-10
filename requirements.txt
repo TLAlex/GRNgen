@@ -1,0 +1,8 @@
+pandas
+numpy
+tqdm
+matplotlib
+seaborn
+plotly
+networkx
+igraph

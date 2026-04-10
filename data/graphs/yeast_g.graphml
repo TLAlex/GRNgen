@@ -1,0 +1,4574 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="YAL051W"/>
+<node id="YDR244W"/>
+<node id="YDR256C"/>
+<node id="YEL011W"/>
+<node id="YER015W"/>
+<node id="YGL205W"/>
+<node id="YIL160C"/>
+<node id="YKR009C"/>
+<node id="YLR284C"/>
+<node id="YMR303C"/>
+<node id="YOR363C"/>
+<node id="YBL005W"/>
+<node id="YAL003W"/>
+<node id="YAL061W"/>
+<node id="YBL004W"/>
+<node id="YBL042C"/>
+<node id="YBL103C"/>
+<node id="YCL040W"/>
+<node id="YDR011W"/>
+<node id="YDR055W"/>
+<node id="YDR072C"/>
+<node id="YDR345C"/>
+<node id="YDR361C"/>
+<node id="YDR406W"/>
+<node id="YGR035C"/>
+<node id="YGR161C"/>
+<node id="YGR280C"/>
+<node id="YGR281W"/>
+<node id="YIL172C"/>
+<node id="YJL082W"/>
+<node id="YKL008C"/>
+<node id="YLL028W"/>
+<node id="YLR099C"/>
+<node id="YLR346C"/>
+<node id="YLR438W"/>
+<node id="YML093W"/>
+<node id="YML125C"/>
+<node id="YMR102C"/>
+<node id="YMR195W"/>
+<node id="YMR272C"/>
+<node id="YNL160W"/>
+<node id="YNL231C"/>
+<node id="YNR019W"/>
+<node id="YOL031C"/>
+<node id="YOL083W"/>
+<node id="YOL157C"/>
+<node id="YOR152C"/>
+<node id="YOR153W"/>
+<node id="YOR328W"/>
+<node id="YPR149W"/>
+<node id="YCR021C"/>
+<node id="YGR142W"/>
+<node id="YJR148W"/>
+<node id="YLR304C"/>
+<node id="YNL037C"/>
+<node id="YNR001C"/>
+<node id="YBR049C"/>
+<node id="YDR158W"/>
+<node id="YFR052W"/>
+<node id="YLL034C"/>
+<node id="YLR162W"/>
+<node id="YMR186W"/>
+<node id="YPL225W"/>
+<node id="YPR074C"/>
+<node id="YBR083W"/>
+<node id="YAR010C"/>
+<node id="YBR012W-A"/>
+<node id="YBR040W"/>
+<node id="YBR117C"/>
+<node id="YCL027W"/>
+<node id="YCR089W"/>
+<node id="YDR098C-A"/>
+<node id="YDR098C-B"/>
+<node id="YDR171W"/>
+<node id="YDR316W-A"/>
+<node id="YDR316W-B"/>
+<node id="YDR461W"/>
+<node id="YER118C"/>
+<node id="YER137C-A"/>
+<node id="YER138W-A"/>
+<node id="YER150W"/>
+<node id="YFR053C"/>
+<node id="YGL032C"/>
+<node id="YGL096W"/>
+<node id="YGL145W"/>
+<node id="YGL162W"/>
+<node id="YGL178W"/>
+<node id="YGL194C"/>
+<node id="YGR014W"/>
+<node id="YGR052W"/>
+<node id="YIL117C"/>
+<node id="YIL119C"/>
+<node id="YIR019C"/>
+<node id="YJR153W"/>
+<node id="YKL095W"/>
+<node id="YKL096W"/>
+<node id="YKR061W"/>
+<node id="YKR091W"/>
+<node id="YLL052C"/>
+<node id="YLR042C"/>
+<node id="YLR332W"/>
+<node id="YLR403W"/>
+<node id="YLR414C"/>
+<node id="YMR065W"/>
+<node id="YMR173W"/>
+<node id="YMR199W"/>
+<node id="YMR232W"/>
+<node id="YNL208W"/>
+<node id="YNL279W"/>
+<node id="YNL283C"/>
+<node id="YNR044W"/>
+<node id="YOL104C"/>
+<node id="YOR247W"/>
+<node id="YOR315W"/>
+<node id="YOR348C"/>
+<node id="YPL163C"/>
+<node id="YPR148C"/>
+<node id="YPR158W-A"/>
+<node id="YPR158W-B"/>
+<node id="YBR240C"/>
+<node id="YBR092C"/>
+<node id="YDR438W"/>
+<node id="YLR004C"/>
+<node id="YOL055C"/>
+<node id="YPL214C"/>
+<node id="YBR297W"/>
+<node id="YKL113C"/>
+<node id="YCR106W"/>
+<node id="YCR107W"/>
+<node id="YDL020C"/>
+<node id="YBL022C"/>
+<node id="YBL023C"/>
+<node id="YBL087C"/>
+<node id="YCL055W"/>
+<node id="YCR005C"/>
+<node id="YCR012W"/>
+<node id="YCR082W"/>
+<node id="YDL007W"/>
+<node id="YDR028C"/>
+<node id="YDR270W"/>
+<node id="YDR363W-A"/>
+<node id="YDR394W"/>
+<node id="YDR427W"/>
+<node id="YEL037C"/>
+<node id="YER012W"/>
+<node id="YER021W"/>
+<node id="YER094C"/>
+<node id="YER142C"/>
+<node id="YER143W"/>
+<node id="YFL056C"/>
+<node id="YFL057C"/>
+<node id="YFR003C"/>
+<node id="YFR004W"/>
+<node id="YFR010W"/>
+<node id="YFR050C"/>
+<node id="YGL010W"/>
+<node id="YGL011C"/>
+<node id="YGL013C"/>
+<node id="YGL047W"/>
+<node id="YGL048C"/>
+<node id="YGL180W"/>
+<node id="YGR048W"/>
+<node id="YGR135W"/>
+<node id="YGR253C"/>
+<node id="YIL075C"/>
+<node id="YIL169C"/>
+<node id="YJL001W"/>
+<node id="YKL010C"/>
+<node id="YKL015W"/>
+<node id="YKL026C"/>
+<node id="YKL145W"/>
+<node id="YKL196C"/>
+<node id="YKL220C"/>
+<node id="YLR367W"/>
+<node id="YML007W"/>
+<node id="YML092C"/>
+<node id="YMR276W"/>
+<node id="YNL145W"/>
+<node id="YNL155W"/>
+<node id="YNL251C"/>
+<node id="YOL038W"/>
+<node id="YOR007C"/>
+<node id="YOR157C"/>
+<node id="YOR259C"/>
+<node id="YOR260W"/>
+<node id="YOR261C"/>
+<node id="YPL113C"/>
+<node id="YPR091C"/>
+<node id="YPR108W"/>
+<node id="YDL056W"/>
+<node id="YBL003C"/>
+<node id="YCR065W"/>
+<node id="YDL018C"/>
+<node id="YDL101C"/>
+<node id="YDR501W"/>
+<node id="YER070W"/>
+<node id="YER095W"/>
+<node id="YJL194W"/>
+<node id="YJL196C"/>
+<node id="YKL103C"/>
+<node id="YLR103C"/>
+<node id="YLR297W"/>
+<node id="YLR300W"/>
+<node id="YMR179W"/>
+<node id="YOR074C"/>
+<node id="YPL014W"/>
+<node id="YPL241C"/>
+<node id="YPL267W"/>
+<node id="YPL268W"/>
+<node id="YPR120C"/>
+<node id="YPR174C"/>
+<node id="YPR175W"/>
+<node id="YDL106C"/>
+<node id="YAR015W"/>
+<node id="YCL030C"/>
+<node id="YGL234W"/>
+<node id="YGR204W"/>
+<node id="YHR136C"/>
+<node id="YMR300C"/>
+<node id="YOR128C"/>
+<node id="YDR043C"/>
+<node id="YBR018C"/>
+<node id="YDR041W"/>
+<node id="YDR343C"/>
+<node id="YER096W"/>
+<node id="YFR015C"/>
+<node id="YGR050C"/>
+<node id="YHR033W"/>
+<node id="YIL098C"/>
+<node id="YIL099W"/>
+<node id="YIL101C"/>
+<node id="YJL078C"/>
+<node id="YML123C"/>
+<node id="YMR145C"/>
+<node id="YNR060W"/>
+<node id="YOR049C"/>
+<node id="YOR136W"/>
+<node id="YOR179C"/>
+<node id="YOR273C"/>
+<node id="YDR123C"/>
+<node id="YER043C"/>
+<node id="YGR008C"/>
+<node id="YJL153C"/>
+<node id="YNL169C"/>
+<node id="YDR146C"/>
+<node id="YBR071W"/>
+<node id="YBR158W"/>
+<node id="YDL117W"/>
+<node id="YDL127W"/>
+<node id="YDL128W"/>
+<node id="YDL179W"/>
+<node id="YGR041W"/>
+<node id="YGR189C"/>
+<node id="YIL009W"/>
+<node id="YKL164C"/>
+<node id="YKL185W"/>
+<node id="YLR049C"/>
+<node id="YLR079W"/>
+<node id="YLR194C"/>
+<node id="YNL192W"/>
+<node id="YNL327W"/>
+<node id="YNR067C"/>
+<node id="YOR264W"/>
+<node id="YPL158C"/>
+<node id="YPR106W"/>
+<node id="YDR207C"/>
+<node id="YAL054C"/>
+<node id="YBL064C"/>
+<node id="YBR184W"/>
+<node id="YBR284W"/>
+<node id="YCR061W"/>
+<node id="YER044C-A"/>
+<node id="YER179W"/>
+<node id="YFR017C"/>
+<node id="YHR153C"/>
+<node id="YIL031W"/>
+<node id="YIL033C"/>
+<node id="YIL090W"/>
+<node id="YIL144W"/>
+<node id="YIR014W"/>
+<node id="YJL089W"/>
+<node id="YLL039C"/>
+<node id="YLL046C"/>
+<node id="YMR101C"/>
+<node id="YOL131W"/>
+<node id="YOR338W"/>
+<node id="YPL016W"/>
+<node id="YPL017C"/>
+<node id="YPL201C"/>
+<node id="YPR151C"/>
+<node id="YDR216W"/>
+<node id="YAL059W"/>
+<node id="YCR010C"/>
+<node id="YDR111C"/>
+<node id="YDR384C"/>
+<node id="YER054C"/>
+<node id="YGR123C"/>
+<node id="YGR245C"/>
+<node id="YHL032C"/>
+<node id="YIL057C"/>
+<node id="YIL155C"/>
+<node id="YJR094C"/>
+<node id="YKL217W"/>
+<node id="YKR093W"/>
+<node id="YLR252W"/>
+<node id="YLR348C"/>
+<node id="YML054C"/>
+<node id="YMR017W"/>
+<node id="YOL124C"/>
+<node id="YOL147C"/>
+<node id="YOL155C"/>
+<node id="YOR374W"/>
+<node id="YPL147W"/>
+<node id="YPL200W"/>
+<node id="YPL276W"/>
+<node id="YPR001W"/>
+<node id="YPR006C"/>
+<node id="YPR010C"/>
+<node id="YDR253C"/>
+<node id="YGL184C"/>
+<node id="YGR155W"/>
+<node id="YJR010W"/>
+<node id="YKL001C"/>
+<node id="YPR167C"/>
+<node id="YDR310C"/>
+<node id="YBR180W"/>
+<node id="YCL048W"/>
+<node id="YDR042C"/>
+<node id="YDR281C"/>
+<node id="YDR522C"/>
+<node id="YDR523C"/>
+<node id="YFL040W"/>
+<node id="YFR023W"/>
+<node id="YFR032C"/>
+<node id="YGL138C"/>
+<node id="YGL170C"/>
+<node id="YGR059W"/>
+<node id="YGR260W"/>
+<node id="YHR184W"/>
+<node id="YHR185C"/>
+<node id="YIR027C"/>
+<node id="YJL037W"/>
+<node id="YJL038C"/>
+<node id="YJL043W"/>
+<node id="YJR025C"/>
+<node id="YJR078W"/>
+<node id="YJR079W"/>
+<node id="YKL177W"/>
+<node id="YKL178C"/>
+<node id="YKR034W"/>
+<node id="YLL005C"/>
+<node id="YLR213C"/>
+<node id="YLR307W"/>
+<node id="YLR343W"/>
+<node id="YNL204C"/>
+<node id="YNL318C"/>
+<node id="YOL024W"/>
+<node id="YOR071C"/>
+<node id="YOR255W"/>
+<node id="YOR365C"/>
+<node id="YPL130W"/>
+<node id="YPR054W"/>
+<node id="YDR421W"/>
+<node id="YDR423C"/>
+<node id="YAL062W"/>
+<node id="YBL029W"/>
+<node id="YBR072W"/>
+<node id="YDR034W-B"/>
+<node id="YER124C"/>
+<node id="YGL158W"/>
+<node id="YGR256W"/>
+<node id="YHL021C"/>
+<node id="YHR088W"/>
+<node id="YKL039W"/>
+<node id="YML128C"/>
+<node id="YMR169C"/>
+<node id="YMR196W"/>
+<node id="YNL115C"/>
+<node id="YDR451C"/>
+<node id="YAR018C"/>
+<node id="YDR191W"/>
+<node id="YGL256W"/>
+<node id="YHL040C"/>
+<node id="YHR160C"/>
+<node id="YJL213W"/>
+<node id="YKL209C"/>
+<node id="YLR035C-A"/>
+<node id="YPL242C"/>
+<node id="YPR019W"/>
+<node id="YDR463W"/>
+<node id="YBR132C"/>
+<node id="YCL025C"/>
+<node id="YDR508C"/>
+<node id="YGR055W"/>
+<node id="YEL009C"/>
+<node id="YAR050W"/>
+<node id="YBL043W"/>
+<node id="YBL076C"/>
+<node id="YBL102W"/>
+<node id="YBR043C"/>
+<node id="YBR046C"/>
+<node id="YBR047W"/>
+<node id="YBR068C"/>
+<node id="YBR104W"/>
+<node id="YBR115C"/>
+<node id="YBR145W"/>
+<node id="YBR147W"/>
+<node id="YBR218C"/>
+<node id="YBR248C"/>
+<node id="YBR249C"/>
+<node id="YBR256C"/>
+<node id="YBR257W"/>
+<node id="YCR053W"/>
+<node id="YDL054C"/>
+<node id="YDL066W"/>
+<node id="YDL170W"/>
+<node id="YDL171C"/>
+<node id="YDL182W"/>
+<node id="YDL183C"/>
+<node id="YDL198C"/>
+<node id="YDR034C"/>
+<node id="YDR035W"/>
+<node id="YDR127W"/>
+<node id="YDR258C"/>
+<node id="YDR354W"/>
+<node id="YDR481C"/>
+<node id="YDR510W"/>
+<node id="YEL046C"/>
+<node id="YEL063C"/>
+<node id="YER039C"/>
+<node id="YER040W"/>
+<node id="YER052C"/>
+<node id="YER055C"/>
+<node id="YER069W"/>
+<node id="YER073W"/>
+<node id="YER074W"/>
+<node id="YER086W"/>
+<node id="YER090W"/>
+<node id="YER175C"/>
+<node id="YER176W"/>
+<node id="YFL021W"/>
+<node id="YFL028C"/>
+<node id="YFR055W"/>
+<node id="YGL059W"/>
+<node id="YGL060W"/>
+<node id="YGL117W"/>
+<node id="YGL121C"/>
+<node id="YGL125W"/>
+<node id="YGL186C"/>
+<node id="YGL202W"/>
+<node id="YGR067C"/>
+<node id="YGR124W"/>
+<node id="YGR267C"/>
+<node id="YHL027W"/>
+<node id="YHR018C"/>
+<node id="YHR019C"/>
+<node id="YHR024C"/>
+<node id="YHR025W"/>
+<node id="YHR029C"/>
+<node id="YHR071W"/>
+<node id="YHR122W"/>
+<node id="YHR161C"/>
+<node id="YIL056W"/>
+<node id="YIL116W"/>
+<node id="YIL164C"/>
+<node id="YIL165C"/>
+<node id="YIR017C"/>
+<node id="YIR034C"/>
+<node id="YJL071W"/>
+<node id="YJL072C"/>
+<node id="YJL088W"/>
+<node id="YJL200C"/>
+<node id="YJL210W"/>
+<node id="YJR016C"/>
+<node id="YJR109C"/>
+<node id="YJR110W"/>
+<node id="YJR111C"/>
+<node id="YJR112W"/>
+<node id="YJR145C"/>
+<node id="YKL033W-A"/>
+<node id="YKL101W"/>
+<node id="YKL211C"/>
+<node id="YLL009C"/>
+<node id="YLL027W"/>
+<node id="YLR027C"/>
+<node id="YLR048W"/>
+<node id="YLR152C"/>
+<node id="YLR267W"/>
+<node id="YLR356W"/>
+<node id="YLR451W"/>
+<node id="YML076C"/>
+<node id="YML116W"/>
+<node id="YMR019W"/>
+<node id="YMR062C"/>
+<node id="YMR063W"/>
+<node id="YMR095C"/>
+<node id="YMR096W"/>
+<node id="YMR188C"/>
+<node id="YNL004W"/>
+<node id="YNL036W"/>
+<node id="YNL065W"/>
+<node id="YNL103W"/>
+<node id="YNL104C"/>
+<node id="YNL124W"/>
+<node id="YNL125C"/>
+<node id="YNL129W"/>
+<node id="YNL183C"/>
+<node id="YNL239W"/>
+<node id="YNL240C"/>
+<node id="YNL311C"/>
+<node id="YNR050C"/>
+<node id="YNR069C"/>
+<node id="YOL058W"/>
+<node id="YOL064C"/>
+<node id="YOL119C"/>
+<node id="YOL140W"/>
+<node id="YOR108W"/>
+<node id="YOR130C"/>
+<node id="YOR201C"/>
+<node id="YOR202W"/>
+<node id="YOR203W"/>
+<node id="YOR222W"/>
+<node id="YOR302W"/>
+<node id="YOR303W"/>
+<node id="YOR304W"/>
+<node id="YOR337W"/>
+<node id="YPL111W"/>
+<node id="YPL135W"/>
+<node id="YPL252C"/>
+<node id="YPL264C"/>
+<node id="YPL269W"/>
+<node id="YPL273W"/>
+<node id="YPR036W"/>
+<node id="YPR040W"/>
+<node id="YPR058W"/>
+<node id="YPR111W"/>
+<node id="YPR145W"/>
+<node id="YPR185W"/>
+<node id="YDR090C"/>
+<node id="YDR184C"/>
+<node id="YFL022C"/>
+<node id="YGL008C"/>
+<node id="YGR173W"/>
+<node id="YGR234W"/>
+<node id="YHL015W"/>
+<node id="YHL016C"/>
+<node id="YHR170W"/>
+<node id="YIR029W"/>
+<node id="YIR030C"/>
+<node id="YIR031C"/>
+<node id="YIR032C"/>
+<node id="YJL148W"/>
+<node id="YJL172W"/>
+<node id="YJR152W"/>
+<node id="YKL073W"/>
+<node id="YKR039W"/>
+<node id="YKR092C"/>
+<node id="YLR142W"/>
+<node id="YMR088C"/>
+<node id="YNL142W"/>
+<node id="YNR068C"/>
+<node id="YOR101W"/>
+<node id="YPL265W"/>
+<node id="YPR035W"/>
+<node id="YPR194C"/>
+<node id="YER109C"/>
+<node id="YER111C"/>
+<node id="YBL111C"/>
+<node id="YDL003W"/>
+<node id="YDR309C"/>
+<node id="YFL014W"/>
+<node id="YFL064C"/>
+<node id="YGR032W"/>
+<node id="YGR109C"/>
+<node id="YGR110W"/>
+<node id="YGR138C"/>
+<node id="YGR248W"/>
+<node id="YGR250C"/>
+<node id="YGR292W"/>
+<node id="YHL048W"/>
+<node id="YHL049C"/>
+<node id="YIL123W"/>
+<node id="YJL079C"/>
+<node id="YJL158C"/>
+<node id="YJL225C"/>
+<node id="YKL043W"/>
+<node id="YKL096W-A"/>
+<node id="YKR013W"/>
+<node id="YKR042W"/>
+<node id="YLR120C"/>
+<node id="YLR121C"/>
+<node id="YLR462W"/>
+<node id="YLR467W"/>
+<node id="YML100W"/>
+<node id="YML132W"/>
+<node id="YML133C"/>
+<node id="YMR006C"/>
+<node id="YMR136W"/>
+<node id="YNL289W"/>
+<node id="YNL300W"/>
+<node id="YNR009W"/>
+<node id="YOL007C"/>
+<node id="YOR161C"/>
+<node id="YOR248W"/>
+<node id="YOR313C"/>
+<node id="YOR344C"/>
+<node id="YOR372C"/>
+<node id="YOR373W"/>
+<node id="YOR378W"/>
+<node id="YOR394W"/>
+<node id="YPL054W"/>
+<node id="YPR005C"/>
+<node id="YPR119W"/>
+<node id="YFL031W"/>
+<node id="YFR026C"/>
+<node id="YFR042W"/>
+<node id="YJL034W"/>
+<node id="YKL165C"/>
+<node id="YFR034C"/>
+<node id="YBR093C"/>
+<node id="YBR296C"/>
+<node id="YCL064C"/>
+<node id="YCR098C"/>
+<node id="YER037W"/>
+<node id="YER072W"/>
+<node id="YFL004W"/>
+<node id="YGL100W"/>
+<node id="YGR233C"/>
+<node id="YGR254W"/>
+<node id="YHR032W"/>
+<node id="YHR052W"/>
+<node id="YHR137W"/>
+<node id="YIL136W"/>
+<node id="YJL012C"/>
+<node id="YJL117W"/>
+<node id="YJR060W"/>
+<node id="YNL309W"/>
+<node id="YPL018W"/>
+<node id="YPL019C"/>
+<node id="YPL110C"/>
+<node id="YBR008C"/>
+<node id="YCL042W"/>
+<node id="YDL082W"/>
+<node id="YDL223C"/>
+<node id="YDR076W"/>
+<node id="YDR134C"/>
+<node id="YDR342C"/>
+<node id="YDR533C"/>
+<node id="YER145C"/>
+<node id="YGL037C"/>
+<node id="YGL062W"/>
+<node id="YHR087W"/>
+<node id="YKL109W"/>
+<node id="YMR165C"/>
+<node id="YMR251W-A"/>
+<node id="YMR291W"/>
+<node id="YNL134C"/>
+<node id="YNL144C"/>
+<node id="YNL237W"/>
+<node id="YOL109W"/>
+<node id="YOL151W"/>
+<node id="YOR095C"/>
+<node id="YOR173W"/>
+<node id="YOR178C"/>
+<node id="YOR327C"/>
+<node id="YPR184W"/>
+<node id="YGL035C"/>
+<node id="YGR098C"/>
+<node id="YGR112W"/>
+<node id="YIL162W"/>
+<node id="YGL071W"/>
+<node id="YBR207W"/>
+<node id="YBR237W"/>
+<node id="YDL045W-A"/>
+<node id="YDL188C"/>
+<node id="YDR154C"/>
+<node id="YDR264C"/>
+<node id="YEL012W"/>
+<node id="YEL065W"/>
+<node id="YER156C"/>
+<node id="YGL055W"/>
+<node id="YGL056C"/>
+<node id="YGL088W"/>
+<node id="YGR078C"/>
+<node id="YGR243W"/>
+<node id="YHL035C"/>
+<node id="YHL047C"/>
+<node id="YHR138C"/>
+<node id="YIL125W"/>
+<node id="YJR137C"/>
+<node id="YKL051W"/>
+<node id="YKR052C"/>
+<node id="YLL040C"/>
+<node id="YLL051C"/>
+<node id="YLL055W"/>
+<node id="YLR034C"/>
+<node id="YLR136C"/>
+<node id="YLR214W"/>
+<node id="YLR277C"/>
+<node id="YML129C"/>
+<node id="YMR058W"/>
+<node id="YMR189W"/>
+<node id="YMR280C"/>
+<node id="YMR319C"/>
+<node id="YMR320W"/>
+<node id="YNL259C"/>
+<node id="YNL270C"/>
+<node id="YNR014W"/>
+<node id="YOL014W"/>
+<node id="YOL158C"/>
+<node id="YOR316C"/>
+<node id="YOR317W"/>
+<node id="YOR382W"/>
+<node id="YOR383C"/>
+<node id="YOR384W"/>
+<node id="YPL189W"/>
+<node id="YPL195W"/>
+<node id="YPR026W"/>
+<node id="YPR052C"/>
+<node id="YGL073W"/>
+<node id="YAL005C"/>
+<node id="YBL032W"/>
+<node id="YBL075C"/>
+<node id="YBR009C"/>
+<node id="YBR050C"/>
+<node id="YBR052C"/>
+<node id="YBR082C"/>
+<node id="YBR085C-A"/>
+<node id="YBR101C"/>
+<node id="YBR118W"/>
+<node id="YBR169C"/>
+<node id="YCL050C"/>
+<node id="YDL091C"/>
+<node id="YDR155C"/>
+<node id="YDR170W-A"/>
+<node id="YDR214W"/>
+<node id="YDR313C"/>
+<node id="YER035W"/>
+<node id="YER036C"/>
+<node id="YER102W"/>
+<node id="YER103W"/>
+<node id="YFL016C"/>
+<node id="YGR141W"/>
+<node id="YGR197C"/>
+<node id="YGR198W"/>
+<node id="YGR211W"/>
+<node id="YHR049W"/>
+<node id="YHR053C"/>
+<node id="YHR055C"/>
+<node id="YHR104W"/>
+<node id="YHR174W"/>
+<node id="YJL074C"/>
+<node id="YJL144W"/>
+<node id="YJR045C"/>
+<node id="YJR046W"/>
+<node id="YKL035W"/>
+<node id="YLL023C"/>
+<node id="YLL024C"/>
+<node id="YLL026W"/>
+<node id="YLR064W"/>
+<node id="YLR109W"/>
+<node id="YLR216C"/>
+<node id="YLR259C"/>
+<node id="YLR327C"/>
+<node id="YML130C"/>
+<node id="YMR108W"/>
+<node id="YNL006W"/>
+<node id="YNL007C"/>
+<node id="YNL063W"/>
+<node id="YNL064C"/>
+<node id="YNL281W"/>
+<node id="YOL081W"/>
+<node id="YOL082W"/>
+<node id="YOR020C"/>
+<node id="YOR027W"/>
+<node id="YOR192C"/>
+<node id="YPL005W"/>
+<node id="YPL106C"/>
+<node id="YPL168W"/>
+<node id="YPL239W"/>
+<node id="YPL240C"/>
+<node id="YPR154W"/>
+<node id="YAR068W"/>
+<node id="YFR009W"/>
+<node id="YML131W"/>
+<node id="YMR229C"/>
+<node id="YNL234W"/>
+<node id="YIL011W"/>
+<node id="YIL013C"/>
+<node id="YMR011W"/>
+<node id="YGL237C"/>
+<node id="YPL271W"/>
+<node id="YGR044C"/>
+<node id="YJL045W"/>
+<node id="YNL033W"/>
+<node id="YNL034W"/>
+<node id="YGR249W"/>
+<node id="YDL037C"/>
+<node id="YDR040C"/>
+<node id="YHL028W"/>
+<node id="YJL219W"/>
+<node id="YOR107W"/>
+<node id="YOR391C"/>
+<node id="YHL020C"/>
+<node id="YDR497C"/>
+<node id="YKL182W"/>
+<node id="YBR182C"/>
+<node id="YDR133C"/>
+<node id="YEL060C"/>
+<node id="YGL045W"/>
+<node id="YJR061W"/>
+<node id="YMR173W-A"/>
+<node id="YOR306C"/>
+<node id="YOR389W"/>
+<node id="YPL277C"/>
+<node id="YHR006W"/>
+<node id="YGL255W"/>
+<node id="YHR084W"/>
+<node id="YBR054W"/>
+<node id="YBR241C"/>
+<node id="YCR018C"/>
+<node id="YCR102C"/>
+<node id="YDL090C"/>
+<node id="YDR034C-A"/>
+<node id="YDR457W"/>
+<node id="YEL069C"/>
+<node id="YER065C"/>
+<node id="YER079W"/>
+<node id="YFL026W"/>
+<node id="YFR022W"/>
+<node id="YGL053W"/>
+<node id="YGL089C"/>
+<node id="YGR037C"/>
+<node id="YGR146C"/>
+<node id="YGR162W"/>
+<node id="YHR179W"/>
+<node id="YIL015W"/>
+<node id="YIL037C"/>
+<node id="YJL157C"/>
+<node id="YJL170C"/>
+<node id="YJL214W"/>
+<node id="YJR004C"/>
+<node id="YKL128C"/>
+<node id="YKL189W"/>
+<node id="YKR024C"/>
+<node id="YLR275W"/>
+<node id="YLR411W"/>
+<node id="YLR452C"/>
+<node id="YLR456W"/>
+<node id="YML047C"/>
+<node id="YMR305C"/>
+<node id="YNL042W"/>
+<node id="YNL078W"/>
+<node id="YOL052C-A"/>
+<node id="YOR011W"/>
+<node id="YOR018W"/>
+<node id="YOR180C"/>
+<node id="YPL061W"/>
+<node id="YPL146C"/>
+<node id="YPL156C"/>
+<node id="YPL187W"/>
+<node id="YPL192C"/>
+<node id="YPR013C"/>
+<node id="YPR049C"/>
+<node id="YPR141C"/>
+<node id="YHR178W"/>
+<node id="YHR163W"/>
+<node id="YHR183W"/>
+<node id="YHR206W"/>
+<node id="YBR066C"/>
+<node id="YBR157C"/>
+<node id="YBR244W"/>
+<node id="YDL049C"/>
+<node id="YDR077W"/>
+<node id="YDR453C"/>
+<node id="YER091C"/>
+<node id="YGL038C"/>
+<node id="YGR043C"/>
+<node id="YGR209C"/>
+<node id="YGR210C"/>
+<node id="YHR008C"/>
+<node id="YJL101C"/>
+<node id="YJL107C"/>
+<node id="YJL116C"/>
+<node id="YKL037W"/>
+<node id="YKL062W"/>
+<node id="YKL086W"/>
+<node id="YKL142W"/>
+<node id="YKR044W"/>
+<node id="YKR066C"/>
+<node id="YLL018C-A"/>
+<node id="YLR257W"/>
+<node id="YML028W"/>
+<node id="YMR304C-A"/>
+<node id="YNL015W"/>
+<node id="YNL146W"/>
+<node id="YOL048C"/>
+<node id="YOL154W"/>
+<node id="YOR032C"/>
+<node id="YOR276W"/>
+<node id="YOR349W"/>
+<node id="YPL256C"/>
+<node id="YPR065W"/>
+<node id="YIL036W"/>
+<node id="YDL096C"/>
+<node id="YMR192W"/>
+<node id="YNL117W"/>
+<node id="YPL222W"/>
+<node id="YIL131C"/>
+<node id="YGL116W"/>
+<node id="YHR143W"/>
+<node id="YIL158W"/>
+<node id="YJR092W"/>
+<node id="YLR131C"/>
+<node id="YLR286C"/>
+<node id="YML052W"/>
+<node id="YPL141C"/>
+<node id="YPL155C"/>
+<node id="YIR033W"/>
+<node id="YDR492W"/>
+<node id="YMR246W"/>
+<node id="YOL101C"/>
+<node id="YOR377W"/>
+<node id="YJL056C"/>
+<node id="YGR295C"/>
+<node id="YKL175W"/>
+<node id="YLR130C"/>
+<node id="YNL254C"/>
+<node id="YNL336W"/>
+<node id="YJL110C"/>
+<node id="YHR037W"/>
+<node id="YKL020C"/>
+<node id="YDR074W"/>
+<node id="YGR088W"/>
+<node id="YHR048W"/>
+<node id="YIL051C"/>
+<node id="YIR036C"/>
+<node id="YJR047C"/>
+<node id="YJR118C"/>
+<node id="YKR067W"/>
+<node id="YKR080W"/>
+<node id="YLR439W"/>
+<node id="YMR119W"/>
+<node id="YMR315W"/>
+<node id="YNL241C"/>
+<node id="YNL335W"/>
+<node id="YPL171C"/>
+<node id="YPR063C"/>
+<node id="YBR039W"/>
+<node id="YDL004W"/>
+<node id="YDR148C"/>
+<node id="YDR322C-A"/>
+<node id="YDR377W"/>
+<node id="YDR529C"/>
+<node id="YER174C"/>
+<node id="YGL187C"/>
+<node id="YGL191W"/>
+<node id="YGR183C"/>
+<node id="YHR001W-A"/>
+<node id="YHR050W"/>
+<node id="YHR051W"/>
+<node id="YJR121W"/>
+<node id="YKL016C"/>
+<node id="YLR038C"/>
+<node id="YLR295C"/>
+<node id="YLR296W"/>
+<node id="YLR395C"/>
+<node id="YMR256C"/>
+<node id="YNL009W"/>
+<node id="YNL055C"/>
+<node id="YPR020W"/>
+<node id="YKL112W"/>
+<node id="YAL041W"/>
+<node id="YAL043C"/>
+<node id="YBL007C"/>
+<node id="YBL038W"/>
+<node id="YBL080C"/>
+<node id="YBR011C"/>
+<node id="YBR029C"/>
+<node id="YBR078W"/>
+<node id="YBR080C"/>
+<node id="YBR110W"/>
+<node id="YBR146W"/>
+<node id="YBR211C"/>
+<node id="YBR283C"/>
+<node id="YCL031C"/>
+<node id="YCR003W"/>
+<node id="YDL010W"/>
+<node id="YDL012C"/>
+<node id="YDL035C"/>
+<node id="YDL085W"/>
+<node id="YDL116W"/>
+<node id="YDL122W"/>
+<node id="YDL159W"/>
+<node id="YDL189W"/>
+<node id="YDL208W"/>
+<node id="YDR130C"/>
+<node id="YDR194C"/>
+<node id="YDR234W"/>
+<node id="YDR245W"/>
+<node id="YDR283C"/>
+<node id="YDR284C"/>
+<node id="YDR296W"/>
+<node id="YDR311W"/>
+<node id="YDR312W"/>
+<node id="YDR329C"/>
+<node id="YDR339C"/>
+<node id="YDR365C"/>
+<node id="YDR403W"/>
+<node id="YDR404C"/>
+<node id="YDR410C"/>
+<node id="YDR454C"/>
+<node id="YDR456W"/>
+<node id="YER026C"/>
+<node id="YFL017W-A"/>
+<node id="YFL048C"/>
+<node id="YGL107C"/>
+<node id="YGL192W"/>
+<node id="YGL222C"/>
+<node id="YGR119C"/>
+<node id="YGR128C"/>
+<node id="YGR186W"/>
+<node id="YGR231C"/>
+<node id="YGR270W"/>
+<node id="YGR282C"/>
+<node id="YHR064C"/>
+<node id="YHR077C"/>
+<node id="YHR090C"/>
+<node id="YHR115C"/>
+<node id="YHR162W"/>
+<node id="YIL138C"/>
+<node id="YIR023W"/>
+<node id="YJL176C"/>
+<node id="YJL201W"/>
+<node id="YJR062C"/>
+<node id="YJR093C"/>
+<node id="YJR104C"/>
+<node id="YJR116W"/>
+<node id="YKL007W"/>
+<node id="YKL029C"/>
+<node id="YKL060C"/>
+<node id="YKL144C"/>
+<node id="YKL167C"/>
+<node id="YKL172W"/>
+<node id="YKL190W"/>
+<node id="YKR029C"/>
+<node id="YKR030W"/>
+<node id="YKR082W"/>
+<node id="YLR024C"/>
+<node id="YLR055C"/>
+<node id="YLR192C"/>
+<node id="YLR292C"/>
+<node id="YLR293C"/>
+<node id="YLR330W"/>
+<node id="YLR396C"/>
+<node id="YML012W"/>
+<node id="YML081C-A"/>
+<node id="YMR005W"/>
+<node id="YMR060C"/>
+<node id="YMR092C"/>
+<node id="YMR197C"/>
+<node id="YMR260C"/>
+<node id="YMR296C"/>
+<node id="YNL059C"/>
+<node id="YNL119W"/>
+<node id="YNL244C"/>
+<node id="YNL255C"/>
+<node id="YNL258C"/>
+<node id="YNL267W"/>
+<node id="YNL287W"/>
+<node id="YNL306W"/>
+<node id="YNL312W"/>
+<node id="YNL321W"/>
+<node id="YNL322C"/>
+<node id="YNR037C"/>
+<node id="YOL068C"/>
+<node id="YOL076W"/>
+<node id="YOL116W"/>
+<node id="YOR045W"/>
+<node id="YOR057W"/>
+<node id="YOR116C"/>
+<node id="YOR205C"/>
+<node id="YPL013C"/>
+<node id="YPL036W"/>
+<node id="YPL159C"/>
+<node id="YPR017C"/>
+<node id="YPR128C"/>
+<node id="YPR178W"/>
+<node id="YDL227C"/>
+<node id="YDL210W"/>
+<node id="YKR099W"/>
+<node id="YAL044C"/>
+<node id="YAL060W"/>
+<node id="YDR019C"/>
+<node id="YDR408C"/>
+<node id="YLR058C"/>
+<node id="YLR359W"/>
+<node id="YMR120C"/>
+<node id="YLR013W"/>
+<node id="YMR325W"/>
+<node id="YNR076W"/>
+<node id="YLR098C"/>
+<node id="YGL028C"/>
+<node id="YJL159W"/>
+<node id="YJR147W"/>
+<node id="YLR176C"/>
+<node id="YDL129W"/>
+<node id="YER044C"/>
+<node id="YGR180C"/>
+<node id="YHR094C"/>
+<node id="YHR154W"/>
+<node id="YIL066C"/>
+<node id="YJL026W"/>
+<node id="YMR279C"/>
+<node id="YPR015C"/>
+<node id="YLR182W"/>
+<node id="YLR299W"/>
+<node id="YLR223C"/>
+<node id="YBL028C"/>
+<node id="YBL093C"/>
+<node id="YBR084C-A"/>
+<node id="YBR085W"/>
+<node id="YBR190W"/>
+<node id="YDR470C"/>
+<node id="YDR471W"/>
+<node id="YEL054C"/>
+<node id="YER116C"/>
+<node id="YER117W"/>
+<node id="YGL103W"/>
+<node id="YGL104C"/>
+<node id="YGL135W"/>
+<node id="YGL136C"/>
+<node id="YGR033C"/>
+<node id="YGR034W"/>
+<node id="YGR117C"/>
+<node id="YHR009C"/>
+<node id="YHR141C"/>
+<node id="YHR142W"/>
+<node id="YHR203C"/>
+<node id="YIL018W"/>
+<node id="YIL069C"/>
+<node id="YIL149C"/>
+<node id="YJL135W"/>
+<node id="YJL178C"/>
+<node id="YKL006C-A"/>
+<node id="YLR047C"/>
+<node id="YLR407W"/>
+<node id="YML025C"/>
+<node id="YML064C"/>
+<node id="YOL128C"/>
+<node id="YOR184W"/>
+<node id="YOR292C"/>
+<node id="YOR293W"/>
+<node id="YOR312C"/>
+<node id="YPR131C"/>
+<node id="YLR228C"/>
+<node id="YGL012W"/>
+<node id="YLR056W"/>
+<node id="YLR256W"/>
+<node id="YEL034W"/>
+<node id="YEL039C"/>
+<node id="YER053C"/>
+<node id="YGR049W"/>
+<node id="YGR266W"/>
+<node id="YJR048W"/>
+<node id="YKR046C"/>
+<node id="YLR153C"/>
+<node id="YLR205C"/>
+<node id="YML075C"/>
+<node id="YML126C"/>
+<node id="YMR220W"/>
+<node id="YNL111C"/>
+<node id="YNR041C"/>
+<node id="YNR043W"/>
+<node id="YOR065W"/>
+<node id="YLR266C"/>
+<node id="YBL027W"/>
+<node id="YBL092W"/>
+<node id="YBR031W"/>
+<node id="YBR048W"/>
+<node id="YBR121C"/>
+<node id="YBR154C"/>
+<node id="YBR181C"/>
+<node id="YBR188C"/>
+<node id="YBR189W"/>
+<node id="YBR191W"/>
+<node id="YCR031C"/>
+<node id="YDL061C"/>
+<node id="YDL075W"/>
+<node id="YDL076C"/>
+<node id="YDL081C"/>
+<node id="YDL083C"/>
+<node id="YDL130W"/>
+<node id="YDL133W"/>
+<node id="YDL191W"/>
+<node id="YDR025W"/>
+<node id="YDR064W"/>
+<node id="YDR152W"/>
+<node id="YDR179C"/>
+<node id="YDR179W-A"/>
+<node id="YDR382W"/>
+<node id="YDR418W"/>
+<node id="YDR447C"/>
+<node id="YDR450W"/>
+<node id="YER056C-A"/>
+<node id="YER131W"/>
+<node id="YER183C"/>
+<node id="YFR031C-A"/>
+<node id="YGL030W"/>
+<node id="YGL031C"/>
+<node id="YGL076C"/>
+<node id="YGL123W"/>
+<node id="YGL147C"/>
+<node id="YGR027C"/>
+<node id="YGR085C"/>
+<node id="YGR118W"/>
+<node id="YGR148C"/>
+<node id="YGR214W"/>
+<node id="YHL001W"/>
+<node id="YHR010W"/>
+<node id="YHR021C"/>
+<node id="YIL133C"/>
+<node id="YIL148W"/>
+<node id="YJL035C"/>
+<node id="YJL068C"/>
+<node id="YJL136C"/>
+<node id="YJL177W"/>
+<node id="YJL190C"/>
+<node id="YJR094W-A"/>
+<node id="YJR123W"/>
+<node id="YKL006W"/>
+<node id="YKL161C"/>
+<node id="YKL180W"/>
+<node id="YKR057W"/>
+<node id="YKR094C"/>
+<node id="YKR101W"/>
+<node id="YLR029C"/>
+<node id="YLR061W"/>
+<node id="YLR075W"/>
+<node id="YLR166C"/>
+<node id="YLR185W"/>
+<node id="YLR264W"/>
+<node id="YLR287C-A"/>
+<node id="YLR333C"/>
+<node id="YLR344W"/>
+<node id="YLR388W"/>
+<node id="YLR406C"/>
+<node id="YLR441C"/>
+<node id="YLR448W"/>
+<node id="YML024W"/>
+<node id="YML026C"/>
+<node id="YML063W"/>
+<node id="YML073C"/>
+<node id="YMR121C"/>
+<node id="YMR142C"/>
+<node id="YMR143W"/>
+<node id="YMR194W"/>
+<node id="YMR230W"/>
+<node id="YMR242C"/>
+<node id="YMR278W"/>
+<node id="YNL067W"/>
+<node id="YNL069C"/>
+<node id="YNL096C"/>
+<node id="YNL162W"/>
+<node id="YNL178W"/>
+<node id="YNL301C"/>
+<node id="YNL302C"/>
+<node id="YNL305C"/>
+<node id="YNR017W"/>
+<node id="YNR054C"/>
+<node id="YOL039W"/>
+<node id="YOL040C"/>
+<node id="YOL120C"/>
+<node id="YOL121C"/>
+<node id="YOR063W"/>
+<node id="YOR167C"/>
+<node id="YOR182C"/>
+<node id="YOR234C"/>
+<node id="YOR369C"/>
+<node id="YPL034W"/>
+<node id="YPL079W"/>
+<node id="YPL082C"/>
+<node id="YPL085W"/>
+<node id="YPL086C"/>
+<node id="YPL090C"/>
+<node id="YPL143W"/>
+<node id="YPL184C"/>
+<node id="YPL198W"/>
+<node id="YPL220W"/>
+<node id="YPL249C-A"/>
+<node id="YPR043W"/>
+<node id="YPR102C"/>
+<node id="YPR103W"/>
+<node id="YPR132W"/>
+<node id="YDL184C"/>
+<node id="YER155C"/>
+<node id="YGL009C"/>
+<node id="YKL120W"/>
+<node id="YKR069W"/>
+<node id="YOR271C"/>
+<node id="YOR272W"/>
+<node id="YAL012W"/>
+<node id="YAL015C"/>
+<node id="YBL033C"/>
+<node id="YBR053C"/>
+<node id="YBR099C"/>
+<node id="YBR179C"/>
+<node id="YCL026C-A"/>
+<node id="YCR104W"/>
+<node id="YCR105W"/>
+<node id="YDL025C"/>
+<node id="YDL124W"/>
+<node id="YDL168W"/>
+<node id="YDL169C"/>
+<node id="YDL180W"/>
+<node id="YDL218W"/>
+<node id="YDL241W"/>
+<node id="YDL243C"/>
+<node id="YDR003W"/>
+<node id="YDR012W"/>
+<node id="YDR013W"/>
+<node id="YDR032C"/>
+<node id="YDR054C"/>
+<node id="YDR069C"/>
+<node id="YDR132C"/>
+<node id="YDR135C"/>
+<node id="YDR182W"/>
+<node id="YDR353W"/>
+<node id="YDR500C"/>
+<node id="YEL040W"/>
+<node id="YEL044W"/>
+<node id="YEL045C"/>
+<node id="YEL047C"/>
+<node id="YEL052W"/>
+<node id="YEL053C"/>
+<node id="YER067W"/>
+<node id="YER141W"/>
+<node id="YER148W"/>
+<node id="YFL027C"/>
+<node id="YFL055W"/>
+<node id="YGL252C"/>
+<node id="YGR010W"/>
+<node id="YGR011W"/>
+<node id="YGR040W"/>
+<node id="YGR060W"/>
+<node id="YGR108W"/>
+<node id="YGR154C"/>
+<node id="YGR192C"/>
+<node id="YGR223C"/>
+<node id="YGR224W"/>
+<node id="YHL036W"/>
+<node id="YHR214C-B"/>
+<node id="YIL003W"/>
+<node id="YIR041W"/>
+<node id="YJL052W"/>
+<node id="YJL057C"/>
+<node id="YJL098W"/>
+<node id="YJL160C"/>
+<node id="YJL221C"/>
+<node id="YJR026W"/>
+<node id="YJR027W"/>
+<node id="YJR105W"/>
+<node id="YJR122W"/>
+<node id="YKL040C"/>
+<node id="YKL066W"/>
+<node id="YKL087C"/>
+<node id="YKR071C"/>
+<node id="YLL056C"/>
+<node id="YLL060C"/>
+<node id="YLR077W"/>
+<node id="YLR108C"/>
+<node id="YLR113W"/>
+<node id="YLR250W"/>
+<node id="YLR303W"/>
+<node id="YLR345W"/>
+<node id="YLR413W"/>
+<node id="YLR460C"/>
+<node id="YML029W"/>
+<node id="YML088W"/>
+<node id="YML091C"/>
+<node id="YMR038C"/>
+<node id="YMR089C"/>
+<node id="YMR090W"/>
+<node id="YMR172C-A"/>
+<node id="YMR177W"/>
+<node id="YMR318C"/>
+<node id="YNL030W"/>
+<node id="YNL130C"/>
+<node id="YNL176C"/>
+<node id="YNL180C"/>
+<node id="YNL212W"/>
+<node id="YNL260C"/>
+<node id="YNR074C"/>
+<node id="YOL049W"/>
+<node id="YOL100W"/>
+<node id="YOL115W"/>
+<node id="YOL117W"/>
+<node id="YOL118C"/>
+<node id="YOL156W"/>
+<node id="YOL165C"/>
+<node id="YOR028C"/>
+<node id="YOR058C"/>
+<node id="YOR093C"/>
+<node id="YOR162C"/>
+<node id="YOR163W"/>
+<node id="YOR226C"/>
+<node id="YOR227W"/>
+<node id="YOR385W"/>
+<node id="YPL091W"/>
+<node id="YPL170W"/>
+<node id="YPL202C"/>
+<node id="YPR048W"/>
+<node id="YPR067W"/>
+<node id="YPR079W"/>
+<node id="YPR094W"/>
+<node id="YPR158W"/>
+<node id="YPR200C"/>
+<node id="YPR201W"/>
+<node id="YML027W"/>
+<node id="YBR202W"/>
+<node id="YGL157W"/>
+<node id="YGR092W"/>
+<node id="YHR152W"/>
+<node id="YIL106W"/>
+<node id="YJL105W"/>
+<node id="YLR274W"/>
+<node id="YML099C"/>
+<node id="YDL152W"/>
+<node id="YMR016C"/>
+<node id="YBL015W"/>
+<node id="YBR067C"/>
+<node id="YDL021W"/>
+<node id="YDL038C"/>
+<node id="YDL048C"/>
+<node id="YDR001C"/>
+<node id="YEL041W"/>
+<node id="YER011W"/>
+<node id="YER062C"/>
+<node id="YER130C"/>
+<node id="YHR022C"/>
+<node id="YHR096C"/>
+<node id="YIR038C"/>
+<node id="YLR237W"/>
+<node id="YML004C"/>
+<node id="YNL194C"/>
+<node id="YOL084W"/>
+<node id="YOL086C"/>
+<node id="YOR062C"/>
+<node id="YOR084W"/>
+<node id="YOR375C"/>
+<node id="YPL123C"/>
+<node id="YPL230W"/>
+<node id="YPR156C"/>
+<node id="YBR222C"/>
+<node id="YIL166C"/>
+<node id="YMR021C"/>
+<node id="YAR009C"/>
+<node id="YMR037C"/>
+<node id="YAL038W"/>
+<node id="YBL029C-A"/>
+<node id="YDL022W"/>
+<node id="YDL055C"/>
+<node id="YDR033W"/>
+<node id="YDR259C"/>
+<node id="YDR525W-A"/>
+<node id="YEL007W"/>
+<node id="YGR255C"/>
+<node id="YIL053W"/>
+<node id="YJL048C"/>
+<node id="YKL085W"/>
+<node id="YLR158C"/>
+<node id="YLR163C"/>
+<node id="YLR178C"/>
+<node id="YLR258W"/>
+<node id="YLR401C"/>
+<node id="YNL002C"/>
+<node id="YPR160W"/>
+<node id="YMR042W"/>
+<node id="YMR043W"/>
+<node id="YAL023C"/>
+<node id="YAL040C"/>
+<node id="YBR038W"/>
+<node id="YDR294C"/>
+<node id="YER110C"/>
+<node id="YER159C"/>
+<node id="YGL021W"/>
+<node id="YGR126W"/>
+<node id="YGR143W"/>
+<node id="YHL008C"/>
+<node id="YHL025W"/>
+<node id="YIL070C"/>
+<node id="YKL163W"/>
+<node id="YKL186C"/>
+<node id="YML120C"/>
+<node id="YMR031C"/>
+<node id="YMR123W"/>
+<node id="YNL058C"/>
+<node id="YNL339C"/>
+<node id="YOL011W"/>
+<node id="YOL012C"/>
+<node id="YOR022C"/>
+<node id="YOR094W"/>
+<node id="YOR340C"/>
+<node id="YOR388C"/>
+<node id="YMR070W"/>
+<node id="YMR172W"/>
+<node id="YDR536W"/>
+<node id="YLR377C"/>
+<node id="YNL027W"/>
+<node id="YAL028W"/>
+<node id="YDL248W"/>
+<node id="YGL253W"/>
+<node id="YMR083W"/>
+<node id="YNL068C"/>
+<node id="YLR190W"/>
+<node id="YML034W"/>
+<node id="YMR032W"/>
+<node id="YDL058W"/>
+<node id="YDL059C"/>
+<node id="YER092W"/>
+<node id="YFR030W"/>
+<node id="YGR087C"/>
+<node id="YJL100W"/>
+<node id="YJL212C"/>
+<node id="YLL004W"/>
+<node id="YLL025W"/>
+<node id="YLR092W"/>
+<node id="YLR179C"/>
+<node id="YNL277W"/>
+<node id="YNL167C"/>
+<node id="YGR144W"/>
+<node id="YNL199C"/>
+<node id="YBR135W"/>
+<node id="YBR196C"/>
+<node id="YGR240C"/>
+<node id="YJR009C"/>
+<node id="YKL152C"/>
+<node id="YMR205C"/>
+<node id="YMR206W"/>
+<node id="YNL216W"/>
+<node id="YAL018C"/>
+<node id="YAL068C"/>
+<node id="YAR075W"/>
+<node id="YBL049W"/>
+<node id="YBL072C"/>
+<node id="YBL082C"/>
+<node id="YBR033W"/>
+<node id="YBR105C"/>
+<node id="YBR106W"/>
+<node id="YCL043C"/>
+<node id="YCR024C-A"/>
+<node id="YCR069W"/>
+<node id="YDL133C-A"/>
+<node id="YDR050C"/>
+<node id="YDR062W"/>
+<node id="YDR186C"/>
+<node id="YDR276C"/>
+<node id="YDR300C"/>
+<node id="YDR388W"/>
+<node id="YDR449C"/>
+<node id="YDR542W"/>
+<node id="YEL022W"/>
+<node id="YER028C"/>
+<node id="YER032W"/>
+<node id="YER057C"/>
+<node id="YER081W"/>
+<node id="YFL013C"/>
+<node id="YFL034C-A"/>
+<node id="YFR032C-A"/>
+<node id="YGL084C"/>
+<node id="YGL188C"/>
+<node id="YGL189C"/>
+<node id="YGL208W"/>
+<node id="YGL261C"/>
+<node id="YGR086C"/>
+<node id="YGR157W"/>
+<node id="YGR176W"/>
+<node id="YHL033C"/>
+<node id="YHR204W"/>
+<node id="YHR216W"/>
+<node id="YIL052C"/>
+<node id="YIL121W"/>
+<node id="YIR042C"/>
+<node id="YJL134W"/>
+<node id="YJL191W"/>
+<node id="YJR059W"/>
+<node id="YJR073C"/>
+<node id="YJR074W"/>
+<node id="YJR132W"/>
+<node id="YJR139C"/>
+<node id="YJR151C"/>
+<node id="YKL017C"/>
+<node id="YKL030W"/>
+<node id="YKL081W"/>
+<node id="YKL084W"/>
+<node id="YKL151C"/>
+<node id="YKL156W"/>
+<node id="YLL045C"/>
+<node id="YLL067C"/>
+<node id="YLR003C"/>
+<node id="YLR005W"/>
+<node id="YLR044C"/>
+<node id="YLR076C"/>
+<node id="YLR104W"/>
+<node id="YLR110C"/>
+<node id="YLR167W"/>
+<node id="YLR231C"/>
+<node id="YLR325C"/>
+<node id="YLR335W"/>
+<node id="YLR339C"/>
+<node id="YLR340W"/>
+<node id="YLR390W-A"/>
+<node id="YML053C"/>
+<node id="YMR015C"/>
+<node id="YMR026C"/>
+<node id="YMR027W"/>
+<node id="YMR116C"/>
+<node id="YMR243C"/>
+<node id="YNL010W"/>
+<node id="YNL024C"/>
+<node id="YNL066W"/>
+<node id="YNL101W"/>
+<node id="YNL158W"/>
+<node id="YNL288W"/>
+<node id="YOL041C"/>
+<node id="YOL059W"/>
+<node id="YOL060C"/>
+<node id="YOL127W"/>
+<node id="YOL136C"/>
+<node id="YOL161C"/>
+<node id="YOR009W"/>
+<node id="YOR096W"/>
+<node id="YOR298C-A"/>
+<node id="YOR355W"/>
+<node id="YOR367W"/>
+<node id="YPL081W"/>
+<node id="YPL131W"/>
+<node id="YPL136W"/>
+<node id="YPL145C"/>
+<node id="YPL162C"/>
+<node id="YPL197C"/>
+<node id="YPL199C"/>
+<node id="YPL226W"/>
+<node id="YPL231W"/>
+<node id="YPL250C"/>
+<node id="YPR030W"/>
+<node id="YPR080W"/>
+<node id="YPR110C"/>
+<node id="YNL314W"/>
+<node id="YOL028C"/>
+<node id="YOL108C"/>
+<node id="YDR277C"/>
+<node id="YEL073C"/>
+<node id="YLL007C"/>
+<node id="YOR113W"/>
+<node id="YOR188W"/>
+<node id="YOR172W"/>
+<node id="YPL088W"/>
+<node id="YAL007C"/>
+<node id="YGR038C-A"/>
+<node id="YNL284C-A"/>
+<node id="YOL002C"/>
+<node id="YOR100C"/>
+<node id="YOR380W"/>
+<node id="YPL038W"/>
+<node id="YPL049C"/>
+<node id="YHR005C"/>
+<node id="YPL075W"/>
+<node id="YER177W"/>
+<node id="YGR026W"/>
+<node id="YHL034C"/>
+<node id="YPL089C"/>
+<node id="YDR085C"/>
+<node id="YGR218W"/>
+<node id="YJL108C"/>
+<node id="YLR342W"/>
+<node id="YLR390W"/>
+<node id="YPL133C"/>
+<node id="YDR534C"/>
+<node id="YFL041W"/>
+<node id="YMR034C"/>
+<node id="YMR041C"/>
+<node id="YDL246C"/>
+<node id="YDR044W"/>
+<node id="YHR193C"/>
+<node id="YPR104C"/>
+<node id="YBR208C"/>
+<node id="YBR209W"/>
+<node id="YBR214W"/>
+<node id="YDL060W"/>
+<node id="YER101C"/>
+<node id="YGR149W"/>
+<node id="YJL189W"/>
+<node id="YJL192C"/>
+<node id="YJR146W"/>
+<node id="YLR030W"/>
+<node id="YLR447C"/>
+<node id="YMR245W"/>
+<node id="YNL163C"/>
+<node id="YOR183W"/>
+<node id="YPR199C"/>
+<node id="YJR044C"/>
+<node id="YLR082C"/>
+<edge source="YAL051W" target="YDR244W"/>
+<edge source="YAL051W" target="YDR256C"/>
+<edge source="YAL051W" target="YEL011W"/>
+<edge source="YAL051W" target="YER015W"/>
+<edge source="YAL051W" target="YGL205W"/>
+<edge source="YAL051W" target="YIL160C"/>
+<edge source="YAL051W" target="YKR009C"/>
+<edge source="YAL051W" target="YLR284C"/>
+<edge source="YAL051W" target="YMR303C"/>
+<edge source="YAL051W" target="YOR363C"/>
+<edge source="YOR363C" target="YDR256C"/>
+<edge source="YOR363C" target="YEL011W"/>
+<edge source="YOR363C" target="YER015W"/>
+<edge source="YOR363C" target="YGL205W"/>
+<edge source="YOR363C" target="YIL160C"/>
+<edge source="YOR363C" target="YLR284C"/>
+<edge source="YOR363C" target="YOL002C"/>
+<edge source="YOR363C" target="YOL147C"/>
+<edge source="YOR363C" target="YOR100C"/>
+<edge source="YBL005W" target="YAL003W"/>
+<edge source="YBL005W" target="YAL061W"/>
+<edge source="YBL005W" target="YBL004W"/>
+<edge source="YBL005W" target="YBL005W"/>
+<edge source="YBL005W" target="YBL042C"/>
+<edge source="YBL005W" target="YBL103C"/>
+<edge source="YBL005W" target="YCL040W"/>
+<edge source="YBL005W" target="YDR011W"/>
+<edge source="YBL005W" target="YDR055W"/>
+<edge source="YBL005W" target="YDR072C"/>
+<edge source="YBL005W" target="YDR345C"/>
+<edge source="YBL005W" target="YDR361C"/>
+<edge source="YBL005W" target="YDR406W"/>
+<edge source="YBL005W" target="YGR035C"/>
+<edge source="YBL005W" target="YGR161C"/>
+<edge source="YBL005W" target="YGR280C"/>
+<edge source="YBL005W" target="YGR281W"/>
+<edge source="YBL005W" target="YIL172C"/>
+<edge source="YBL005W" target="YJL082W"/>
+<edge source="YBL005W" target="YKL008C"/>
+<edge source="YBL005W" target="YLL028W"/>
+<edge source="YBL005W" target="YLR099C"/>
+<edge source="YBL005W" target="YLR346C"/>
+<edge source="YBL005W" target="YLR438W"/>
+<edge source="YBL005W" target="YML093W"/>
+<edge source="YBL005W" target="YML125C"/>
+<edge source="YBL005W" target="YMR102C"/>
+<edge source="YBL005W" target="YMR195W"/>
+<edge source="YBL005W" target="YMR272C"/>
+<edge source="YBL005W" target="YNL160W"/>
+<edge source="YBL005W" target="YNL231C"/>
+<edge source="YBL005W" target="YNR019W"/>
+<edge source="YBL005W" target="YOL031C"/>
+<edge source="YBL005W" target="YOL083W"/>
+<edge source="YBL005W" target="YOL157C"/>
+<edge source="YBL005W" target="YOR152C"/>
+<edge source="YBL005W" target="YOR153W"/>
+<edge source="YBL005W" target="YOR328W"/>
+<edge source="YBL005W" target="YPR149W"/>
+<edge source="YBL103C" target="YCR021C"/>
+<edge source="YBL103C" target="YGR142W"/>
+<edge source="YBL103C" target="YJR148W"/>
+<edge source="YBL103C" target="YLR304C"/>
+<edge source="YBL103C" target="YNL037C"/>
+<edge source="YBL103C" target="YNR001C"/>
+<edge source="YBR049C" target="YDR158W"/>
+<edge source="YBR049C" target="YFR052W"/>
+<edge source="YBR049C" target="YLL034C"/>
+<edge source="YBR049C" target="YLR162W"/>
+<edge source="YBR049C" target="YMR186W"/>
+<edge source="YBR049C" target="YPL225W"/>
+<edge source="YBR049C" target="YPR074C"/>
+<edge source="YBR083W" target="YAR010C"/>
+<edge source="YBR083W" target="YBR012W-A"/>
+<edge source="YBR083W" target="YBR040W"/>
+<edge source="YBR083W" target="YBR083W"/>
+<edge source="YBR083W" target="YBR117C"/>
+<edge source="YBR083W" target="YCL027W"/>
+<edge source="YBR083W" target="YCR089W"/>
+<edge source="YBR083W" target="YDR098C-A"/>
+<edge source="YBR083W" target="YDR098C-B"/>
+<edge source="YBR083W" target="YDR171W"/>
+<edge source="YBR083W" target="YDR316W-A"/>
+<edge source="YBR083W" target="YDR316W-B"/>
+<edge source="YBR083W" target="YDR461W"/>
+<edge source="YBR083W" target="YER118C"/>
+<edge source="YBR083W" target="YER137C-A"/>
+<edge source="YBR083W" target="YER138W-A"/>
+<edge source="YBR083W" target="YER150W"/>
+<edge source="YBR083W" target="YFR053C"/>
+<edge source="YBR083W" target="YGL032C"/>
+<edge source="YBR083W" target="YGL096W"/>
+<edge source="YBR083W" target="YGL145W"/>
+<edge source="YBR083W" target="YGL162W"/>
+<edge source="YBR083W" target="YGL178W"/>
+<edge source="YBR083W" target="YGL194C"/>
+<edge source="YBR083W" target="YGR014W"/>
+<edge source="YBR083W" target="YGR052W"/>
+<edge source="YBR083W" target="YIL117C"/>
+<edge source="YBR083W" target="YIL119C"/>
+<edge source="YBR083W" target="YIR019C"/>
+<edge source="YBR083W" target="YJR153W"/>
+<edge source="YBR083W" target="YKL095W"/>
+<edge source="YBR083W" target="YKL096W"/>
+<edge source="YBR083W" target="YKR061W"/>
+<edge source="YBR083W" target="YKR091W"/>
+<edge source="YBR083W" target="YLL052C"/>
+<edge source="YBR083W" target="YLR042C"/>
+<edge source="YBR083W" target="YLR332W"/>
+<edge source="YBR083W" target="YLR403W"/>
+<edge source="YBR083W" target="YLR414C"/>
+<edge source="YBR083W" target="YMR065W"/>
+<edge source="YBR083W" target="YMR173W"/>
+<edge source="YBR083W" target="YMR199W"/>
+<edge source="YBR083W" target="YMR232W"/>
+<edge source="YBR083W" target="YNL160W"/>
+<edge source="YBR083W" target="YNL208W"/>
+<edge source="YBR083W" target="YNL279W"/>
+<edge source="YBR083W" target="YNL283C"/>
+<edge source="YBR083W" target="YNR044W"/>
+<edge source="YBR083W" target="YOL104C"/>
+<edge source="YBR083W" target="YOR247W"/>
+<edge source="YBR083W" target="YOR315W"/>
+<edge source="YBR083W" target="YOR348C"/>
+<edge source="YBR083W" target="YPL163C"/>
+<edge source="YBR083W" target="YPR148C"/>
+<edge source="YBR083W" target="YPR158W-A"/>
+<edge source="YBR083W" target="YPR158W-B"/>
+<edge source="YGL096W" target="YAR068W"/>
+<edge source="YGL096W" target="YFR009W"/>
+<edge source="YGL096W" target="YML131W"/>
+<edge source="YGL096W" target="YMR229C"/>
+<edge source="YGL096W" target="YNL234W"/>
+<edge source="YGL162W" target="YGL162W"/>
+<edge source="YGL162W" target="YIL011W"/>
+<edge source="YGL162W" target="YIL013C"/>
+<edge source="YGL162W" target="YMR011W"/>
+<edge source="YLR403W" target="YBL027W"/>
+<edge source="YLR403W" target="YBL087C"/>
+<edge source="YLR403W" target="YBL092W"/>
+<edge source="YLR403W" target="YBR031W"/>
+<edge source="YLR403W" target="YBR048W"/>
+<edge source="YLR403W" target="YBR068C"/>
+<edge source="YLR403W" target="YBR121C"/>
+<edge source="YLR403W" target="YBR154C"/>
+<edge source="YLR403W" target="YBR181C"/>
+<edge source="YLR403W" target="YBR188C"/>
+<edge source="YLR403W" target="YBR189W"/>
+<edge source="YLR403W" target="YBR191W"/>
+<edge source="YLR403W" target="YCR031C"/>
+<edge source="YLR403W" target="YDL061C"/>
+<edge source="YLR403W" target="YDL075W"/>
+<edge source="YLR403W" target="YDL076C"/>
+<edge source="YLR403W" target="YDL081C"/>
+<edge source="YLR403W" target="YDL082W"/>
+<edge source="YLR403W" target="YDL083C"/>
+<edge source="YLR403W" target="YDL130W"/>
+<edge source="YLR403W" target="YDL133W"/>
+<edge source="YLR403W" target="YDL191W"/>
+<edge source="YLR403W" target="YDR025W"/>
+<edge source="YLR403W" target="YDR064W"/>
+<edge source="YLR403W" target="YDR152W"/>
+<edge source="YLR403W" target="YDR179C"/>
+<edge source="YLR403W" target="YDR179W-A"/>
+<edge source="YLR403W" target="YDR382W"/>
+<edge source="YLR403W" target="YDR418W"/>
+<edge source="YLR403W" target="YDR447C"/>
+<edge source="YLR403W" target="YDR450W"/>
+<edge source="YLR403W" target="YEL054C"/>
+<edge source="YLR403W" target="YER056C-A"/>
+<edge source="YLR403W" target="YER074W"/>
+<edge source="YLR403W" target="YER102W"/>
+<edge source="YLR403W" target="YER116C"/>
+<edge source="YLR403W" target="YER131W"/>
+<edge source="YLR403W" target="YER183C"/>
+<edge source="YLR403W" target="YFR031C-A"/>
+<edge source="YLR403W" target="YGL030W"/>
+<edge source="YLR403W" target="YGL031C"/>
+<edge source="YLR403W" target="YGL076C"/>
+<edge source="YLR403W" target="YGL103W"/>
+<edge source="YLR403W" target="YGL123W"/>
+<edge source="YLR403W" target="YGL135W"/>
+<edge source="YLR403W" target="YGL147C"/>
+<edge source="YLR403W" target="YGR027C"/>
+<edge source="YLR403W" target="YGR034W"/>
+<edge source="YLR403W" target="YGR085C"/>
+<edge source="YLR403W" target="YGR118W"/>
+<edge source="YLR403W" target="YGR148C"/>
+<edge source="YLR403W" target="YGR214W"/>
+<edge source="YLR403W" target="YGR250C"/>
+<edge source="YLR403W" target="YHL001W"/>
+<edge source="YLR403W" target="YHL015W"/>
+<edge source="YLR403W" target="YHR010W"/>
+<edge source="YLR403W" target="YHR021C"/>
+<edge source="YLR403W" target="YHR141C"/>
+<edge source="YLR403W" target="YHR203C"/>
+<edge source="YLR403W" target="YIL069C"/>
+<edge source="YLR403W" target="YIL133C"/>
+<edge source="YLR403W" target="YIL148W"/>
+<edge source="YLR403W" target="YJL034W"/>
+<edge source="YLR403W" target="YJL035C"/>
+<edge source="YLR403W" target="YJL068C"/>
+<edge source="YLR403W" target="YJL136C"/>
+<edge source="YLR403W" target="YJL148W"/>
+<edge source="YLR403W" target="YJL177W"/>
+<edge source="YLR403W" target="YJL190C"/>
+<edge source="YLR403W" target="YJR094W-A"/>
+<edge source="YLR403W" target="YJR123W"/>
+<edge source="YLR403W" target="YJR145C"/>
+<edge source="YLR403W" target="YKL006W"/>
+<edge source="YLR403W" target="YKL161C"/>
+<edge source="YLR403W" target="YKL177W"/>
+<edge source="YLR403W" target="YKL180W"/>
+<edge source="YLR403W" target="YKR042W"/>
+<edge source="YLR403W" target="YKR057W"/>
+<edge source="YLR403W" target="YKR094C"/>
+<edge source="YLR403W" target="YKR101W"/>
+<edge source="YLR403W" target="YLR029C"/>
+<edge source="YLR403W" target="YLR061W"/>
+<edge source="YLR403W" target="YLR075W"/>
+<edge source="YLR403W" target="YLR166C"/>
+<edge source="YLR403W" target="YLR185W"/>
+<edge source="YLR403W" target="YLR264W"/>
+<edge source="YLR403W" target="YLR287C-A"/>
+<edge source="YLR403W" target="YLR333C"/>
+<edge source="YLR403W" target="YLR344W"/>
+<edge source="YLR403W" target="YLR388W"/>
+<edge source="YLR403W" target="YLR406C"/>
+<edge source="YLR403W" target="YLR441C"/>
+<edge source="YLR403W" target="YLR448W"/>
+<edge source="YLR403W" target="YML024W"/>
+<edge source="YLR403W" target="YML026C"/>
+<edge source="YLR403W" target="YML063W"/>
+<edge source="YLR403W" target="YML073C"/>
+<edge source="YLR403W" target="YMR121C"/>
+<edge source="YLR403W" target="YMR142C"/>
+<edge source="YLR403W" target="YMR143W"/>
+<edge source="YLR403W" target="YMR186W"/>
+<edge source="YLR403W" target="YMR194W"/>
+<edge source="YLR403W" target="YMR230W"/>
+<edge source="YLR403W" target="YMR242C"/>
+<edge source="YLR403W" target="YMR278W"/>
+<edge source="YLR403W" target="YMR303C"/>
+<edge source="YLR403W" target="YNL067W"/>
+<edge source="YLR403W" target="YNL069C"/>
+<edge source="YLR403W" target="YNL096C"/>
+<edge source="YLR403W" target="YNL162W"/>
+<edge source="YLR403W" target="YNL178W"/>
+<edge source="YLR403W" target="YNL241C"/>
+<edge source="YLR403W" target="YNL301C"/>
+<edge source="YLR403W" target="YNL302C"/>
+<edge source="YLR403W" target="YNL305C"/>
+<edge source="YLR403W" target="YNR017W"/>
+<edge source="YLR403W" target="YNR054C"/>
+<edge source="YLR403W" target="YOL039W"/>
+<edge source="YLR403W" target="YOL040C"/>
+<edge source="YLR403W" target="YOL120C"/>
+<edge source="YLR403W" target="YOL121C"/>
+<edge source="YLR403W" target="YOR032C"/>
+<edge source="YLR403W" target="YOR063W"/>
+<edge source="YLR403W" target="YOR108W"/>
+<edge source="YLR403W" target="YOR116C"/>
+<edge source="YLR403W" target="YOR167C"/>
+<edge source="YLR403W" target="YOR182C"/>
+<edge source="YLR403W" target="YOR234C"/>
+<edge source="YLR403W" target="YOR293W"/>
+<edge source="YLR403W" target="YOR312C"/>
+<edge source="YLR403W" target="YOR369C"/>
+<edge source="YLR403W" target="YPL034W"/>
+<edge source="YLR403W" target="YPL079W"/>
+<edge source="YLR403W" target="YPL082C"/>
+<edge source="YLR403W" target="YPL085W"/>
+<edge source="YLR403W" target="YPL086C"/>
+<edge source="YLR403W" target="YPL090C"/>
+<edge source="YLR403W" target="YPL143W"/>
+<edge source="YLR403W" target="YPL184C"/>
+<edge source="YLR403W" target="YPL198W"/>
+<edge source="YLR403W" target="YPL220W"/>
+<edge source="YLR403W" target="YPL249C-A"/>
+<edge source="YLR403W" target="YPR043W"/>
+<edge source="YLR403W" target="YPR102C"/>
+<edge source="YLR403W" target="YPR103W"/>
+<edge source="YLR403W" target="YPR132W"/>
+<edge source="YBR240C" target="YBR092C"/>
+<edge source="YBR240C" target="YDR438W"/>
+<edge source="YBR240C" target="YLR004C"/>
+<edge source="YBR240C" target="YOL055C"/>
+<edge source="YBR240C" target="YPL214C"/>
+<edge source="YBR297W" target="YKL113C"/>
+<edge source="YCR106W" target="YCR107W"/>
+<edge source="YDL020C" target="YBL022C"/>
+<edge source="YDL020C" target="YBL023C"/>
+<edge source="YDL020C" target="YBL087C"/>
+<edge source="YDL020C" target="YBR049C"/>
+<edge source="YDL020C" target="YCL055W"/>
+<edge source="YDL020C" target="YCR005C"/>
+<edge source="YDL020C" target="YCR012W"/>
+<edge source="YDL020C" target="YCR082W"/>
+<edge source="YDL020C" target="YDL007W"/>
+<edge source="YDL020C" target="YDR028C"/>
+<edge source="YDL020C" target="YDR270W"/>
+<edge source="YDL020C" target="YDR363W-A"/>
+<edge source="YDL020C" target="YDR394W"/>
+<edge source="YDL020C" target="YDR427W"/>
+<edge source="YDL020C" target="YEL037C"/>
+<edge source="YDL020C" target="YER012W"/>
+<edge source="YDL020C" target="YER021W"/>
+<edge source="YDL020C" target="YER094C"/>
+<edge source="YDL020C" target="YER142C"/>
+<edge source="YDL020C" target="YER143W"/>
+<edge source="YDL020C" target="YFL056C"/>
+<edge source="YDL020C" target="YFL057C"/>
+<edge source="YDL020C" target="YFR003C"/>
+<edge source="YDL020C" target="YFR004W"/>
+<edge source="YDL020C" target="YFR010W"/>
+<edge source="YDL020C" target="YFR050C"/>
+<edge source="YDL020C" target="YGL010W"/>
+<edge source="YDL020C" target="YGL011C"/>
+<edge source="YDL020C" target="YGL013C"/>
+<edge source="YDL020C" target="YGL047W"/>
+<edge source="YDL020C" target="YGL048C"/>
+<edge source="YDL020C" target="YGL180W"/>
+<edge source="YDL020C" target="YGR048W"/>
+<edge source="YDL020C" target="YGR135W"/>
+<edge source="YDL020C" target="YGR142W"/>
+<edge source="YDL020C" target="YGR253C"/>
+<edge source="YDL020C" target="YIL075C"/>
+<edge source="YDL020C" target="YIL169C"/>
+<edge source="YDL020C" target="YJL001W"/>
+<edge source="YDL020C" target="YKL010C"/>
+<edge source="YDL020C" target="YKL015W"/>
+<edge source="YDL020C" target="YKL026C"/>
+<edge source="YDL020C" target="YKL145W"/>
+<edge source="YDL020C" target="YKL196C"/>
+<edge source="YDL020C" target="YKL220C"/>
+<edge source="YDL020C" target="YLR367W"/>
+<edge source="YDL020C" target="YML007W"/>
+<edge source="YDL020C" target="YML092C"/>
+<edge source="YDL020C" target="YMR276W"/>
+<edge source="YDL020C" target="YNL145W"/>
+<edge source="YDL020C" target="YNL155W"/>
+<edge source="YDL020C" target="YNL251C"/>
+<edge source="YDL020C" target="YOL038W"/>
+<edge source="YDL020C" target="YOR007C"/>
+<edge source="YDL020C" target="YOR157C"/>
+<edge source="YDL020C" target="YOR259C"/>
+<edge source="YDL020C" target="YOR260W"/>
+<edge source="YDL020C" target="YOR261C"/>
+<edge source="YDL020C" target="YPL113C"/>
+<edge source="YDL020C" target="YPR091C"/>
+<edge source="YDL020C" target="YPR108W"/>
+<edge source="YGL013C" target="YAL061W"/>
+<edge source="YGL013C" target="YBL005W"/>
+<edge source="YGL013C" target="YBR008C"/>
+<edge source="YGL013C" target="YCL042W"/>
+<edge source="YGL013C" target="YCR061W"/>
+<edge source="YGL013C" target="YDL020C"/>
+<edge source="YGL013C" target="YDL082W"/>
+<edge source="YGL013C" target="YDL223C"/>
+<edge source="YGL013C" target="YDR011W"/>
+<edge source="YGL013C" target="YDR072C"/>
+<edge source="YGL013C" target="YDR076W"/>
+<edge source="YGL013C" target="YDR134C"/>
+<edge source="YGL013C" target="YDR258C"/>
+<edge source="YGL013C" target="YDR342C"/>
+<edge source="YGL013C" target="YDR345C"/>
+<edge source="YGL013C" target="YDR406W"/>
+<edge source="YGL013C" target="YDR533C"/>
+<edge source="YGL013C" target="YER145C"/>
+<edge source="YGL013C" target="YFR017C"/>
+<edge source="YGL013C" target="YFR053C"/>
+<edge source="YGL013C" target="YGL037C"/>
+<edge source="YGL013C" target="YGL062W"/>
+<edge source="YGL013C" target="YGR008C"/>
+<edge source="YGL013C" target="YGR035C"/>
+<edge source="YGL013C" target="YGR161C"/>
+<edge source="YGL013C" target="YGR281W"/>
+<edge source="YGL013C" target="YHL021C"/>
+<edge source="YGL013C" target="YHR087W"/>
+<edge source="YGL013C" target="YIL056W"/>
+<edge source="YGL013C" target="YIL172C"/>
+<edge source="YGL013C" target="YKL008C"/>
+<edge source="YGL013C" target="YKL096W"/>
+<edge source="YGL013C" target="YKL109W"/>
+<edge source="YGL013C" target="YLL028W"/>
+<edge source="YGL013C" target="YLR099C"/>
+<edge source="YGL013C" target="YLR252W"/>
+<edge source="YGL013C" target="YLR346C"/>
+<edge source="YGL013C" target="YMR102C"/>
+<edge source="YGL013C" target="YMR165C"/>
+<edge source="YGL013C" target="YMR251W-A"/>
+<edge source="YGL013C" target="YMR291W"/>
+<edge source="YGL013C" target="YNL134C"/>
+<edge source="YGL013C" target="YNL144C"/>
+<edge source="YGL013C" target="YNL231C"/>
+<edge source="YGL013C" target="YNL237W"/>
+<edge source="YGL013C" target="YOL109W"/>
+<edge source="YGL013C" target="YOL151W"/>
+<edge source="YGL013C" target="YOL157C"/>
+<edge source="YGL013C" target="YOR049C"/>
+<edge source="YGL013C" target="YOR095C"/>
+<edge source="YGL013C" target="YOR152C"/>
+<edge source="YGL013C" target="YOR153W"/>
+<edge source="YGL013C" target="YOR173W"/>
+<edge source="YGL013C" target="YOR178C"/>
+<edge source="YGL013C" target="YOR273C"/>
+<edge source="YGL013C" target="YOR327C"/>
+<edge source="YGL013C" target="YOR328W"/>
+<edge source="YGL013C" target="YOR374W"/>
+<edge source="YGL013C" target="YPL019C"/>
+<edge source="YGL013C" target="YPR149W"/>
+<edge source="YGL013C" target="YPR184W"/>
+<edge source="YKL015W" target="YHR037W"/>
+<edge source="YKL015W" target="YLR214W"/>
+<edge source="YKL015W" target="YOR306C"/>
+<edge source="YML007W" target="YAL003W"/>
+<edge source="YML007W" target="YAL005C"/>
+<edge source="YML007W" target="YAL012W"/>
+<edge source="YML007W" target="YAL015C"/>
+<edge source="YML007W" target="YBL027W"/>
+<edge source="YML007W" target="YBL028C"/>
+<edge source="YML007W" target="YBL032W"/>
+<edge source="YML007W" target="YBL033C"/>
+<edge source="YML007W" target="YBL043W"/>
+<edge source="YML007W" target="YBR008C"/>
+<edge source="YML007W" target="YBR046C"/>
+<edge source="YML007W" target="YBR053C"/>
+<edge source="YML007W" target="YBR054W"/>
+<edge source="YML007W" target="YBR066C"/>
+<edge source="YML007W" target="YBR099C"/>
+<edge source="YML007W" target="YBR179C"/>
+<edge source="YML007W" target="YBR244W"/>
+<edge source="YML007W" target="YCL026C-A"/>
+<edge source="YML007W" target="YCR021C"/>
+<edge source="YML007W" target="YCR102C"/>
+<edge source="YML007W" target="YCR104W"/>
+<edge source="YML007W" target="YCR105W"/>
+<edge source="YML007W" target="YDL020C"/>
+<edge source="YML007W" target="YDL025C"/>
+<edge source="YML007W" target="YDL124W"/>
+<edge source="YML007W" target="YDL168W"/>
+<edge source="YML007W" target="YDL169C"/>
+<edge source="YML007W" target="YDL171C"/>
+<edge source="YML007W" target="YDL180W"/>
+<edge source="YML007W" target="YDL182W"/>
+<edge source="YML007W" target="YDL218W"/>
+<edge source="YML007W" target="YDL241W"/>
+<edge source="YML007W" target="YDL243C"/>
+<edge source="YML007W" target="YDR003W"/>
+<edge source="YML007W" target="YDR011W"/>
+<edge source="YML007W" target="YDR012W"/>
+<edge source="YML007W" target="YDR013W"/>
+<edge source="YML007W" target="YDR032C"/>
+<edge source="YML007W" target="YDR040C"/>
+<edge source="YML007W" target="YDR054C"/>
+<edge source="YML007W" target="YDR055W"/>
+<edge source="YML007W" target="YDR064W"/>
+<edge source="YML007W" target="YDR069C"/>
+<edge source="YML007W" target="YDR132C"/>
+<edge source="YML007W" target="YDR135C"/>
+<edge source="YML007W" target="YDR182W"/>
+<edge source="YML007W" target="YDR256C"/>
+<edge source="YML007W" target="YDR258C"/>
+<edge source="YML007W" target="YDR353W"/>
+<edge source="YML007W" target="YDR354W"/>
+<edge source="YML007W" target="YDR382W"/>
+<edge source="YML007W" target="YDR421W"/>
+<edge source="YML007W" target="YDR438W"/>
+<edge source="YML007W" target="YDR500C"/>
+<edge source="YML007W" target="YDR501W"/>
+<edge source="YML007W" target="YDR533C"/>
+<edge source="YML007W" target="YEL040W"/>
+<edge source="YML007W" target="YEL044W"/>
+<edge source="YML007W" target="YEL045C"/>
+<edge source="YML007W" target="YEL046C"/>
+<edge source="YML007W" target="YEL047C"/>
+<edge source="YML007W" target="YEL052W"/>
+<edge source="YML007W" target="YEL053C"/>
+<edge source="YML007W" target="YER044C"/>
+<edge source="YML007W" target="YER067W"/>
+<edge source="YML007W" target="YER069W"/>
+<edge source="YML007W" target="YER079W"/>
+<edge source="YML007W" target="YER103W"/>
+<edge source="YML007W" target="YER141W"/>
+<edge source="YML007W" target="YER148W"/>
+<edge source="YML007W" target="YFL004W"/>
+<edge source="YML007W" target="YFL027C"/>
+<edge source="YML007W" target="YFL055W"/>
+<edge source="YML007W" target="YFL056C"/>
+<edge source="YML007W" target="YFL057C"/>
+<edge source="YML007W" target="YFR017C"/>
+<edge source="YML007W" target="YGL135W"/>
+<edge source="YML007W" target="YGL202W"/>
+<edge source="YML007W" target="YGL252C"/>
+<edge source="YML007W" target="YGR010W"/>
+<edge source="YML007W" target="YGR011W"/>
+<edge source="YML007W" target="YGR040W"/>
+<edge source="YML007W" target="YGR060W"/>
+<edge source="YML007W" target="YGR108W"/>
+<edge source="YML007W" target="YGR118W"/>
+<edge source="YML007W" target="YGR154C"/>
+<edge source="YML007W" target="YGR155W"/>
+<edge source="YML007W" target="YGR192C"/>
+<edge source="YML007W" target="YGR209C"/>
+<edge source="YML007W" target="YGR211W"/>
+<edge source="YML007W" target="YGR223C"/>
+<edge source="YML007W" target="YGR224W"/>
+<edge source="YML007W" target="YGR234W"/>
+<edge source="YML007W" target="YHL028W"/>
+<edge source="YML007W" target="YHL036W"/>
+<edge source="YML007W" target="YHR048W"/>
+<edge source="YML007W" target="YHR055C"/>
+<edge source="YML007W" target="YHR178W"/>
+<edge source="YML007W" target="YHR179W"/>
+<edge source="YML007W" target="YHR183W"/>
+<edge source="YML007W" target="YHR184W"/>
+<edge source="YML007W" target="YHR214C-B"/>
+<edge source="YML007W" target="YIL003W"/>
+<edge source="YML007W" target="YIL116W"/>
+<edge source="YML007W" target="YIL117C"/>
+<edge source="YML007W" target="YIL119C"/>
+<edge source="YML007W" target="YIL172C"/>
+<edge source="YML007W" target="YIR041W"/>
+<edge source="YML007W" target="YJL052W"/>
+<edge source="YML007W" target="YJL057C"/>
+<edge source="YML007W" target="YJL098W"/>
+<edge source="YML007W" target="YJL101C"/>
+<edge source="YML007W" target="YJL159W"/>
+<edge source="YML007W" target="YJL160C"/>
+<edge source="YML007W" target="YJL221C"/>
+<edge source="YML007W" target="YJR026W"/>
+<edge source="YML007W" target="YJR027W"/>
+<edge source="YML007W" target="YJR047C"/>
+<edge source="YML007W" target="YJR048W"/>
+<edge source="YML007W" target="YJR104C"/>
+<edge source="YML007W" target="YJR105W"/>
+<edge source="YML007W" target="YJR109C"/>
+<edge source="YML007W" target="YJR122W"/>
+<edge source="YML007W" target="YJR123W"/>
+<edge source="YML007W" target="YJR145C"/>
+<edge source="YML007W" target="YKL039W"/>
+<edge source="YML007W" target="YKL040C"/>
+<edge source="YML007W" target="YKL043W"/>
+<edge source="YML007W" target="YKL066W"/>
+<edge source="YML007W" target="YKL086W"/>
+<edge source="YML007W" target="YKL087C"/>
+<edge source="YML007W" target="YKL103C"/>
+<edge source="YML007W" target="YKL109W"/>
+<edge source="YML007W" target="YKL220C"/>
+<edge source="YML007W" target="YKR052C"/>
+<edge source="YML007W" target="YKR066C"/>
+<edge source="YML007W" target="YKR067W"/>
+<edge source="YML007W" target="YKR071C"/>
+<edge source="YML007W" target="YKR092C"/>
+<edge source="YML007W" target="YLL024C"/>
+<edge source="YML007W" target="YLL026W"/>
+<edge source="YML007W" target="YLL055W"/>
+<edge source="YML007W" target="YLL056C"/>
+<edge source="YML007W" target="YLL060C"/>
+<edge source="YML007W" target="YLR075W"/>
+<edge source="YML007W" target="YLR077W"/>
+<edge source="YML007W" target="YLR108C"/>
+<edge source="YML007W" target="YLR109W"/>
+<edge source="YML007W" target="YLR113W"/>
+<edge source="YML007W" target="YLR250W"/>
+<edge source="YML007W" target="YLR256W"/>
+<edge source="YML007W" target="YLR297W"/>
+<edge source="YML007W" target="YLR299W"/>
+<edge source="YML007W" target="YLR303W"/>
+<edge source="YML007W" target="YLR344W"/>
+<edge source="YML007W" target="YLR345W"/>
+<edge source="YML007W" target="YLR346C"/>
+<edge source="YML007W" target="YLR413W"/>
+<edge source="YML007W" target="YLR439W"/>
+<edge source="YML007W" target="YLR460C"/>
+<edge source="YML007W" target="YML007W"/>
+<edge source="YML007W" target="YML028W"/>
+<edge source="YML007W" target="YML029W"/>
+<edge source="YML007W" target="YML088W"/>
+<edge source="YML007W" target="YML091C"/>
+<edge source="YML007W" target="YML116W"/>
+<edge source="YML007W" target="YML130C"/>
+<edge source="YML007W" target="YML131W"/>
+<edge source="YML007W" target="YMR038C"/>
+<edge source="YML007W" target="YMR089C"/>
+<edge source="YML007W" target="YMR090W"/>
+<edge source="YML007W" target="YMR172C-A"/>
+<edge source="YML007W" target="YMR173W"/>
+<edge source="YML007W" target="YMR173W-A"/>
+<edge source="YML007W" target="YMR177W"/>
+<edge source="YML007W" target="YMR230W"/>
+<edge source="YML007W" target="YMR246W"/>
+<edge source="YML007W" target="YMR315W"/>
+<edge source="YML007W" target="YMR318C"/>
+<edge source="YML007W" target="YNL030W"/>
+<edge source="YML007W" target="YNL104C"/>
+<edge source="YML007W" target="YNL130C"/>
+<edge source="YML007W" target="YNL134C"/>
+<edge source="YML007W" target="YNL160W"/>
+<edge source="YML007W" target="YNL176C"/>
+<edge source="YML007W" target="YNL178W"/>
+<edge source="YML007W" target="YNL180C"/>
+<edge source="YML007W" target="YNL212W"/>
+<edge source="YML007W" target="YNL240C"/>
+<edge source="YML007W" target="YNL241C"/>
+<edge source="YML007W" target="YNL260C"/>
+<edge source="YML007W" target="YNL327W"/>
+<edge source="YML007W" target="YNR019W"/>
+<edge source="YML007W" target="YNR074C"/>
+<edge source="YML007W" target="YOL049W"/>
+<edge source="YML007W" target="YOL100W"/>
+<edge source="YML007W" target="YOL109W"/>
+<edge source="YML007W" target="YOL115W"/>
+<edge source="YML007W" target="YOL116W"/>
+<edge source="YML007W" target="YOL117W"/>
+<edge source="YML007W" target="YOL118C"/>
+<edge source="YML007W" target="YOL119C"/>
+<edge source="YML007W" target="YOL151W"/>
+<edge source="YML007W" target="YOL156W"/>
+<edge source="YML007W" target="YOL157C"/>
+<edge source="YML007W" target="YOL165C"/>
+<edge source="YML007W" target="YOR028C"/>
+<edge source="YML007W" target="YOR058C"/>
+<edge source="YML007W" target="YOR093C"/>
+<edge source="YML007W" target="YOR152C"/>
+<edge source="YML007W" target="YOR153W"/>
+<edge source="YML007W" target="YOR162C"/>
+<edge source="YML007W" target="YOR163W"/>
+<edge source="YML007W" target="YOR226C"/>
+<edge source="YML007W" target="YOR227W"/>
+<edge source="YML007W" target="YOR264W"/>
+<edge source="YML007W" target="YOR315W"/>
+<edge source="YML007W" target="YOR385W"/>
+<edge source="YML007W" target="YPL061W"/>
+<edge source="YML007W" target="YPL091W"/>
+<edge source="YML007W" target="YPL170W"/>
+<edge source="YML007W" target="YPL171C"/>
+<edge source="YML007W" target="YPL187W"/>
+<edge source="YML007W" target="YPL202C"/>
+<edge source="YML007W" target="YPR013C"/>
+<edge source="YML007W" target="YPR015C"/>
+<edge source="YML007W" target="YPR048W"/>
+<edge source="YML007W" target="YPR065W"/>
+<edge source="YML007W" target="YPR067W"/>
+<edge source="YML007W" target="YPR079W"/>
+<edge source="YML007W" target="YPR094W"/>
+<edge source="YML007W" target="YPR158W"/>
+<edge source="YML007W" target="YPR167C"/>
+<edge source="YML007W" target="YPR200C"/>
+<edge source="YML007W" target="YPR201W"/>
+<edge source="YDL056W" target="YBL003C"/>
+<edge source="YDL056W" target="YCR065W"/>
+<edge source="YDL056W" target="YDL018C"/>
+<edge source="YDL056W" target="YDL101C"/>
+<edge source="YDL056W" target="YDR501W"/>
+<edge source="YDL056W" target="YER070W"/>
+<edge source="YDL056W" target="YER094C"/>
+<edge source="YDL056W" target="YER095W"/>
+<edge source="YDL056W" target="YJL194W"/>
+<edge source="YDL056W" target="YJL196C"/>
+<edge source="YDL056W" target="YKL103C"/>
+<edge source="YDL056W" target="YKL113C"/>
+<edge source="YDL056W" target="YLR103C"/>
+<edge source="YDL056W" target="YLR297W"/>
+<edge source="YDL056W" target="YLR300W"/>
+<edge source="YDL056W" target="YMR179W"/>
+<edge source="YDL056W" target="YOR074C"/>
+<edge source="YDL056W" target="YPL014W"/>
+<edge source="YDL056W" target="YPL163C"/>
+<edge source="YDL056W" target="YPL241C"/>
+<edge source="YDL056W" target="YPL267W"/>
+<edge source="YDL056W" target="YPL268W"/>
+<edge source="YDL056W" target="YPR120C"/>
+<edge source="YDL056W" target="YPR174C"/>
+<edge source="YDL056W" target="YPR175W"/>
+<edge source="YDL106C" target="YAR015W"/>
+<edge source="YDL106C" target="YCL030C"/>
+<edge source="YDL106C" target="YGL234W"/>
+<edge source="YDL106C" target="YGR204W"/>
+<edge source="YDL106C" target="YHR136C"/>
+<edge source="YDL106C" target="YMR300C"/>
+<edge source="YDL106C" target="YOR128C"/>
+<edge source="YDR043C" target="YBR018C"/>
+<edge source="YDR043C" target="YDR041W"/>
+<edge source="YDR043C" target="YDR343C"/>
+<edge source="YDR043C" target="YER096W"/>
+<edge source="YDR043C" target="YFR015C"/>
+<edge source="YDR043C" target="YGR050C"/>
+<edge source="YDR043C" target="YHR033W"/>
+<edge source="YDR043C" target="YIL098C"/>
+<edge source="YDR043C" target="YIL099W"/>
+<edge source="YDR043C" target="YIL101C"/>
+<edge source="YDR043C" target="YIL119C"/>
+<edge source="YDR043C" target="YJL078C"/>
+<edge source="YDR043C" target="YJL196C"/>
+<edge source="YDR043C" target="YML123C"/>
+<edge source="YDR043C" target="YMR145C"/>
+<edge source="YDR043C" target="YMR195W"/>
+<edge source="YDR043C" target="YNR060W"/>
+<edge source="YDR043C" target="YOR049C"/>
+<edge source="YDR043C" target="YOR136W"/>
+<edge source="YDR043C" target="YOR179C"/>
+<edge source="YDR043C" target="YOR273C"/>
+<edge source="YDR043C" target="YOR315W"/>
+<edge source="YIL101C" target="YGL096W"/>
+<edge source="YIL101C" target="YHR138C"/>
+<edge source="YIL101C" target="YMR192W"/>
+<edge source="YIL101C" target="YNL117W"/>
+<edge source="YIL101C" target="YOL052C-A"/>
+<edge source="YIL101C" target="YPL189W"/>
+<edge source="YIL101C" target="YPL222W"/>
+<edge source="YDR123C" target="YER043C"/>
+<edge source="YDR123C" target="YGR008C"/>
+<edge source="YDR123C" target="YJL153C"/>
+<edge source="YDR123C" target="YNL169C"/>
+<edge source="YDR146C" target="YBR071W"/>
+<edge source="YDR146C" target="YBR158W"/>
+<edge source="YDR146C" target="YDL117W"/>
+<edge source="YDR146C" target="YDL127W"/>
+<edge source="YDR146C" target="YDL128W"/>
+<edge source="YDR146C" target="YDL179W"/>
+<edge source="YDR146C" target="YDR055W"/>
+<edge source="YDR146C" target="YGR041W"/>
+<edge source="YDR146C" target="YGR189C"/>
+<edge source="YDR146C" target="YIL009W"/>
+<edge source="YDR146C" target="YJL078C"/>
+<edge source="YDR146C" target="YKL164C"/>
+<edge source="YDR146C" target="YKL185W"/>
+<edge source="YDR146C" target="YLR049C"/>
+<edge source="YDR146C" target="YLR079W"/>
+<edge source="YDR146C" target="YLR162W"/>
+<edge source="YDR146C" target="YLR194C"/>
+<edge source="YDR146C" target="YLR300W"/>
+<edge source="YDR146C" target="YNL192W"/>
+<edge source="YDR146C" target="YNL327W"/>
+<edge source="YDR146C" target="YNR067C"/>
+<edge source="YDR146C" target="YOR264W"/>
+<edge source="YDR146C" target="YPL158C"/>
+<edge source="YDR146C" target="YPR106W"/>
+<edge source="YKL185W" target="YDL227C"/>
+<edge source="YKL185W" target="YDR055W"/>
+<edge source="YDR207C" target="YAL054C"/>
+<edge source="YDR207C" target="YBL064C"/>
+<edge source="YDR207C" target="YBR184W"/>
+<edge source="YDR207C" target="YBR284W"/>
+<edge source="YDR207C" target="YCR061W"/>
+<edge source="YDR207C" target="YDR055W"/>
+<edge source="YDR207C" target="YER044C-A"/>
+<edge source="YDR207C" target="YER179W"/>
+<edge source="YDR207C" target="YFR017C"/>
+<edge source="YDR207C" target="YHR153C"/>
+<edge source="YDR207C" target="YIL031W"/>
+<edge source="YDR207C" target="YIL033C"/>
+<edge source="YDR207C" target="YIL090W"/>
+<edge source="YDR207C" target="YIL144W"/>
+<edge source="YDR207C" target="YIR014W"/>
+<edge source="YDR207C" target="YJL089W"/>
+<edge source="YDR207C" target="YJL153C"/>
+<edge source="YDR207C" target="YKR009C"/>
+<edge source="YDR207C" target="YLL039C"/>
+<edge source="YDR207C" target="YLL046C"/>
+<edge source="YDR207C" target="YLR297W"/>
+<edge source="YDR207C" target="YLR438W"/>
+<edge source="YDR207C" target="YMR101C"/>
+<edge source="YDR207C" target="YOL104C"/>
+<edge source="YDR207C" target="YOL131W"/>
+<edge source="YDR207C" target="YOR338W"/>
+<edge source="YDR207C" target="YPL016W"/>
+<edge source="YDR207C" target="YPL017C"/>
+<edge source="YDR207C" target="YPL201C"/>
+<edge source="YDR207C" target="YPR151C"/>
+<edge source="YJL089W" target="YHR179W"/>
+<edge source="YDR216W" target="YAL054C"/>
+<edge source="YDR216W" target="YAL059W"/>
+<edge source="YDR216W" target="YCR010C"/>
+<edge source="YDR216W" target="YDR111C"/>
+<edge source="YDR216W" target="YDR256C"/>
+<edge source="YDR216W" target="YDR384C"/>
+<edge source="YDR216W" target="YER054C"/>
+<edge source="YDR216W" target="YFR053C"/>
+<edge source="YDR216W" target="YGL205W"/>
+<edge source="YDR216W" target="YGR123C"/>
+<edge source="YDR216W" target="YGR245C"/>
+<edge source="YDR216W" target="YHL032C"/>
+<edge source="YDR216W" target="YIL057C"/>
+<edge source="YDR216W" target="YIL155C"/>
+<edge source="YDR216W" target="YIL160C"/>
+<edge source="YDR216W" target="YIL169C"/>
+<edge source="YDR216W" target="YJR094C"/>
+<edge source="YDR216W" target="YKL217W"/>
+<edge source="YDR216W" target="YKR009C"/>
+<edge source="YDR216W" target="YKR093W"/>
+<edge source="YDR216W" target="YLR252W"/>
+<edge source="YDR216W" target="YLR284C"/>
+<edge source="YDR216W" target="YLR348C"/>
+<edge source="YDR216W" target="YLR438W"/>
+<edge source="YDR216W" target="YML054C"/>
+<edge source="YDR216W" target="YMR017W"/>
+<edge source="YDR216W" target="YMR303C"/>
+<edge source="YDR216W" target="YOL124C"/>
+<edge source="YDR216W" target="YOL147C"/>
+<edge source="YDR216W" target="YOL155C"/>
+<edge source="YDR216W" target="YOR348C"/>
+<edge source="YDR216W" target="YOR363C"/>
+<edge source="YDR216W" target="YOR374W"/>
+<edge source="YDR216W" target="YPL147W"/>
+<edge source="YDR216W" target="YPL200W"/>
+<edge source="YDR216W" target="YPL276W"/>
+<edge source="YDR216W" target="YPR001W"/>
+<edge source="YDR216W" target="YPR006C"/>
+<edge source="YDR216W" target="YPR010C"/>
+<edge source="YDR216W" target="YPR151C"/>
+<edge source="YDR253C" target="YGL184C"/>
+<edge source="YDR253C" target="YGR155W"/>
+<edge source="YDR253C" target="YJR010W"/>
+<edge source="YDR253C" target="YKL001C"/>
+<edge source="YDR253C" target="YPR167C"/>
+<edge source="YDR310C" target="YBR040W"/>
+<edge source="YDR310C" target="YBR180W"/>
+<edge source="YDR310C" target="YCL048W"/>
+<edge source="YDR310C" target="YDR042C"/>
+<edge source="YDR310C" target="YDR281C"/>
+<edge source="YDR310C" target="YDR522C"/>
+<edge source="YDR310C" target="YDR523C"/>
+<edge source="YDR310C" target="YFL040W"/>
+<edge source="YDR310C" target="YFR023W"/>
+<edge source="YDR310C" target="YFR032C"/>
+<edge source="YDR310C" target="YGL138C"/>
+<edge source="YDR310C" target="YGL170C"/>
+<edge source="YDR310C" target="YGR059W"/>
+<edge source="YDR310C" target="YGR260W"/>
+<edge source="YDR310C" target="YHR184W"/>
+<edge source="YDR310C" target="YHR185C"/>
+<edge source="YDR310C" target="YIR027C"/>
+<edge source="YDR310C" target="YJL037W"/>
+<edge source="YDR310C" target="YJL038C"/>
+<edge source="YDR310C" target="YJL043W"/>
+<edge source="YDR310C" target="YJR025C"/>
+<edge source="YDR310C" target="YJR078W"/>
+<edge source="YDR310C" target="YJR079W"/>
+<edge source="YDR310C" target="YKL177W"/>
+<edge source="YDR310C" target="YKL178C"/>
+<edge source="YDR310C" target="YKR034W"/>
+<edge source="YDR310C" target="YLL005C"/>
+<edge source="YDR310C" target="YLR213C"/>
+<edge source="YDR310C" target="YLR307W"/>
+<edge source="YDR310C" target="YLR343W"/>
+<edge source="YDR310C" target="YNL204C"/>
+<edge source="YDR310C" target="YNL318C"/>
+<edge source="YDR310C" target="YOL024W"/>
+<edge source="YDR310C" target="YOR071C"/>
+<edge source="YDR310C" target="YOR255W"/>
+<edge source="YDR310C" target="YOR365C"/>
+<edge source="YDR310C" target="YPL130W"/>
+<edge source="YDR310C" target="YPR054W"/>
+<edge source="YKR034W" target="YDL210W"/>
+<edge source="YKR034W" target="YFL021W"/>
+<edge source="YDR421W" target="YDR421W"/>
+<edge source="YDR423C" target="YAL062W"/>
+<edge source="YDR423C" target="YBL029W"/>
+<edge source="YDR423C" target="YBR072W"/>
+<edge source="YDR423C" target="YDR034W-B"/>
+<edge source="YDR423C" target="YER124C"/>
+<edge source="YDR423C" target="YGL158W"/>
+<edge source="YDR423C" target="YGR256W"/>
+<edge source="YDR423C" target="YHL021C"/>
+<edge source="YDR423C" target="YHR088W"/>
+<edge source="YDR423C" target="YKL039W"/>
+<edge source="YDR423C" target="YML128C"/>
+<edge source="YDR423C" target="YMR169C"/>
+<edge source="YDR423C" target="YMR196W"/>
+<edge source="YDR423C" target="YNL115C"/>
+<edge source="YDR451C" target="YAR018C"/>
+<edge source="YDR451C" target="YDR191W"/>
+<edge source="YDR451C" target="YGL256W"/>
+<edge source="YDR451C" target="YHL040C"/>
+<edge source="YDR451C" target="YHR160C"/>
+<edge source="YDR451C" target="YIL160C"/>
+<edge source="YDR451C" target="YJL213W"/>
+<edge source="YDR451C" target="YKL209C"/>
+<edge source="YDR451C" target="YLR035C-A"/>
+<edge source="YDR451C" target="YPL242C"/>
+<edge source="YDR451C" target="YPR019W"/>
+<edge source="YDR463W" target="YBR132C"/>
+<edge source="YDR463W" target="YCL025C"/>
+<edge source="YDR463W" target="YDR508C"/>
+<edge source="YDR463W" target="YGR055W"/>
+<edge source="YEL009C" target="YAR050W"/>
+<edge source="YEL009C" target="YBL043W"/>
+<edge source="YEL009C" target="YBL076C"/>
+<edge source="YEL009C" target="YBL102W"/>
+<edge source="YEL009C" target="YBL103C"/>
+<edge source="YEL009C" target="YBR043C"/>
+<edge source="YEL009C" target="YBR046C"/>
+<edge source="YEL009C" target="YBR047W"/>
+<edge source="YEL009C" target="YBR068C"/>
+<edge source="YEL009C" target="YBR104W"/>
+<edge source="YEL009C" target="YBR115C"/>
+<edge source="YEL009C" target="YBR145W"/>
+<edge source="YEL009C" target="YBR147W"/>
+<edge source="YEL009C" target="YBR218C"/>
+<edge source="YEL009C" target="YBR248C"/>
+<edge source="YEL009C" target="YBR249C"/>
+<edge source="YEL009C" target="YBR256C"/>
+<edge source="YEL009C" target="YBR257W"/>
+<edge source="YEL009C" target="YCL030C"/>
+<edge source="YEL009C" target="YCR053W"/>
+<edge source="YEL009C" target="YDL054C"/>
+<edge source="YEL009C" target="YDL066W"/>
+<edge source="YEL009C" target="YDL170W"/>
+<edge source="YEL009C" target="YDL171C"/>
+<edge source="YEL009C" target="YDL182W"/>
+<edge source="YEL009C" target="YDL183C"/>
+<edge source="YEL009C" target="YDL198C"/>
+<edge source="YEL009C" target="YDR034C"/>
+<edge source="YEL009C" target="YDR035W"/>
+<edge source="YEL009C" target="YDR127W"/>
+<edge source="YEL009C" target="YDR244W"/>
+<edge source="YEL009C" target="YDR258C"/>
+<edge source="YEL009C" target="YDR354W"/>
+<edge source="YEL009C" target="YDR481C"/>
+<edge source="YEL009C" target="YDR510W"/>
+<edge source="YEL009C" target="YEL011W"/>
+<edge source="YEL009C" target="YEL046C"/>
+<edge source="YEL009C" target="YEL063C"/>
+<edge source="YEL009C" target="YER039C"/>
+<edge source="YEL009C" target="YER040W"/>
+<edge source="YEL009C" target="YER052C"/>
+<edge source="YEL009C" target="YER055C"/>
+<edge source="YEL009C" target="YER069W"/>
+<edge source="YEL009C" target="YER073W"/>
+<edge source="YEL009C" target="YER074W"/>
+<edge source="YEL009C" target="YER086W"/>
+<edge source="YEL009C" target="YER090W"/>
+<edge source="YEL009C" target="YER175C"/>
+<edge source="YEL009C" target="YER176W"/>
+<edge source="YEL009C" target="YFL021W"/>
+<edge source="YEL009C" target="YFL028C"/>
+<edge source="YEL009C" target="YFR055W"/>
+<edge source="YEL009C" target="YGL059W"/>
+<edge source="YEL009C" target="YGL060W"/>
+<edge source="YEL009C" target="YGL117W"/>
+<edge source="YEL009C" target="YGL121C"/>
+<edge source="YEL009C" target="YGL125W"/>
+<edge source="YEL009C" target="YGL180W"/>
+<edge source="YEL009C" target="YGL184C"/>
+<edge source="YEL009C" target="YGL186C"/>
+<edge source="YEL009C" target="YGL202W"/>
+<edge source="YEL009C" target="YGL234W"/>
+<edge source="YEL009C" target="YGR067C"/>
+<edge source="YEL009C" target="YGR124W"/>
+<edge source="YEL009C" target="YGR204W"/>
+<edge source="YEL009C" target="YGR267C"/>
+<edge source="YEL009C" target="YHL027W"/>
+<edge source="YEL009C" target="YHR018C"/>
+<edge source="YEL009C" target="YHR019C"/>
+<edge source="YEL009C" target="YHR024C"/>
+<edge source="YEL009C" target="YHR025W"/>
+<edge source="YEL009C" target="YHR029C"/>
+<edge source="YEL009C" target="YHR071W"/>
+<edge source="YEL009C" target="YHR122W"/>
+<edge source="YEL009C" target="YHR161C"/>
+<edge source="YEL009C" target="YIL056W"/>
+<edge source="YEL009C" target="YIL116W"/>
+<edge source="YEL009C" target="YIL164C"/>
+<edge source="YEL009C" target="YIL165C"/>
+<edge source="YEL009C" target="YIR017C"/>
+<edge source="YEL009C" target="YIR034C"/>
+<edge source="YEL009C" target="YJL071W"/>
+<edge source="YEL009C" target="YJL072C"/>
+<edge source="YEL009C" target="YJL088W"/>
+<edge source="YEL009C" target="YJL089W"/>
+<edge source="YEL009C" target="YJL200C"/>
+<edge source="YEL009C" target="YJL210W"/>
+<edge source="YEL009C" target="YJR016C"/>
+<edge source="YEL009C" target="YJR025C"/>
+<edge source="YEL009C" target="YJR109C"/>
+<edge source="YEL009C" target="YJR110W"/>
+<edge source="YEL009C" target="YJR111C"/>
+<edge source="YEL009C" target="YJR112W"/>
+<edge source="YEL009C" target="YJR145C"/>
+<edge source="YEL009C" target="YKL015W"/>
+<edge source="YEL009C" target="YKL033W-A"/>
+<edge source="YEL009C" target="YKL101W"/>
+<edge source="YEL009C" target="YKL103C"/>
+<edge source="YEL009C" target="YKL211C"/>
+<edge source="YEL009C" target="YLL009C"/>
+<edge source="YEL009C" target="YLL027W"/>
+<edge source="YEL009C" target="YLR027C"/>
+<edge source="YEL009C" target="YLR048W"/>
+<edge source="YEL009C" target="YLR152C"/>
+<edge source="YEL009C" target="YLR194C"/>
+<edge source="YEL009C" target="YLR267W"/>
+<edge source="YEL009C" target="YLR356W"/>
+<edge source="YEL009C" target="YLR451W"/>
+<edge source="YEL009C" target="YML076C"/>
+<edge source="YEL009C" target="YML116W"/>
+<edge source="YEL009C" target="YMR019W"/>
+<edge source="YEL009C" target="YMR062C"/>
+<edge source="YEL009C" target="YMR063W"/>
+<edge source="YEL009C" target="YMR095C"/>
+<edge source="YEL009C" target="YMR096W"/>
+<edge source="YEL009C" target="YMR188C"/>
+<edge source="YEL009C" target="YMR195W"/>
+<edge source="YEL009C" target="YNL004W"/>
+<edge source="YEL009C" target="YNL036W"/>
+<edge source="YEL009C" target="YNL065W"/>
+<edge source="YEL009C" target="YNL103W"/>
+<edge source="YEL009C" target="YNL104C"/>
+<edge source="YEL009C" target="YNL124W"/>
+<edge source="YEL009C" target="YNL125C"/>
+<edge source="YEL009C" target="YNL129W"/>
+<edge source="YEL009C" target="YNL183C"/>
+<edge source="YEL009C" target="YNL239W"/>
+<edge source="YEL009C" target="YNL240C"/>
+<edge source="YEL009C" target="YNL311C"/>
+<edge source="YEL009C" target="YNR050C"/>
+<edge source="YEL009C" target="YNR069C"/>
+<edge source="YEL009C" target="YOL058W"/>
+<edge source="YEL009C" target="YOL064C"/>
+<edge source="YEL009C" target="YOL119C"/>
+<edge source="YEL009C" target="YOL140W"/>
+<edge source="YEL009C" target="YOR108W"/>
+<edge source="YEL009C" target="YOR130C"/>
+<edge source="YEL009C" target="YOR201C"/>
+<edge source="YEL009C" target="YOR202W"/>
+<edge source="YEL009C" target="YOR203W"/>
+<edge source="YEL009C" target="YOR222W"/>
+<edge source="YEL009C" target="YOR302W"/>
+<edge source="YEL009C" target="YOR303W"/>
+<edge source="YEL009C" target="YOR304W"/>
+<edge source="YEL009C" target="YOR337W"/>
+<edge source="YEL009C" target="YPL111W"/>
+<edge source="YEL009C" target="YPL135W"/>
+<edge source="YEL009C" target="YPL252C"/>
+<edge source="YEL009C" target="YPL264C"/>
+<edge source="YEL009C" target="YPL269W"/>
+<edge source="YEL009C" target="YPL273W"/>
+<edge source="YEL009C" target="YPR036W"/>
+<edge source="YEL009C" target="YPR040W"/>
+<edge source="YEL009C" target="YPR058W"/>
+<edge source="YEL009C" target="YPR111W"/>
+<edge source="YEL009C" target="YPR145W"/>
+<edge source="YEL009C" target="YPR167C"/>
+<edge source="YEL009C" target="YPR185W"/>
+<edge source="YER040W" target="YDL170W"/>
+<edge source="YER040W" target="YDL171C"/>
+<edge source="YER040W" target="YDR090C"/>
+<edge source="YER040W" target="YDR184C"/>
+<edge source="YER040W" target="YDR508C"/>
+<edge source="YER040W" target="YER175C"/>
+<edge source="YER040W" target="YFL021W"/>
+<edge source="YER040W" target="YFL022C"/>
+<edge source="YER040W" target="YGL008C"/>
+<edge source="YER040W" target="YGR173W"/>
+<edge source="YER040W" target="YGR234W"/>
+<edge source="YER040W" target="YHL015W"/>
+<edge source="YER040W" target="YHL016C"/>
+<edge source="YER040W" target="YHR018C"/>
+<edge source="YER040W" target="YHR029C"/>
+<edge source="YER040W" target="YHR170W"/>
+<edge source="YER040W" target="YIR027C"/>
+<edge source="YER040W" target="YIR029W"/>
+<edge source="YER040W" target="YIR030C"/>
+<edge source="YER040W" target="YIR031C"/>
+<edge source="YER040W" target="YIR032C"/>
+<edge source="YER040W" target="YJL148W"/>
+<edge source="YER040W" target="YJL172W"/>
+<edge source="YER040W" target="YJR148W"/>
+<edge source="YER040W" target="YJR152W"/>
+<edge source="YER040W" target="YKL073W"/>
+<edge source="YER040W" target="YKL103C"/>
+<edge source="YER040W" target="YKR039W"/>
+<edge source="YER040W" target="YKR092C"/>
+<edge source="YER040W" target="YKR093W"/>
+<edge source="YER040W" target="YLL034C"/>
+<edge source="YER040W" target="YLR048W"/>
+<edge source="YER040W" target="YLR142W"/>
+<edge source="YER040W" target="YMR088C"/>
+<edge source="YER040W" target="YNL142W"/>
+<edge source="YER040W" target="YNR068C"/>
+<edge source="YER040W" target="YOL058W"/>
+<edge source="YER040W" target="YOR101W"/>
+<edge source="YER040W" target="YPL265W"/>
+<edge source="YER040W" target="YPR035W"/>
+<edge source="YER040W" target="YPR194C"/>
+<edge source="YFL021W" target="YFL021W"/>
+<edge source="YHL027W" target="YBR072W"/>
+<edge source="YHL027W" target="YBR182C"/>
+<edge source="YHL027W" target="YDR043C"/>
+<edge source="YHL027W" target="YDR133C"/>
+<edge source="YHL027W" target="YEL060C"/>
+<edge source="YHL027W" target="YGL045W"/>
+<edge source="YHL027W" target="YJR061W"/>
+<edge source="YHL027W" target="YMR136W"/>
+<edge source="YHL027W" target="YMR173W"/>
+<edge source="YHL027W" target="YMR173W-A"/>
+<edge source="YHL027W" target="YMR319C"/>
+<edge source="YHL027W" target="YOR306C"/>
+<edge source="YHL027W" target="YOR389W"/>
+<edge source="YHL027W" target="YPL277C"/>
+<edge source="YIR017C" target="YGL184C"/>
+<edge source="YIR017C" target="YPR167C"/>
+<edge source="YLR451W" target="YBR068C"/>
+<edge source="YLR451W" target="YDL066W"/>
+<edge source="YLR451W" target="YDL184C"/>
+<edge source="YLR451W" target="YER069W"/>
+<edge source="YLR451W" target="YER155C"/>
+<edge source="YLR451W" target="YGL009C"/>
+<edge source="YLR451W" target="YGL184C"/>
+<edge source="YLR451W" target="YIR031C"/>
+<edge source="YLR451W" target="YIR032C"/>
+<edge source="YLR451W" target="YJR016C"/>
+<edge source="YLR451W" target="YKL120W"/>
+<edge source="YLR451W" target="YKR069W"/>
+<edge source="YLR451W" target="YLR356W"/>
+<edge source="YLR451W" target="YMR108W"/>
+<edge source="YLR451W" target="YNL231C"/>
+<edge source="YLR451W" target="YOR108W"/>
+<edge source="YLR451W" target="YOR130C"/>
+<edge source="YLR451W" target="YOR271C"/>
+<edge source="YLR451W" target="YOR272W"/>
+<edge source="YLR451W" target="YPR167C"/>
+<edge source="YMR019W" target="YBR222C"/>
+<edge source="YMR019W" target="YIL166C"/>
+<edge source="YNL103W" target="YAL012W"/>
+<edge source="YNL103W" target="YDL058W"/>
+<edge source="YNL103W" target="YDL059C"/>
+<edge source="YNL103W" target="YER091C"/>
+<edge source="YNL103W" target="YER092W"/>
+<edge source="YNL103W" target="YFR030W"/>
+<edge source="YNL103W" target="YGL184C"/>
+<edge source="YNL103W" target="YGR087C"/>
+<edge source="YNL103W" target="YGR204W"/>
+<edge source="YNL103W" target="YGR256W"/>
+<edge source="YNL103W" target="YHR136C"/>
+<edge source="YNL103W" target="YIR017C"/>
+<edge source="YNL103W" target="YJL100W"/>
+<edge source="YNL103W" target="YJL101C"/>
+<edge source="YNL103W" target="YJL212C"/>
+<edge source="YNL103W" target="YJR010W"/>
+<edge source="YNL103W" target="YJR137C"/>
+<edge source="YNL103W" target="YKL001C"/>
+<edge source="YNL103W" target="YLL004W"/>
+<edge source="YNL103W" target="YLL005C"/>
+<edge source="YNL103W" target="YLL025W"/>
+<edge source="YNL103W" target="YLR092W"/>
+<edge source="YNL103W" target="YLR179C"/>
+<edge source="YNL103W" target="YLR303W"/>
+<edge source="YNL103W" target="YNL277W"/>
+<edge source="YNL103W" target="YPR167C"/>
+<edge source="YER109C" target="YOR273C"/>
+<edge source="YER111C" target="YBL003C"/>
+<edge source="YER111C" target="YBL111C"/>
+<edge source="YER111C" target="YCR065W"/>
+<edge source="YER111C" target="YDL003W"/>
+<edge source="YER111C" target="YDL127W"/>
+<edge source="YER111C" target="YDR309C"/>
+<edge source="YER111C" target="YDR451C"/>
+<edge source="YER111C" target="YDR501W"/>
+<edge source="YER111C" target="YER070W"/>
+<edge source="YER111C" target="YER111C"/>
+<edge source="YER111C" target="YFL014W"/>
+<edge source="YER111C" target="YFL064C"/>
+<edge source="YER111C" target="YGR014W"/>
+<edge source="YER111C" target="YGR032W"/>
+<edge source="YER111C" target="YGR109C"/>
+<edge source="YER111C" target="YGR110W"/>
+<edge source="YER111C" target="YGR138C"/>
+<edge source="YER111C" target="YGR248W"/>
+<edge source="YER111C" target="YGR250C"/>
+<edge source="YER111C" target="YGR292W"/>
+<edge source="YER111C" target="YHL048W"/>
+<edge source="YER111C" target="YHL049C"/>
+<edge source="YER111C" target="YIL123W"/>
+<edge source="YER111C" target="YJL079C"/>
+<edge source="YER111C" target="YJL158C"/>
+<edge source="YER111C" target="YJL194W"/>
+<edge source="YER111C" target="YJL196C"/>
+<edge source="YER111C" target="YJL225C"/>
+<edge source="YER111C" target="YKL043W"/>
+<edge source="YER111C" target="YKL096W"/>
+<edge source="YER111C" target="YKL096W-A"/>
+<edge source="YER111C" target="YKL103C"/>
+<edge source="YER111C" target="YKR013W"/>
+<edge source="YER111C" target="YKR042W"/>
+<edge source="YER111C" target="YKR093W"/>
+<edge source="YER111C" target="YLR120C"/>
+<edge source="YER111C" target="YLR121C"/>
+<edge source="YER111C" target="YLR300W"/>
+<edge source="YER111C" target="YLR462W"/>
+<edge source="YER111C" target="YLR467W"/>
+<edge source="YER111C" target="YML100W"/>
+<edge source="YER111C" target="YML132W"/>
+<edge source="YER111C" target="YML133C"/>
+<edge source="YER111C" target="YMR006C"/>
+<edge source="YER111C" target="YMR136W"/>
+<edge source="YER111C" target="YMR179W"/>
+<edge source="YER111C" target="YMR195W"/>
+<edge source="YER111C" target="YNL289W"/>
+<edge source="YER111C" target="YNL300W"/>
+<edge source="YER111C" target="YNR009W"/>
+<edge source="YER111C" target="YOL007C"/>
+<edge source="YER111C" target="YOL155C"/>
+<edge source="YER111C" target="YOR161C"/>
+<edge source="YER111C" target="YOR247W"/>
+<edge source="YER111C" target="YOR248W"/>
+<edge source="YER111C" target="YOR313C"/>
+<edge source="YER111C" target="YOR344C"/>
+<edge source="YER111C" target="YOR372C"/>
+<edge source="YER111C" target="YOR373W"/>
+<edge source="YER111C" target="YOR378W"/>
+<edge source="YER111C" target="YOR394W"/>
+<edge source="YER111C" target="YPL054W"/>
+<edge source="YER111C" target="YPL163C"/>
+<edge source="YER111C" target="YPR005C"/>
+<edge source="YER111C" target="YPR119W"/>
+<edge source="YER111C" target="YPR120C"/>
+<edge source="YKL043W" target="YKL043W"/>
+<edge source="YOR344C" target="YAL007C"/>
+<edge source="YOR344C" target="YDR316W-A"/>
+<edge source="YOR344C" target="YDR316W-B"/>
+<edge source="YOR344C" target="YGR038C-A"/>
+<edge source="YOR344C" target="YNL284C-A"/>
+<edge source="YFL031W" target="YFR026C"/>
+<edge source="YFL031W" target="YFR042W"/>
+<edge source="YFL031W" target="YJL034W"/>
+<edge source="YFL031W" target="YKL165C"/>
+<edge source="YFL031W" target="YOL031C"/>
+<edge source="YFR034C" target="YBR093C"/>
+<edge source="YFR034C" target="YBR296C"/>
+<edge source="YFR034C" target="YCL064C"/>
+<edge source="YFR034C" target="YCR098C"/>
+<edge source="YFR034C" target="YDR281C"/>
+<edge source="YFR034C" target="YDR481C"/>
+<edge source="YFR034C" target="YER037W"/>
+<edge source="YFR034C" target="YER055C"/>
+<edge source="YFR034C" target="YER072W"/>
+<edge source="YFR034C" target="YFL004W"/>
+<edge source="YFR034C" target="YGL100W"/>
+<edge source="YFR034C" target="YGR233C"/>
+<edge source="YFR034C" target="YGR254W"/>
+<edge source="YFR034C" target="YHR032W"/>
+<edge source="YFR034C" target="YHR052W"/>
+<edge source="YFR034C" target="YHR136C"/>
+<edge source="YFR034C" target="YHR137W"/>
+<edge source="YFR034C" target="YIL136W"/>
+<edge source="YFR034C" target="YJL012C"/>
+<edge source="YFR034C" target="YJL117W"/>
+<edge source="YFR034C" target="YJR060W"/>
+<edge source="YFR034C" target="YML123C"/>
+<edge source="YFR034C" target="YMR096W"/>
+<edge source="YFR034C" target="YNL160W"/>
+<edge source="YFR034C" target="YNL309W"/>
+<edge source="YFR034C" target="YPL018W"/>
+<edge source="YFR034C" target="YPL019C"/>
+<edge source="YFR034C" target="YPL110C"/>
+<edge source="YJR060W" target="YDR055W"/>
+<edge source="YJR060W" target="YGL184C"/>
+<edge source="YJR060W" target="YGR032W"/>
+<edge source="YJR060W" target="YJR010W"/>
+<edge source="YJR060W" target="YNL036W"/>
+<edge source="YJR060W" target="YNL259C"/>
+<edge source="YJR060W" target="YOL064C"/>
+<edge source="YJR060W" target="YPR167C"/>
+<edge source="YKL109W" target="YBR039W"/>
+<edge source="YKL109W" target="YDL004W"/>
+<edge source="YKL109W" target="YDR148C"/>
+<edge source="YKL109W" target="YDR322C-A"/>
+<edge source="YKL109W" target="YDR377W"/>
+<edge source="YKL109W" target="YDR529C"/>
+<edge source="YKL109W" target="YEL009C"/>
+<edge source="YKL109W" target="YER174C"/>
+<edge source="YKL109W" target="YGL187C"/>
+<edge source="YKL109W" target="YGL191W"/>
+<edge source="YKL109W" target="YGR183C"/>
+<edge source="YKL109W" target="YHR001W-A"/>
+<edge source="YKL109W" target="YHR050W"/>
+<edge source="YKL109W" target="YHR051W"/>
+<edge source="YKL109W" target="YJR121W"/>
+<edge source="YKL109W" target="YKL016C"/>
+<edge source="YKL109W" target="YLR038C"/>
+<edge source="YKL109W" target="YLR295C"/>
+<edge source="YKL109W" target="YLR296W"/>
+<edge source="YKL109W" target="YLR395C"/>
+<edge source="YKL109W" target="YMR256C"/>
+<edge source="YKL109W" target="YNL009W"/>
+<edge source="YKL109W" target="YNL055C"/>
+<edge source="YKL109W" target="YPL271W"/>
+<edge source="YKL109W" target="YPR020W"/>
+<edge source="YGL035C" target="YGR098C"/>
+<edge source="YGL035C" target="YGR112W"/>
+<edge source="YGL035C" target="YIL162W"/>
+<edge source="YGL035C" target="YOL157C"/>
+<edge source="YGL071W" target="YBR207W"/>
+<edge source="YGL071W" target="YBR237W"/>
+<edge source="YGL071W" target="YCR021C"/>
+<edge source="YGL071W" target="YCR107W"/>
+<edge source="YGL071W" target="YDL045W-A"/>
+<edge source="YGL071W" target="YDL188C"/>
+<edge source="YGL071W" target="YDR154C"/>
+<edge source="YGL071W" target="YDR264C"/>
+<edge source="YGL071W" target="YDR270W"/>
+<edge source="YGL071W" target="YEL012W"/>
+<edge source="YGL071W" target="YEL065W"/>
+<edge source="YGL071W" target="YER145C"/>
+<edge source="YGL071W" target="YER156C"/>
+<edge source="YGL071W" target="YGL055W"/>
+<edge source="YGL071W" target="YGL056C"/>
+<edge source="YGL071W" target="YGL071W"/>
+<edge source="YGL071W" target="YGL088W"/>
+<edge source="YGL071W" target="YGR078C"/>
+<edge source="YGL071W" target="YGR243W"/>
+<edge source="YGL071W" target="YHL035C"/>
+<edge source="YGL071W" target="YHL040C"/>
+<edge source="YGL071W" target="YHL047C"/>
+<edge source="YGL071W" target="YHR138C"/>
+<edge source="YGL071W" target="YIL125W"/>
+<edge source="YGL071W" target="YJR137C"/>
+<edge source="YGL071W" target="YKL051W"/>
+<edge source="YGL071W" target="YKL103C"/>
+<edge source="YGL071W" target="YKR052C"/>
+<edge source="YGL071W" target="YLL040C"/>
+<edge source="YGL071W" target="YLL051C"/>
+<edge source="YGL071W" target="YLL055W"/>
+<edge source="YGL071W" target="YLR034C"/>
+<edge source="YGL071W" target="YLR136C"/>
+<edge source="YGL071W" target="YLR214W"/>
+<edge source="YGL071W" target="YLR277C"/>
+<edge source="YGL071W" target="YML129C"/>
+<edge source="YGL071W" target="YMR058W"/>
+<edge source="YGL071W" target="YMR186W"/>
+<edge source="YGL071W" target="YMR189W"/>
+<edge source="YGL071W" target="YMR280C"/>
+<edge source="YGL071W" target="YMR319C"/>
+<edge source="YGL071W" target="YMR320W"/>
+<edge source="YGL071W" target="YNL169C"/>
+<edge source="YGL071W" target="YNL259C"/>
+<edge source="YGL071W" target="YNL270C"/>
+<edge source="YGL071W" target="YNL279W"/>
+<edge source="YGL071W" target="YNR014W"/>
+<edge source="YGL071W" target="YNR060W"/>
+<edge source="YGL071W" target="YOL014W"/>
+<edge source="YGL071W" target="YOL158C"/>
+<edge source="YGL071W" target="YOR128C"/>
+<edge source="YGL071W" target="YOR316C"/>
+<edge source="YGL071W" target="YOR317W"/>
+<edge source="YGL071W" target="YOR382W"/>
+<edge source="YGL071W" target="YOR383C"/>
+<edge source="YGL071W" target="YOR384W"/>
+<edge source="YGL071W" target="YPL019C"/>
+<edge source="YGL071W" target="YPL135W"/>
+<edge source="YGL071W" target="YPL189W"/>
+<edge source="YGL071W" target="YPL195W"/>
+<edge source="YGL071W" target="YPR026W"/>
+<edge source="YGL071W" target="YPR052C"/>
+<edge source="YGL071W" target="YPR119W"/>
+<edge source="YMR280C" target="YCR010C"/>
+<edge source="YMR280C" target="YLR377C"/>
+<edge source="YMR280C" target="YNL117W"/>
+<edge source="YGL073W" target="YAL003W"/>
+<edge source="YGL073W" target="YAL005C"/>
+<edge source="YGL073W" target="YBL032W"/>
+<edge source="YGL073W" target="YBL075C"/>
+<edge source="YGL073W" target="YBR009C"/>
+<edge source="YGL073W" target="YBR050C"/>
+<edge source="YGL073W" target="YBR052C"/>
+<edge source="YGL073W" target="YBR072W"/>
+<edge source="YGL073W" target="YBR082C"/>
+<edge source="YGL073W" target="YBR085C-A"/>
+<edge source="YGL073W" target="YBR101C"/>
+<edge source="YGL073W" target="YBR117C"/>
+<edge source="YGL073W" target="YBR118W"/>
+<edge source="YGL073W" target="YBR169C"/>
+<edge source="YGL073W" target="YCL050C"/>
+<edge source="YGL073W" target="YCR021C"/>
+<edge source="YGL073W" target="YDL020C"/>
+<edge source="YGL073W" target="YDL091C"/>
+<edge source="YGL073W" target="YDR154C"/>
+<edge source="YGL073W" target="YDR155C"/>
+<edge source="YGL073W" target="YDR158W"/>
+<edge source="YGL073W" target="YDR170W-A"/>
+<edge source="YGL073W" target="YDR171W"/>
+<edge source="YGL073W" target="YDR214W"/>
+<edge source="YGL073W" target="YDR258C"/>
+<edge source="YGL073W" target="YDR313C"/>
+<edge source="YGL073W" target="YER035W"/>
+<edge source="YGL073W" target="YER036C"/>
+<edge source="YGL073W" target="YER102W"/>
+<edge source="YGL073W" target="YER103W"/>
+<edge source="YGL073W" target="YFL014W"/>
+<edge source="YGL073W" target="YFL016C"/>
+<edge source="YGL073W" target="YGL008C"/>
+<edge source="YGL073W" target="YGL037C"/>
+<edge source="YGL073W" target="YGR141W"/>
+<edge source="YGL073W" target="YGR142W"/>
+<edge source="YGL073W" target="YGR197C"/>
+<edge source="YGL073W" target="YGR198W"/>
+<edge source="YGL073W" target="YGR211W"/>
+<edge source="YGL073W" target="YGR248W"/>
+<edge source="YGL073W" target="YGR250C"/>
+<edge source="YGL073W" target="YHR049W"/>
+<edge source="YGL073W" target="YHR053C"/>
+<edge source="YGL073W" target="YHR055C"/>
+<edge source="YGL073W" target="YHR104W"/>
+<edge source="YGL073W" target="YHR174W"/>
+<edge source="YGL073W" target="YIR031C"/>
+<edge source="YGL073W" target="YJL034W"/>
+<edge source="YGL073W" target="YJL074C"/>
+<edge source="YGL073W" target="YJL144W"/>
+<edge source="YGL073W" target="YJR045C"/>
+<edge source="YGL073W" target="YJR046W"/>
+<edge source="YGL073W" target="YKL035W"/>
+<edge source="YGL073W" target="YLL023C"/>
+<edge source="YGL073W" target="YLL024C"/>
+<edge source="YGL073W" target="YLL026W"/>
+<edge source="YGL073W" target="YLR064W"/>
+<edge source="YGL073W" target="YLR109W"/>
+<edge source="YGL073W" target="YLR216C"/>
+<edge source="YGL073W" target="YLR259C"/>
+<edge source="YGL073W" target="YLR327C"/>
+<edge source="YGL073W" target="YML100W"/>
+<edge source="YGL073W" target="YML130C"/>
+<edge source="YGL073W" target="YMR108W"/>
+<edge source="YGL073W" target="YMR186W"/>
+<edge source="YGL073W" target="YMR251W-A"/>
+<edge source="YGL073W" target="YNL006W"/>
+<edge source="YGL073W" target="YNL007C"/>
+<edge source="YGL073W" target="YNL063W"/>
+<edge source="YGL073W" target="YNL064C"/>
+<edge source="YGL073W" target="YNL281W"/>
+<edge source="YGL073W" target="YNR069C"/>
+<edge source="YGL073W" target="YOL081W"/>
+<edge source="YGL073W" target="YOL082W"/>
+<edge source="YGL073W" target="YOL109W"/>
+<edge source="YGL073W" target="YOR007C"/>
+<edge source="YGL073W" target="YOR020C"/>
+<edge source="YGL073W" target="YOR027W"/>
+<edge source="YGL073W" target="YOR192C"/>
+<edge source="YGL073W" target="YOR344C"/>
+<edge source="YGL073W" target="YPL005W"/>
+<edge source="YGL073W" target="YPL106C"/>
+<edge source="YGL073W" target="YPL168W"/>
+<edge source="YGL073W" target="YPL239W"/>
+<edge source="YGL073W" target="YPL240C"/>
+<edge source="YGL073W" target="YPR154W"/>
+<edge source="YGL237C" target="YOR248W"/>
+<edge source="YGL237C" target="YPL271W"/>
+<edge source="YGR044C" target="YAR050W"/>
+<edge source="YGR044C" target="YCL055W"/>
+<edge source="YGR044C" target="YJL045W"/>
+<edge source="YGR044C" target="YNL033W"/>
+<edge source="YGR044C" target="YNL034W"/>
+<edge source="YGR044C" target="YOL155C"/>
+<edge source="YGR044C" target="YPL130W"/>
+<edge source="YGR249W" target="YDL037C"/>
+<edge source="YGR249W" target="YDR040C"/>
+<edge source="YGR249W" target="YGR249W"/>
+<edge source="YGR249W" target="YHL028W"/>
+<edge source="YGR249W" target="YIL011W"/>
+<edge source="YGR249W" target="YIL057C"/>
+<edge source="YGR249W" target="YJL219W"/>
+<edge source="YGR249W" target="YOR107W"/>
+<edge source="YGR249W" target="YOR391C"/>
+<edge source="YHL020C" target="YDR497C"/>
+<edge source="YHL020C" target="YKL182W"/>
+<edge source="YHR006W" target="YBR132C"/>
+<edge source="YHR006W" target="YCL025C"/>
+<edge source="YHR006W" target="YDR216W"/>
+<edge source="YHR006W" target="YGL255W"/>
+<edge source="YHR084W" target="YBR040W"/>
+<edge source="YHR084W" target="YBR054W"/>
+<edge source="YHR084W" target="YBR241C"/>
+<edge source="YHR084W" target="YCL027W"/>
+<edge source="YHR084W" target="YCR018C"/>
+<edge source="YHR084W" target="YCR089W"/>
+<edge source="YHR084W" target="YCR102C"/>
+<edge source="YHR084W" target="YDL090C"/>
+<edge source="YHR084W" target="YDR034C-A"/>
+<edge source="YHR084W" target="YDR457W"/>
+<edge source="YHR084W" target="YDR461W"/>
+<edge source="YHR084W" target="YEL012W"/>
+<edge source="YHR084W" target="YEL069C"/>
+<edge source="YHR084W" target="YER065C"/>
+<edge source="YHR084W" target="YER079W"/>
+<edge source="YHR084W" target="YER118C"/>
+<edge source="YHR084W" target="YFL014W"/>
+<edge source="YHR084W" target="YFL026W"/>
+<edge source="YHR084W" target="YFR022W"/>
+<edge source="YHR084W" target="YGL032C"/>
+<edge source="YHR084W" target="YGL053W"/>
+<edge source="YHR084W" target="YGL089C"/>
+<edge source="YHR084W" target="YGL194C"/>
+<edge source="YHR084W" target="YGR014W"/>
+<edge source="YHR084W" target="YGR037C"/>
+<edge source="YHR084W" target="YGR110W"/>
+<edge source="YHR084W" target="YGR146C"/>
+<edge source="YHR084W" target="YGR162W"/>
+<edge source="YHR084W" target="YHR084W"/>
+<edge source="YHR084W" target="YHR179W"/>
+<edge source="YHR084W" target="YIL015W"/>
+<edge source="YHR084W" target="YIL037C"/>
+<edge source="YHR084W" target="YIL117C"/>
+<edge source="YHR084W" target="YIL136W"/>
+<edge source="YHR084W" target="YJL157C"/>
+<edge source="YHR084W" target="YJL170C"/>
+<edge source="YHR084W" target="YJL214W"/>
+<edge source="YHR084W" target="YJR004C"/>
+<edge source="YHR084W" target="YJR153W"/>
+<edge source="YHR084W" target="YKL095W"/>
+<edge source="YHR084W" target="YKL096W"/>
+<edge source="YHR084W" target="YKL128C"/>
+<edge source="YHR084W" target="YKL189W"/>
+<edge source="YHR084W" target="YKR024C"/>
+<edge source="YHR084W" target="YKR061W"/>
+<edge source="YHR084W" target="YKR091W"/>
+<edge source="YHR084W" target="YKR092C"/>
+<edge source="YHR084W" target="YLR042C"/>
+<edge source="YHR084W" target="YLR120C"/>
+<edge source="YHR084W" target="YLR275W"/>
+<edge source="YHR084W" target="YLR411W"/>
+<edge source="YHR084W" target="YLR452C"/>
+<edge source="YHR084W" target="YLR456W"/>
+<edge source="YHR084W" target="YML047C"/>
+<edge source="YHR084W" target="YMR065W"/>
+<edge source="YHR084W" target="YMR199W"/>
+<edge source="YHR084W" target="YMR232W"/>
+<edge source="YHR084W" target="YMR305C"/>
+<edge source="YHR084W" target="YNL042W"/>
+<edge source="YHR084W" target="YNL078W"/>
+<edge source="YHR084W" target="YNL145W"/>
+<edge source="YHR084W" target="YNL160W"/>
+<edge source="YHR084W" target="YNL208W"/>
+<edge source="YHR084W" target="YNL279W"/>
+<edge source="YHR084W" target="YNR044W"/>
+<edge source="YHR084W" target="YOL052C-A"/>
+<edge source="YHR084W" target="YOL081W"/>
+<edge source="YHR084W" target="YOL082W"/>
+<edge source="YHR084W" target="YOL083W"/>
+<edge source="YHR084W" target="YOL104C"/>
+<edge source="YHR084W" target="YOR011W"/>
+<edge source="YHR084W" target="YOR018W"/>
+<edge source="YHR084W" target="YOR180C"/>
+<edge source="YHR084W" target="YOR344C"/>
+<edge source="YHR084W" target="YPL061W"/>
+<edge source="YHR084W" target="YPL135W"/>
+<edge source="YHR084W" target="YPL146C"/>
+<edge source="YHR084W" target="YPL156C"/>
+<edge source="YHR084W" target="YPL163C"/>
+<edge source="YHR084W" target="YPL187W"/>
+<edge source="YHR084W" target="YPL192C"/>
+<edge source="YHR084W" target="YPL265W"/>
+<edge source="YHR084W" target="YPR013C"/>
+<edge source="YHR084W" target="YPR049C"/>
+<edge source="YHR084W" target="YPR141C"/>
+<edge source="YHR178W" target="YHR163W"/>
+<edge source="YHR178W" target="YHR183W"/>
+<edge source="YHR178W" target="YKL177W"/>
+<edge source="YHR206W" target="YAL062W"/>
+<edge source="YHR206W" target="YBR066C"/>
+<edge source="YHR206W" target="YBR157C"/>
+<edge source="YHR206W" target="YBR169C"/>
+<edge source="YHR206W" target="YBR244W"/>
+<edge source="YHR206W" target="YCR021C"/>
+<edge source="YHR206W" target="YDL049C"/>
+<edge source="YHR206W" target="YDR043C"/>
+<edge source="YHR206W" target="YDR077W"/>
+<edge source="YHR206W" target="YDR155C"/>
+<edge source="YHR206W" target="YDR453C"/>
+<edge source="YHR206W" target="YER079W"/>
+<edge source="YHR206W" target="YER091C"/>
+<edge source="YHR206W" target="YER150W"/>
+<edge source="YHR206W" target="YFL014W"/>
+<edge source="YHR206W" target="YGL038C"/>
+<edge source="YHR206W" target="YGL125W"/>
+<edge source="YHR206W" target="YGR043C"/>
+<edge source="YHR206W" target="YGR209C"/>
+<edge source="YHR206W" target="YGR210C"/>
+<edge source="YHR206W" target="YHR008C"/>
+<edge source="YHR206W" target="YIL099W"/>
+<edge source="YHR206W" target="YJL079C"/>
+<edge source="YHR206W" target="YJL101C"/>
+<edge source="YHR206W" target="YJL107C"/>
+<edge source="YHR206W" target="YJL116C"/>
+<edge source="YHR206W" target="YKL037W"/>
+<edge source="YHR206W" target="YKL062W"/>
+<edge source="YHR206W" target="YKL086W"/>
+<edge source="YHR206W" target="YKL096W-A"/>
+<edge source="YHR206W" target="YKL142W"/>
+<edge source="YHR206W" target="YKR042W"/>
+<edge source="YHR206W" target="YKR044W"/>
+<edge source="YHR206W" target="YKR066C"/>
+<edge source="YHR206W" target="YLL018C-A"/>
+<edge source="YHR206W" target="YLR109W"/>
+<edge source="YHR206W" target="YLR121C"/>
+<edge source="YHR206W" target="YLR214W"/>
+<edge source="YHR206W" target="YLR257W"/>
+<edge source="YHR206W" target="YLR414C"/>
+<edge source="YHR206W" target="YML007W"/>
+<edge source="YHR206W" target="YML028W"/>
+<edge source="YHR206W" target="YMR173W"/>
+<edge source="YHR206W" target="YMR173W-A"/>
+<edge source="YHR206W" target="YMR195W"/>
+<edge source="YHR206W" target="YMR199W"/>
+<edge source="YHR206W" target="YMR251W-A"/>
+<edge source="YHR206W" target="YMR304C-A"/>
+<edge source="YHR206W" target="YMR305C"/>
+<edge source="YHR206W" target="YNL015W"/>
+<edge source="YHR206W" target="YNL145W"/>
+<edge source="YHR206W" target="YNL146W"/>
+<edge source="YHR206W" target="YNL234W"/>
+<edge source="YHR206W" target="YNR014W"/>
+<edge source="YHR206W" target="YOL048C"/>
+<edge source="YHR206W" target="YOL052C-A"/>
+<edge source="YHR206W" target="YOL154W"/>
+<edge source="YHR206W" target="YOR032C"/>
+<edge source="YHR206W" target="YOR107W"/>
+<edge source="YHR206W" target="YOR276W"/>
+<edge source="YHR206W" target="YOR315W"/>
+<edge source="YHR206W" target="YOR348C"/>
+<edge source="YHR206W" target="YOR349W"/>
+<edge source="YHR206W" target="YPL256C"/>
+<edge source="YHR206W" target="YPR065W"/>
+<edge source="YHR206W" target="YPR151C"/>
+<edge source="YKL062W" target="YAL005C"/>
+<edge source="YKL062W" target="YBR072W"/>
+<edge source="YKL062W" target="YCR021C"/>
+<edge source="YKL062W" target="YDL020C"/>
+<edge source="YKL062W" target="YDR074W"/>
+<edge source="YKL062W" target="YDR258C"/>
+<edge source="YKL062W" target="YDR354W"/>
+<edge source="YKL062W" target="YDR453C"/>
+<edge source="YKL062W" target="YDR492W"/>
+<edge source="YKL062W" target="YER021W"/>
+<edge source="YKL062W" target="YER103W"/>
+<edge source="YKL062W" target="YGL055W"/>
+<edge source="YKL062W" target="YGR052W"/>
+<edge source="YKL062W" target="YGR088W"/>
+<edge source="YKL062W" target="YGR209C"/>
+<edge source="YKL062W" target="YHL040C"/>
+<edge source="YKL062W" target="YHR008C"/>
+<edge source="YKL062W" target="YHR048W"/>
+<edge source="YKL062W" target="YHR087W"/>
+<edge source="YKL062W" target="YHR104W"/>
+<edge source="YKL062W" target="YIL051C"/>
+<edge source="YKL062W" target="YIR036C"/>
+<edge source="YKL062W" target="YJR047C"/>
+<edge source="YKL062W" target="YJR118C"/>
+<edge source="YKL062W" target="YKL062W"/>
+<edge source="YKL062W" target="YKR052C"/>
+<edge source="YKL062W" target="YKR066C"/>
+<edge source="YKL062W" target="YKR067W"/>
+<edge source="YKL062W" target="YKR080W"/>
+<edge source="YKL062W" target="YLL024C"/>
+<edge source="YKL062W" target="YLL026W"/>
+<edge source="YKL062W" target="YLR109W"/>
+<edge source="YKL062W" target="YLR439W"/>
+<edge source="YKL062W" target="YML100W"/>
+<edge source="YKL062W" target="YML131W"/>
+<edge source="YKL062W" target="YMR119W"/>
+<edge source="YKL062W" target="YMR173W"/>
+<edge source="YKL062W" target="YMR315W"/>
+<edge source="YKL062W" target="YNL134C"/>
+<edge source="YKL062W" target="YNL160W"/>
+<edge source="YKL062W" target="YNL241C"/>
+<edge source="YKL062W" target="YNL335W"/>
+<edge source="YKL062W" target="YOL052C-A"/>
+<edge source="YKL062W" target="YOR173W"/>
+<edge source="YKL062W" target="YPL171C"/>
+<edge source="YKL062W" target="YPR063C"/>
+<edge source="YOR032C" target="YDR522C"/>
+<edge source="YPR065W" target="YCR102C"/>
+<edge source="YPR065W" target="YDL246C"/>
+<edge source="YPR065W" target="YDR042C"/>
+<edge source="YPR065W" target="YDR044W"/>
+<edge source="YPR065W" target="YGL012W"/>
+<edge source="YPR065W" target="YHR048W"/>
+<edge source="YPR065W" target="YHR094C"/>
+<edge source="YPR065W" target="YHR193C"/>
+<edge source="YPR065W" target="YIL099W"/>
+<edge source="YPR065W" target="YIL101C"/>
+<edge source="YPR065W" target="YJL045W"/>
+<edge source="YPR065W" target="YJR047C"/>
+<edge source="YPR065W" target="YKL109W"/>
+<edge source="YPR065W" target="YMR319C"/>
+<edge source="YPR065W" target="YNL134C"/>
+<edge source="YPR065W" target="YPL265W"/>
+<edge source="YPR065W" target="YPR065W"/>
+<edge source="YIL036W" target="YDL096C"/>
+<edge source="YIL131C" target="YBR158W"/>
+<edge source="YIL131C" target="YDR146C"/>
+<edge source="YIL131C" target="YGL116W"/>
+<edge source="YIL131C" target="YHR143W"/>
+<edge source="YIL131C" target="YIL158W"/>
+<edge source="YIL131C" target="YJR092W"/>
+<edge source="YIL131C" target="YLR131C"/>
+<edge source="YIL131C" target="YLR286C"/>
+<edge source="YIL131C" target="YML052W"/>
+<edge source="YIL131C" target="YOR315W"/>
+<edge source="YIL131C" target="YPL141C"/>
+<edge source="YIL131C" target="YPL155C"/>
+<edge source="YIL131C" target="YPR119W"/>
+<edge source="YLR131C" target="YBR158W"/>
+<edge source="YLR131C" target="YDR055W"/>
+<edge source="YLR131C" target="YER124C"/>
+<edge source="YLR131C" target="YFL021W"/>
+<edge source="YLR131C" target="YGL028C"/>
+<edge source="YLR131C" target="YGR041W"/>
+<edge source="YLR131C" target="YHR143W"/>
+<edge source="YLR131C" target="YJL078C"/>
+<edge source="YLR131C" target="YJL159W"/>
+<edge source="YLR131C" target="YJR147W"/>
+<edge source="YLR131C" target="YKL164C"/>
+<edge source="YLR131C" target="YKL185W"/>
+<edge source="YLR131C" target="YLR079W"/>
+<edge source="YLR131C" target="YLR286C"/>
+<edge source="YLR131C" target="YNL327W"/>
+<edge source="YLR131C" target="YNR067C"/>
+<edge source="YLR131C" target="YPL158C"/>
+<edge source="YLR131C" target="YPR106W"/>
+<edge source="YIR033W" target="YDR492W"/>
+<edge source="YIR033W" target="YGL055W"/>
+<edge source="YIR033W" target="YJL196C"/>
+<edge source="YIR033W" target="YKL008C"/>
+<edge source="YIR033W" target="YKL182W"/>
+<edge source="YIR033W" target="YMR246W"/>
+<edge source="YIR033W" target="YOL101C"/>
+<edge source="YIR033W" target="YOR377W"/>
+<edge source="YJL056C" target="YGL255W"/>
+<edge source="YJL056C" target="YGL256W"/>
+<edge source="YJL056C" target="YGR295C"/>
+<edge source="YJL056C" target="YJL056C"/>
+<edge source="YJL056C" target="YKL175W"/>
+<edge source="YJL056C" target="YLR130C"/>
+<edge source="YJL056C" target="YNL254C"/>
+<edge source="YJL056C" target="YNL336W"/>
+<edge source="YJL110C" target="YFL021W"/>
+<edge source="YJL110C" target="YKR039W"/>
+<edge source="YKL020C" target="YOL101C"/>
+<edge source="YKL112W" target="YAL041W"/>
+<edge source="YKL112W" target="YAL043C"/>
+<edge source="YKL112W" target="YAL054C"/>
+<edge source="YKL112W" target="YBL007C"/>
+<edge source="YKL112W" target="YBL038W"/>
+<edge source="YKL112W" target="YBL080C"/>
+<edge source="YKL112W" target="YBR011C"/>
+<edge source="YKL112W" target="YBR029C"/>
+<edge source="YKL112W" target="YBR078W"/>
+<edge source="YKL112W" target="YBR080C"/>
+<edge source="YKL112W" target="YBR101C"/>
+<edge source="YKL112W" target="YBR110W"/>
+<edge source="YKL112W" target="YBR146W"/>
+<edge source="YKL112W" target="YBR211C"/>
+<edge source="YKL112W" target="YBR283C"/>
+<edge source="YKL112W" target="YCL031C"/>
+<edge source="YKL112W" target="YCR003W"/>
+<edge source="YKL112W" target="YCR053W"/>
+<edge source="YKL112W" target="YCR082W"/>
+<edge source="YKL112W" target="YDL010W"/>
+<edge source="YKL112W" target="YDL012C"/>
+<edge source="YKL112W" target="YDL035C"/>
+<edge source="YKL112W" target="YDL085W"/>
+<edge source="YKL112W" target="YDL106C"/>
+<edge source="YKL112W" target="YDL116W"/>
+<edge source="YKL112W" target="YDL122W"/>
+<edge source="YKL112W" target="YDL159W"/>
+<edge source="YKL112W" target="YDL189W"/>
+<edge source="YKL112W" target="YDL208W"/>
+<edge source="YKL112W" target="YDR035W"/>
+<edge source="YKL112W" target="YDR130C"/>
+<edge source="YKL112W" target="YDR194C"/>
+<edge source="YKL112W" target="YDR234W"/>
+<edge source="YKL112W" target="YDR245W"/>
+<edge source="YKL112W" target="YDR283C"/>
+<edge source="YKL112W" target="YDR284C"/>
+<edge source="YKL112W" target="YDR296W"/>
+<edge source="YKL112W" target="YDR311W"/>
+<edge source="YKL112W" target="YDR312W"/>
+<edge source="YKL112W" target="YDR329C"/>
+<edge source="YKL112W" target="YDR339C"/>
+<edge source="YKL112W" target="YDR361C"/>
+<edge source="YKL112W" target="YDR365C"/>
+<edge source="YKL112W" target="YDR403W"/>
+<edge source="YKL112W" target="YDR404C"/>
+<edge source="YKL112W" target="YDR410C"/>
+<edge source="YKL112W" target="YDR454C"/>
+<edge source="YKL112W" target="YDR456W"/>
+<edge source="YKL112W" target="YDR463W"/>
+<edge source="YKL112W" target="YEL037C"/>
+<edge source="YKL112W" target="YER026C"/>
+<edge source="YKL112W" target="YFL017W-A"/>
+<edge source="YKL112W" target="YFL048C"/>
+<edge source="YKL112W" target="YFR010W"/>
+<edge source="YKL112W" target="YGL107C"/>
+<edge source="YKL112W" target="YGL192W"/>
+<edge source="YKL112W" target="YGL222C"/>
+<edge source="YKL112W" target="YGR055W"/>
+<edge source="YKL112W" target="YGR119C"/>
+<edge source="YKL112W" target="YGR128C"/>
+<edge source="YKL112W" target="YGR183C"/>
+<edge source="YKL112W" target="YGR186W"/>
+<edge source="YKL112W" target="YGR231C"/>
+<edge source="YKL112W" target="YGR270W"/>
+<edge source="YKL112W" target="YGR282C"/>
+<edge source="YKL112W" target="YHL028W"/>
+<edge source="YKL112W" target="YHR051W"/>
+<edge source="YKL112W" target="YHR064C"/>
+<edge source="YKL112W" target="YHR077C"/>
+<edge source="YKL112W" target="YHR090C"/>
+<edge source="YKL112W" target="YHR115C"/>
+<edge source="YKL112W" target="YHR162W"/>
+<edge source="YKL112W" target="YIL036W"/>
+<edge source="YKL112W" target="YIL037C"/>
+<edge source="YKL112W" target="YIL138C"/>
+<edge source="YKL112W" target="YIR023W"/>
+<edge source="YKL112W" target="YJL176C"/>
+<edge source="YKL112W" target="YJL201W"/>
+<edge source="YKL112W" target="YJR062C"/>
+<edge source="YKL112W" target="YJR093C"/>
+<edge source="YKL112W" target="YJR104C"/>
+<edge source="YKL112W" target="YJR116W"/>
+<edge source="YKL112W" target="YJR137C"/>
+<edge source="YKL112W" target="YKL007W"/>
+<edge source="YKL112W" target="YKL008C"/>
+<edge source="YKL112W" target="YKL015W"/>
+<edge source="YKL112W" target="YKL029C"/>
+<edge source="YKL112W" target="YKL060C"/>
+<edge source="YKL112W" target="YKL112W"/>
+<edge source="YKL112W" target="YKL144C"/>
+<edge source="YKL112W" target="YKL167C"/>
+<edge source="YKL112W" target="YKL172W"/>
+<edge source="YKL112W" target="YKL190W"/>
+<edge source="YKL112W" target="YKL196C"/>
+<edge source="YKL112W" target="YKR029C"/>
+<edge source="YKL112W" target="YKR030W"/>
+<edge source="YKL112W" target="YKR082W"/>
+<edge source="YKL112W" target="YLL034C"/>
+<edge source="YKL112W" target="YLL046C"/>
+<edge source="YKL112W" target="YLR024C"/>
+<edge source="YKL112W" target="YLR055C"/>
+<edge source="YKL112W" target="YLR192C"/>
+<edge source="YKL112W" target="YLR259C"/>
+<edge source="YKL112W" target="YLR292C"/>
+<edge source="YKL112W" target="YLR293C"/>
+<edge source="YKL112W" target="YLR330W"/>
+<edge source="YKL112W" target="YLR396C"/>
+<edge source="YKL112W" target="YML012W"/>
+<edge source="YKL112W" target="YML081C-A"/>
+<edge source="YKL112W" target="YMR005W"/>
+<edge source="YKL112W" target="YMR060C"/>
+<edge source="YKL112W" target="YMR092C"/>
+<edge source="YKL112W" target="YMR197C"/>
+<edge source="YKL112W" target="YMR260C"/>
+<edge source="YKL112W" target="YMR296C"/>
+<edge source="YKL112W" target="YNL036W"/>
+<edge source="YKL112W" target="YNL059C"/>
+<edge source="YKL112W" target="YNL119W"/>
+<edge source="YKL112W" target="YNL183C"/>
+<edge source="YKL112W" target="YNL244C"/>
+<edge source="YKL112W" target="YNL255C"/>
+<edge source="YKL112W" target="YNL258C"/>
+<edge source="YKL112W" target="YNL267W"/>
+<edge source="YKL112W" target="YNL287W"/>
+<edge source="YKL112W" target="YNL306W"/>
+<edge source="YKL112W" target="YNL312W"/>
+<edge source="YKL112W" target="YNL321W"/>
+<edge source="YKL112W" target="YNL322C"/>
+<edge source="YKL112W" target="YNR037C"/>
+<edge source="YKL112W" target="YOL068C"/>
+<edge source="YKL112W" target="YOL076W"/>
+<edge source="YKL112W" target="YOL104C"/>
+<edge source="YKL112W" target="YOL116W"/>
+<edge source="YKL112W" target="YOR027W"/>
+<edge source="YKL112W" target="YOR045W"/>
+<edge source="YKL112W" target="YOR057W"/>
+<edge source="YKL112W" target="YOR116C"/>
+<edge source="YKL112W" target="YOR205C"/>
+<edge source="YKL112W" target="YOR261C"/>
+<edge source="YKL112W" target="YPL013C"/>
+<edge source="YKL112W" target="YPL036W"/>
+<edge source="YKL112W" target="YPL159C"/>
+<edge source="YKL112W" target="YPL242C"/>
+<edge source="YKL112W" target="YPR017C"/>
+<edge source="YKL112W" target="YPR128C"/>
+<edge source="YKL112W" target="YPR178W"/>
+<edge source="YKR099W" target="YAL044C"/>
+<edge source="YKR099W" target="YAL060W"/>
+<edge source="YKR099W" target="YAR015W"/>
+<edge source="YKR099W" target="YCL030C"/>
+<edge source="YKR099W" target="YDR019C"/>
+<edge source="YKR099W" target="YDR408C"/>
+<edge source="YKR099W" target="YER091C"/>
+<edge source="YKR099W" target="YGL234W"/>
+<edge source="YKR099W" target="YGR204W"/>
+<edge source="YKR099W" target="YIL116W"/>
+<edge source="YKR099W" target="YKR080W"/>
+<edge source="YKR099W" target="YLR058C"/>
+<edge source="YKR099W" target="YLR359W"/>
+<edge source="YKR099W" target="YMR120C"/>
+<edge source="YKR099W" target="YMR189W"/>
+<edge source="YKR099W" target="YMR300C"/>
+<edge source="YKR099W" target="YOR128C"/>
+<edge source="YKR099W" target="YPL019C"/>
+<edge source="YLR013W" target="YMR325W"/>
+<edge source="YLR013W" target="YNR076W"/>
+<edge source="YLR098C" target="YCL064C"/>
+<edge source="YLR176C" target="YDL129W"/>
+<edge source="YLR176C" target="YER044C"/>
+<edge source="YLR176C" target="YGL096W"/>
+<edge source="YLR176C" target="YGR180C"/>
+<edge source="YLR176C" target="YHR094C"/>
+<edge source="YLR176C" target="YHR154W"/>
+<edge source="YLR176C" target="YIL066C"/>
+<edge source="YLR176C" target="YJL026W"/>
+<edge source="YLR176C" target="YJL213W"/>
+<edge source="YLR176C" target="YLR176C"/>
+<edge source="YLR176C" target="YMR279C"/>
+<edge source="YLR176C" target="YOR378W"/>
+<edge source="YLR176C" target="YPL189W"/>
+<edge source="YLR176C" target="YPR015C"/>
+<edge source="YLR182W" target="YKL096W"/>
+<edge source="YLR182W" target="YLR297W"/>
+<edge source="YLR182W" target="YLR299W"/>
+<edge source="YLR182W" target="YNL300W"/>
+<edge source="YLR182W" target="YNR044W"/>
+<edge source="YLR223C" target="YBL028C"/>
+<edge source="YLR223C" target="YBL093C"/>
+<edge source="YLR223C" target="YBR084C-A"/>
+<edge source="YLR223C" target="YBR085W"/>
+<edge source="YLR223C" target="YBR117C"/>
+<edge source="YLR223C" target="YBR190W"/>
+<edge source="YLR223C" target="YDR470C"/>
+<edge source="YLR223C" target="YDR471W"/>
+<edge source="YLR223C" target="YEL054C"/>
+<edge source="YLR223C" target="YER116C"/>
+<edge source="YLR223C" target="YER117W"/>
+<edge source="YLR223C" target="YGL103W"/>
+<edge source="YLR223C" target="YGL104C"/>
+<edge source="YLR223C" target="YGL135W"/>
+<edge source="YLR223C" target="YGL136C"/>
+<edge source="YLR223C" target="YGR033C"/>
+<edge source="YLR223C" target="YGR034W"/>
+<edge source="YLR223C" target="YGR117C"/>
+<edge source="YLR223C" target="YHR009C"/>
+<edge source="YLR223C" target="YHR141C"/>
+<edge source="YLR223C" target="YHR142W"/>
+<edge source="YLR223C" target="YHR203C"/>
+<edge source="YLR223C" target="YIL018W"/>
+<edge source="YLR223C" target="YIL069C"/>
+<edge source="YLR223C" target="YIL149C"/>
+<edge source="YLR223C" target="YJL135W"/>
+<edge source="YLR223C" target="YJL178C"/>
+<edge source="YLR223C" target="YKL006C-A"/>
+<edge source="YLR223C" target="YLR047C"/>
+<edge source="YLR223C" target="YLR407W"/>
+<edge source="YLR223C" target="YML025C"/>
+<edge source="YLR223C" target="YML064C"/>
+<edge source="YLR223C" target="YOL128C"/>
+<edge source="YLR223C" target="YOR184W"/>
+<edge source="YLR223C" target="YOR292C"/>
+<edge source="YLR223C" target="YOR293W"/>
+<edge source="YLR223C" target="YOR312C"/>
+<edge source="YLR223C" target="YPR131C"/>
+<edge source="YLR228C" target="YER044C"/>
+<edge source="YLR228C" target="YGL012W"/>
+<edge source="YLR228C" target="YLR056W"/>
+<edge source="YLR256W" target="YDR492W"/>
+<edge source="YLR256W" target="YEL034W"/>
+<edge source="YLR256W" target="YEL039C"/>
+<edge source="YLR256W" target="YER053C"/>
+<edge source="YLR256W" target="YGL055W"/>
+<edge source="YLR256W" target="YGR049W"/>
+<edge source="YLR256W" target="YGR234W"/>
+<edge source="YLR256W" target="YGR266W"/>
+<edge source="YLR256W" target="YJR048W"/>
+<edge source="YLR256W" target="YKL051W"/>
+<edge source="YLR256W" target="YKR046C"/>
+<edge source="YLR256W" target="YLR056W"/>
+<edge source="YLR256W" target="YLR142W"/>
+<edge source="YLR256W" target="YLR153C"/>
+<edge source="YLR256W" target="YLR205C"/>
+<edge source="YLR256W" target="YML054C"/>
+<edge source="YLR256W" target="YML075C"/>
+<edge source="YLR256W" target="YML126C"/>
+<edge source="YLR256W" target="YMR145C"/>
+<edge source="YLR256W" target="YMR220W"/>
+<edge source="YLR256W" target="YNL111C"/>
+<edge source="YLR256W" target="YNL231C"/>
+<edge source="YLR256W" target="YNR019W"/>
+<edge source="YLR256W" target="YNR041C"/>
+<edge source="YLR256W" target="YNR043W"/>
+<edge source="YLR256W" target="YNR060W"/>
+<edge source="YLR256W" target="YOR065W"/>
+<edge source="YLR256W" target="YOR348C"/>
+<edge source="YLR256W" target="YPR065W"/>
+<edge source="YLR266C" target="YGR281W"/>
+<edge source="YOR028C" target="YCR021C"/>
+<edge source="YOR028C" target="YLL007C"/>
+<edge source="YOR028C" target="YLR214W"/>
+<edge source="YOR028C" target="YOR382W"/>
+<edge source="YOR162C" target="YOR162C"/>
+<edge source="YOR162C" target="YOR188W"/>
+<edge source="YPL202C" target="YBR207W"/>
+<edge source="YPL202C" target="YDR270W"/>
+<edge source="YPL202C" target="YDR534C"/>
+<edge source="YPL202C" target="YEL012W"/>
+<edge source="YPL202C" target="YEL060C"/>
+<edge source="YPL202C" target="YER145C"/>
+<edge source="YPL202C" target="YFL041W"/>
+<edge source="YPL202C" target="YKL103C"/>
+<edge source="YPL202C" target="YKR052C"/>
+<edge source="YPL202C" target="YLR034C"/>
+<edge source="YPL202C" target="YLR136C"/>
+<edge source="YPL202C" target="YLR192C"/>
+<edge source="YPL202C" target="YLR214W"/>
+<edge source="YPL202C" target="YMR034C"/>
+<edge source="YPL202C" target="YMR041C"/>
+<edge source="YPL202C" target="YOR316C"/>
+<edge source="YPL202C" target="YOR383C"/>
+<edge source="YPL202C" target="YPL135W"/>
+<edge source="YML027W" target="YAR018C"/>
+<edge source="YML027W" target="YBR202W"/>
+<edge source="YML027W" target="YDR191W"/>
+<edge source="YML027W" target="YGL157W"/>
+<edge source="YML027W" target="YGR010W"/>
+<edge source="YML027W" target="YGR092W"/>
+<edge source="YML027W" target="YGR180C"/>
+<edge source="YML027W" target="YHR152W"/>
+<edge source="YML027W" target="YIL066C"/>
+<edge source="YML027W" target="YIL106W"/>
+<edge source="YML027W" target="YJL105W"/>
+<edge source="YML027W" target="YKL043W"/>
+<edge source="YML027W" target="YKR042W"/>
+<edge source="YML027W" target="YKR093W"/>
+<edge source="YML027W" target="YLR274W"/>
+<edge source="YML027W" target="YOR389W"/>
+<edge source="YML099C" target="YDL152W"/>
+<edge source="YML099C" target="YER069W"/>
+<edge source="YML099C" target="YJL088W"/>
+<edge source="YML099C" target="YOL058W"/>
+<edge source="YML099C" target="YOL140W"/>
+<edge source="YMR016C" target="YAL054C"/>
+<edge source="YMR016C" target="YAL062W"/>
+<edge source="YMR016C" target="YBL015W"/>
+<edge source="YMR016C" target="YBR067C"/>
+<edge source="YMR016C" target="YBR072W"/>
+<edge source="YMR016C" target="YBR169C"/>
+<edge source="YMR016C" target="YBR249C"/>
+<edge source="YMR016C" target="YCR021C"/>
+<edge source="YMR016C" target="YCR098C"/>
+<edge source="YMR016C" target="YDL021W"/>
+<edge source="YMR016C" target="YDL038C"/>
+<edge source="YMR016C" target="YDL048C"/>
+<edge source="YMR016C" target="YDR001C"/>
+<edge source="YMR016C" target="YDR043C"/>
+<edge source="YMR016C" target="YDR074W"/>
+<edge source="YMR016C" target="YDR077W"/>
+<edge source="YMR016C" target="YDR134C"/>
+<edge source="YMR016C" target="YDR309C"/>
+<edge source="YMR016C" target="YDR342C"/>
+<edge source="YMR016C" target="YDR384C"/>
+<edge source="YMR016C" target="YEL041W"/>
+<edge source="YMR016C" target="YER011W"/>
+<edge source="YMR016C" target="YER035W"/>
+<edge source="YMR016C" target="YER044C"/>
+<edge source="YMR016C" target="YER053C"/>
+<edge source="YMR016C" target="YER054C"/>
+<edge source="YMR016C" target="YER062C"/>
+<edge source="YMR016C" target="YER069W"/>
+<edge source="YMR016C" target="YER103W"/>
+<edge source="YMR016C" target="YER130C"/>
+<edge source="YMR016C" target="YER150W"/>
+<edge source="YMR016C" target="YFL014W"/>
+<edge source="YMR016C" target="YFR053C"/>
+<edge source="YMR016C" target="YGL028C"/>
+<edge source="YMR016C" target="YGL125W"/>
+<edge source="YMR016C" target="YGL158W"/>
+<edge source="YMR016C" target="YGR052W"/>
+<edge source="YMR016C" target="YGR088W"/>
+<edge source="YMR016C" target="YGR138C"/>
+<edge source="YMR016C" target="YGR146C"/>
+<edge source="YMR016C" target="YGR248W"/>
+<edge source="YMR016C" target="YGR249W"/>
+<edge source="YMR016C" target="YHL028W"/>
+<edge source="YMR016C" target="YHR022C"/>
+<edge source="YMR016C" target="YHR071W"/>
+<edge source="YMR016C" target="YHR096C"/>
+<edge source="YMR016C" target="YHR138C"/>
+<edge source="YMR016C" target="YIL011W"/>
+<edge source="YMR016C" target="YIL116W"/>
+<edge source="YMR016C" target="YIL117C"/>
+<edge source="YMR016C" target="YIR038C"/>
+<edge source="YMR016C" target="YJL079C"/>
+<edge source="YMR016C" target="YJR094C"/>
+<edge source="YMR016C" target="YKL043W"/>
+<edge source="YMR016C" target="YKL062W"/>
+<edge source="YMR016C" target="YKL096W"/>
+<edge source="YMR016C" target="YKL096W-A"/>
+<edge source="YMR016C" target="YKR039W"/>
+<edge source="YMR016C" target="YLL028W"/>
+<edge source="YMR016C" target="YLR042C"/>
+<edge source="YMR016C" target="YLR237W"/>
+<edge source="YMR016C" target="YML004C"/>
+<edge source="YMR016C" target="YML131W"/>
+<edge source="YMR016C" target="YMR016C"/>
+<edge source="YMR016C" target="YMR173W"/>
+<edge source="YMR016C" target="YMR195W"/>
+<edge source="YMR016C" target="YMR251W-A"/>
+<edge source="YMR016C" target="YMR305C"/>
+<edge source="YMR016C" target="YMR325W"/>
+<edge source="YMR016C" target="YNL015W"/>
+<edge source="YMR016C" target="YNL065W"/>
+<edge source="YMR016C" target="YNL160W"/>
+<edge source="YMR016C" target="YNL194C"/>
+<edge source="YMR016C" target="YOL052C-A"/>
+<edge source="YMR016C" target="YOL084W"/>
+<edge source="YMR016C" target="YOL086C"/>
+<edge source="YMR016C" target="YOL109W"/>
+<edge source="YMR016C" target="YOL151W"/>
+<edge source="YMR016C" target="YOR032C"/>
+<edge source="YMR016C" target="YOR062C"/>
+<edge source="YMR016C" target="YOR084W"/>
+<edge source="YMR016C" target="YOR107W"/>
+<edge source="YMR016C" target="YOR161C"/>
+<edge source="YMR016C" target="YOR173W"/>
+<edge source="YMR016C" target="YOR273C"/>
+<edge source="YMR016C" target="YOR317W"/>
+<edge source="YMR016C" target="YOR328W"/>
+<edge source="YMR016C" target="YOR344C"/>
+<edge source="YMR016C" target="YOR375C"/>
+<edge source="YMR016C" target="YPL017C"/>
+<edge source="YMR016C" target="YPL123C"/>
+<edge source="YMR016C" target="YPL230W"/>
+<edge source="YMR016C" target="YPR015C"/>
+<edge source="YMR016C" target="YPR156C"/>
+<edge source="YMR021C" target="YAR009C"/>
+<edge source="YMR021C" target="YBR296C"/>
+<edge source="YMR021C" target="YLR035C-A"/>
+<edge source="YMR021C" target="YLR411W"/>
+<edge source="YMR037C" target="YAL005C"/>
+<edge source="YMR037C" target="YAL038W"/>
+<edge source="YMR037C" target="YAL060W"/>
+<edge source="YMR037C" target="YBL029C-A"/>
+<edge source="YMR037C" target="YBR085W"/>
+<edge source="YMR037C" target="YBR244W"/>
+<edge source="YMR037C" target="YCL025C"/>
+<edge source="YMR037C" target="YCR005C"/>
+<edge source="YMR037C" target="YCR021C"/>
+<edge source="YMR037C" target="YDL022W"/>
+<edge source="YMR037C" target="YDL055C"/>
+<edge source="YMR037C" target="YDR032C"/>
+<edge source="YMR037C" target="YDR033W"/>
+<edge source="YMR037C" target="YDR171W"/>
+<edge source="YMR037C" target="YDR258C"/>
+<edge source="YMR037C" target="YDR259C"/>
+<edge source="YMR037C" target="YDR343C"/>
+<edge source="YMR037C" target="YDR354W"/>
+<edge source="YMR037C" target="YDR453C"/>
+<edge source="YMR037C" target="YDR510W"/>
+<edge source="YMR037C" target="YDR525W-A"/>
+<edge source="YMR037C" target="YEL007W"/>
+<edge source="YMR037C" target="YEL011W"/>
+<edge source="YMR037C" target="YER037W"/>
+<edge source="YMR037C" target="YER062C"/>
+<edge source="YMR037C" target="YER073W"/>
+<edge source="YMR037C" target="YFL014W"/>
+<edge source="YMR037C" target="YFL021W"/>
+<edge source="YMR037C" target="YFL022C"/>
+<edge source="YMR037C" target="YFR015C"/>
+<edge source="YMR037C" target="YGL037C"/>
+<edge source="YMR037C" target="YGR052W"/>
+<edge source="YMR037C" target="YGR088W"/>
+<edge source="YMR037C" target="YGR138C"/>
+<edge source="YMR037C" target="YGR142W"/>
+<edge source="YMR037C" target="YGR209C"/>
+<edge source="YMR037C" target="YGR254W"/>
+<edge source="YMR037C" target="YGR255C"/>
+<edge source="YMR037C" target="YHL028W"/>
+<edge source="YMR037C" target="YHR008C"/>
+<edge source="YMR037C" target="YHR048W"/>
+<edge source="YMR037C" target="YHR104W"/>
+<edge source="YMR037C" target="YIL053W"/>
+<edge source="YMR037C" target="YIL099W"/>
+<edge source="YMR037C" target="YIL119C"/>
+<edge source="YMR037C" target="YJL048C"/>
+<edge source="YMR037C" target="YJR104C"/>
+<edge source="YMR037C" target="YJR118C"/>
+<edge source="YMR037C" target="YKL035W"/>
+<edge source="YMR037C" target="YKL043W"/>
+<edge source="YMR037C" target="YKL085W"/>
+<edge source="YMR037C" target="YKL096W"/>
+<edge source="YMR037C" target="YKR052C"/>
+<edge source="YMR037C" target="YKR066C"/>
+<edge source="YMR037C" target="YKR067W"/>
+<edge source="YMR037C" target="YLL024C"/>
+<edge source="YMR037C" target="YLL026W"/>
+<edge source="YMR037C" target="YLR042C"/>
+<edge source="YMR037C" target="YLR108C"/>
+<edge source="YMR037C" target="YLR109W"/>
+<edge source="YMR037C" target="YLR158C"/>
+<edge source="YMR037C" target="YLR163C"/>
+<edge source="YMR037C" target="YLR178C"/>
+<edge source="YMR037C" target="YLR214W"/>
+<edge source="YMR037C" target="YLR258W"/>
+<edge source="YMR037C" target="YLR297W"/>
+<edge source="YMR037C" target="YLR300W"/>
+<edge source="YMR037C" target="YLR327C"/>
+<edge source="YMR037C" target="YLR401C"/>
+<edge source="YMR037C" target="YML100W"/>
+<edge source="YMR037C" target="YMR173W"/>
+<edge source="YMR037C" target="YMR173W-A"/>
+<edge source="YMR037C" target="YMR251W-A"/>
+<edge source="YMR037C" target="YMR315W"/>
+<edge source="YMR037C" target="YNL002C"/>
+<edge source="YMR037C" target="YNL065W"/>
+<edge source="YMR037C" target="YNL134C"/>
+<edge source="YMR037C" target="YNL144C"/>
+<edge source="YMR037C" target="YNL155W"/>
+<edge source="YMR037C" target="YNL160W"/>
+<edge source="YMR037C" target="YNR014W"/>
+<edge source="YMR037C" target="YOL052C-A"/>
+<edge source="YMR037C" target="YOL084W"/>
+<edge source="YMR037C" target="YOL157C"/>
+<edge source="YMR037C" target="YOR063W"/>
+<edge source="YMR037C" target="YOR178C"/>
+<edge source="YMR037C" target="YOR227W"/>
+<edge source="YMR037C" target="YPL061W"/>
+<edge source="YMR037C" target="YPL240C"/>
+<edge source="YMR037C" target="YPR063C"/>
+<edge source="YMR037C" target="YPR149W"/>
+<edge source="YMR037C" target="YPR160W"/>
+<edge source="YMR042W" target="YER069W"/>
+<edge source="YMR042W" target="YJL088W"/>
+<edge source="YMR042W" target="YOL140W"/>
+<edge source="YMR042W" target="YOR302W"/>
+<edge source="YMR042W" target="YOR303W"/>
+<edge source="YMR043W" target="YAL023C"/>
+<edge source="YMR043W" target="YAL040C"/>
+<edge source="YMR043W" target="YAR018C"/>
+<edge source="YMR043W" target="YBR038W"/>
+<edge source="YMR043W" target="YBR078W"/>
+<edge source="YMR043W" target="YBR092C"/>
+<edge source="YMR043W" target="YBR093C"/>
+<edge source="YMR043W" target="YBR202W"/>
+<edge source="YMR043W" target="YCL055W"/>
+<edge source="YMR043W" target="YDR146C"/>
+<edge source="YMR043W" target="YDR294C"/>
+<edge source="YMR043W" target="YER070W"/>
+<edge source="YMR043W" target="YER110C"/>
+<edge source="YMR043W" target="YER150W"/>
+<edge source="YMR043W" target="YER159C"/>
+<edge source="YMR043W" target="YFL014W"/>
+<edge source="YMR043W" target="YFL027C"/>
+<edge source="YMR043W" target="YFL028C"/>
+<edge source="YMR043W" target="YGL021W"/>
+<edge source="YMR043W" target="YGR014W"/>
+<edge source="YMR043W" target="YGR078C"/>
+<edge source="YMR043W" target="YGR108W"/>
+<edge source="YMR043W" target="YGR126W"/>
+<edge source="YMR043W" target="YGR143W"/>
+<edge source="YMR043W" target="YGR189C"/>
+<edge source="YMR043W" target="YHL008C"/>
+<edge source="YMR043W" target="YHL025W"/>
+<edge source="YMR043W" target="YIL015W"/>
+<edge source="YMR043W" target="YIL070C"/>
+<edge source="YMR043W" target="YIL123W"/>
+<edge source="YMR043W" target="YJL158C"/>
+<edge source="YMR043W" target="YKL040C"/>
+<edge source="YMR043W" target="YKL163W"/>
+<edge source="YMR043W" target="YKL164C"/>
+<edge source="YMR043W" target="YKL186C"/>
+<edge source="YMR043W" target="YLR056W"/>
+<edge source="YMR043W" target="YML052W"/>
+<edge source="YMR043W" target="YML120C"/>
+<edge source="YMR043W" target="YMR031C"/>
+<edge source="YMR043W" target="YMR123W"/>
+<edge source="YMR043W" target="YNL058C"/>
+<edge source="YMR043W" target="YNL160W"/>
+<edge source="YMR043W" target="YNL327W"/>
+<edge source="YMR043W" target="YNL339C"/>
+<edge source="YMR043W" target="YOL011W"/>
+<edge source="YMR043W" target="YOL012C"/>
+<edge source="YMR043W" target="YOR022C"/>
+<edge source="YMR043W" target="YOR094W"/>
+<edge source="YMR043W" target="YOR315W"/>
+<edge source="YMR043W" target="YOR340C"/>
+<edge source="YMR043W" target="YOR344C"/>
+<edge source="YMR043W" target="YOR388C"/>
+<edge source="YMR043W" target="YPR119W"/>
+<edge source="YMR070W" target="YGL255W"/>
+<edge source="YMR070W" target="YIL099W"/>
+<edge source="YMR070W" target="YOL084W"/>
+<edge source="YMR172W" target="YDL022W"/>
+<edge source="YMR172W" target="YDR536W"/>
+<edge source="YMR172W" target="YER062C"/>
+<edge source="YMR172W" target="YGR043C"/>
+<edge source="YMR172W" target="YGR052W"/>
+<edge source="YMR172W" target="YHR087W"/>
+<edge source="YNL027W" target="YAL028W"/>
+<edge source="YNL027W" target="YCR105W"/>
+<edge source="YNL027W" target="YDL248W"/>
+<edge source="YNL027W" target="YDR040C"/>
+<edge source="YNL027W" target="YGL253W"/>
+<edge source="YNL027W" target="YLR162W"/>
+<edge source="YNL027W" target="YMR083W"/>
+<edge source="YNL068C" target="YBR038W"/>
+<edge source="YNL068C" target="YBR158W"/>
+<edge source="YNL068C" target="YDR146C"/>
+<edge source="YNL068C" target="YDR309C"/>
+<edge source="YNL068C" target="YER124C"/>
+<edge source="YNL068C" target="YGL021W"/>
+<edge source="YNL068C" target="YGL116W"/>
+<edge source="YNL068C" target="YGR108W"/>
+<edge source="YNL068C" target="YHR143W"/>
+<edge source="YNL068C" target="YIL158W"/>
+<edge source="YNL068C" target="YJR092W"/>
+<edge source="YNL068C" target="YLR131C"/>
+<edge source="YNL068C" target="YLR190W"/>
+<edge source="YNL068C" target="YLR286C"/>
+<edge source="YNL068C" target="YML034W"/>
+<edge source="YNL068C" target="YML052W"/>
+<edge source="YNL068C" target="YMR032W"/>
+<edge source="YNL068C" target="YNL058C"/>
+<edge source="YNL068C" target="YNL068C"/>
+<edge source="YNL068C" target="YOR315W"/>
+<edge source="YNL068C" target="YPL141C"/>
+<edge source="YNL068C" target="YPL155C"/>
+<edge source="YNL068C" target="YPL242C"/>
+<edge source="YNL068C" target="YPR119W"/>
+<edge source="YNL167C" target="YGR144W"/>
+<edge source="YNL167C" target="YKL096W"/>
+<edge source="YNL167C" target="YKR093W"/>
+<edge source="YNL167C" target="YML131W"/>
+<edge source="YNL167C" target="YNR060W"/>
+<edge source="YNL167C" target="YOL151W"/>
+<edge source="YNL199C" target="YAL038W"/>
+<edge source="YNL199C" target="YBR135W"/>
+<edge source="YNL199C" target="YBR145W"/>
+<edge source="YNL199C" target="YBR196C"/>
+<edge source="YNL199C" target="YDR179C"/>
+<edge source="YNL199C" target="YDR510W"/>
+<edge source="YNL199C" target="YGR192C"/>
+<edge source="YNL199C" target="YGR240C"/>
+<edge source="YNL199C" target="YHR174W"/>
+<edge source="YNL199C" target="YJL194W"/>
+<edge source="YNL199C" target="YJR009C"/>
+<edge source="YNL199C" target="YKL060C"/>
+<edge source="YNL199C" target="YKL152C"/>
+<edge source="YNL199C" target="YMR205C"/>
+<edge source="YNL199C" target="YMR206W"/>
+<edge source="YNL199C" target="YOL086C"/>
+<edge source="YNL199C" target="YOR344C"/>
+<edge source="YNL216W" target="YAL003W"/>
+<edge source="YNL216W" target="YAL018C"/>
+<edge source="YNL216W" target="YAL038W"/>
+<edge source="YNL216W" target="YAL068C"/>
+<edge source="YNL216W" target="YAR075W"/>
+<edge source="YNL216W" target="YBL022C"/>
+<edge source="YNL216W" target="YBL027W"/>
+<edge source="YNL216W" target="YBL043W"/>
+<edge source="YNL216W" target="YBL049W"/>
+<edge source="YNL216W" target="YBL072C"/>
+<edge source="YNL216W" target="YBL075C"/>
+<edge source="YNL216W" target="YBL082C"/>
+<edge source="YNL216W" target="YBL087C"/>
+<edge source="YNL216W" target="YBL092W"/>
+<edge source="YNL216W" target="YBR031W"/>
+<edge source="YNL216W" target="YBR033W"/>
+<edge source="YNL216W" target="YBR048W"/>
+<edge source="YNL216W" target="YBR084C-A"/>
+<edge source="YNL216W" target="YBR085W"/>
+<edge source="YNL216W" target="YBR105C"/>
+<edge source="YNL216W" target="YBR106W"/>
+<edge source="YNL216W" target="YBR118W"/>
+<edge source="YNL216W" target="YBR121C"/>
+<edge source="YNL216W" target="YBR189W"/>
+<edge source="YNL216W" target="YBR191W"/>
+<edge source="YNL216W" target="YBR196C"/>
+<edge source="YNL216W" target="YBR296C"/>
+<edge source="YNL216W" target="YCL030C"/>
+<edge source="YNL216W" target="YCL040W"/>
+<edge source="YNL216W" target="YCL043C"/>
+<edge source="YNL216W" target="YCR012W"/>
+<edge source="YNL216W" target="YCR024C-A"/>
+<edge source="YNL216W" target="YCR031C"/>
+<edge source="YNL216W" target="YCR069W"/>
+<edge source="YNL216W" target="YCR104W"/>
+<edge source="YNL216W" target="YDL021W"/>
+<edge source="YNL216W" target="YDL022W"/>
+<edge source="YNL216W" target="YDL061C"/>
+<edge source="YNL216W" target="YDL075W"/>
+<edge source="YNL216W" target="YDL081C"/>
+<edge source="YNL216W" target="YDL082W"/>
+<edge source="YNL216W" target="YDL130W"/>
+<edge source="YNL216W" target="YDL133C-A"/>
+<edge source="YNL216W" target="YDL188C"/>
+<edge source="YNL216W" target="YDR012W"/>
+<edge source="YNL216W" target="YDR050C"/>
+<edge source="YNL216W" target="YDR062W"/>
+<edge source="YNL216W" target="YDR064W"/>
+<edge source="YNL216W" target="YDR155C"/>
+<edge source="YNL216W" target="YDR186C"/>
+<edge source="YNL216W" target="YDR276C"/>
+<edge source="YNL216W" target="YDR300C"/>
+<edge source="YNL216W" target="YDR309C"/>
+<edge source="YNL216W" target="YDR316W-B"/>
+<edge source="YNL216W" target="YDR382W"/>
+<edge source="YNL216W" target="YDR388W"/>
+<edge source="YNL216W" target="YDR418W"/>
+<edge source="YNL216W" target="YDR447C"/>
+<edge source="YNL216W" target="YDR449C"/>
+<edge source="YNL216W" target="YDR450W"/>
+<edge source="YNL216W" target="YDR451C"/>
+<edge source="YNL216W" target="YDR471W"/>
+<edge source="YNL216W" target="YDR500C"/>
+<edge source="YNL216W" target="YDR542W"/>
+<edge source="YNL216W" target="YEL022W"/>
+<edge source="YNL216W" target="YEL034W"/>
+<edge source="YNL216W" target="YEL046C"/>
+<edge source="YNL216W" target="YEL054C"/>
+<edge source="YNL216W" target="YER028C"/>
+<edge source="YNL216W" target="YER032W"/>
+<edge source="YNL216W" target="YER056C-A"/>
+<edge source="YNL216W" target="YER057C"/>
+<edge source="YNL216W" target="YER073W"/>
+<edge source="YNL216W" target="YER081W"/>
+<edge source="YNL216W" target="YER091C"/>
+<edge source="YNL216W" target="YER102W"/>
+<edge source="YNL216W" target="YER116C"/>
+<edge source="YNL216W" target="YER117W"/>
+<edge source="YNL216W" target="YER131W"/>
+<edge source="YNL216W" target="YFL013C"/>
+<edge source="YNL216W" target="YFL014W"/>
+<edge source="YNL216W" target="YFL021W"/>
+<edge source="YNL216W" target="YFL022C"/>
+<edge source="YNL216W" target="YFL034C-A"/>
+<edge source="YNL216W" target="YFR031C-A"/>
+<edge source="YNL216W" target="YFR032C-A"/>
+<edge source="YNL216W" target="YGL008C"/>
+<edge source="YNL216W" target="YGL030W"/>
+<edge source="YNL216W" target="YGL031C"/>
+<edge source="YNL216W" target="YGL076C"/>
+<edge source="YNL216W" target="YGL084C"/>
+<edge source="YNL216W" target="YGL103W"/>
+<edge source="YNL216W" target="YGL104C"/>
+<edge source="YNL216W" target="YGL123W"/>
+<edge source="YNL216W" target="YGL135W"/>
+<edge source="YNL216W" target="YGL145W"/>
+<edge source="YNL216W" target="YGL147C"/>
+<edge source="YNL216W" target="YGL188C"/>
+<edge source="YNL216W" target="YGL189C"/>
+<edge source="YNL216W" target="YGL208W"/>
+<edge source="YNL216W" target="YGL261C"/>
+<edge source="YNL216W" target="YGR027C"/>
+<edge source="YNL216W" target="YGR032W"/>
+<edge source="YNL216W" target="YGR033C"/>
+<edge source="YNL216W" target="YGR034W"/>
+<edge source="YNL216W" target="YGR043C"/>
+<edge source="YNL216W" target="YGR085C"/>
+<edge source="YNL216W" target="YGR086C"/>
+<edge source="YNL216W" target="YGR118W"/>
+<edge source="YNL216W" target="YGR143W"/>
+<edge source="YNL216W" target="YGR148C"/>
+<edge source="YNL216W" target="YGR157W"/>
+<edge source="YNL216W" target="YGR176W"/>
+<edge source="YNL216W" target="YGR180C"/>
+<edge source="YNL216W" target="YGR192C"/>
+<edge source="YNL216W" target="YGR214W"/>
+<edge source="YNL216W" target="YGR234W"/>
+<edge source="YNL216W" target="YGR240C"/>
+<edge source="YNL216W" target="YGR248W"/>
+<edge source="YNL216W" target="YGR254W"/>
+<edge source="YNL216W" target="YGR260W"/>
+<edge source="YNL216W" target="YHL001W"/>
+<edge source="YNL216W" target="YHL015W"/>
+<edge source="YNL216W" target="YHL032C"/>
+<edge source="YNL216W" target="YHL033C"/>
+<edge source="YNL216W" target="YHR010W"/>
+<edge source="YNL216W" target="YHR033W"/>
+<edge source="YNL216W" target="YHR037W"/>
+<edge source="YNL216W" target="YHR096C"/>
+<edge source="YNL216W" target="YHR141C"/>
+<edge source="YNL216W" target="YHR183W"/>
+<edge source="YNL216W" target="YHR203C"/>
+<edge source="YNL216W" target="YHR204W"/>
+<edge source="YNL216W" target="YHR216W"/>
+<edge source="YNL216W" target="YIL018W"/>
+<edge source="YNL216W" target="YIL051C"/>
+<edge source="YNL216W" target="YIL052C"/>
+<edge source="YNL216W" target="YIL053W"/>
+<edge source="YNL216W" target="YIL066C"/>
+<edge source="YNL216W" target="YIL069C"/>
+<edge source="YNL216W" target="YIL099W"/>
+<edge source="YNL216W" target="YIL121W"/>
+<edge source="YNL216W" target="YIL133C"/>
+<edge source="YNL216W" target="YIL148W"/>
+<edge source="YNL216W" target="YIL158W"/>
+<edge source="YNL216W" target="YIR019C"/>
+<edge source="YNL216W" target="YIR042C"/>
+<edge source="YNL216W" target="YJL026W"/>
+<edge source="YNL216W" target="YJL045W"/>
+<edge source="YNL216W" target="YJL078C"/>
+<edge source="YNL216W" target="YJL079C"/>
+<edge source="YNL216W" target="YJL088W"/>
+<edge source="YNL216W" target="YJL116C"/>
+<edge source="YNL216W" target="YJL134W"/>
+<edge source="YNL216W" target="YJL136C"/>
+<edge source="YNL216W" target="YJL158C"/>
+<edge source="YNL216W" target="YJL177W"/>
+<edge source="YNL216W" target="YJL190C"/>
+<edge source="YNL216W" target="YJL191W"/>
+<edge source="YNL216W" target="YJL200C"/>
+<edge source="YNL216W" target="YJR009C"/>
+<edge source="YNL216W" target="YJR025C"/>
+<edge source="YNL216W" target="YJR048W"/>
+<edge source="YNL216W" target="YJR059W"/>
+<edge source="YNL216W" target="YJR073C"/>
+<edge source="YNL216W" target="YJR074W"/>
+<edge source="YNL216W" target="YJR094C"/>
+<edge source="YNL216W" target="YJR094W-A"/>
+<edge source="YNL216W" target="YJR123W"/>
+<edge source="YNL216W" target="YJR132W"/>
+<edge source="YNL216W" target="YJR139C"/>
+<edge source="YNL216W" target="YJR145C"/>
+<edge source="YNL216W" target="YJR147W"/>
+<edge source="YNL216W" target="YJR151C"/>
+<edge source="YNL216W" target="YKL006W"/>
+<edge source="YNL216W" target="YKL017C"/>
+<edge source="YNL216W" target="YKL029C"/>
+<edge source="YNL216W" target="YKL030W"/>
+<edge source="YNL216W" target="YKL033W-A"/>
+<edge source="YNL216W" target="YKL060C"/>
+<edge source="YNL216W" target="YKL062W"/>
+<edge source="YNL216W" target="YKL081W"/>
+<edge source="YNL216W" target="YKL084W"/>
+<edge source="YNL216W" target="YKL151C"/>
+<edge source="YNL216W" target="YKL152C"/>
+<edge source="YNL216W" target="YKL156W"/>
+<edge source="YNL216W" target="YKL177W"/>
+<edge source="YNL216W" target="YKL180W"/>
+<edge source="YNL216W" target="YKL182W"/>
+<edge source="YNL216W" target="YKR057W"/>
+<edge source="YNL216W" target="YKR092C"/>
+<edge source="YNL216W" target="YKR094C"/>
+<edge source="YNL216W" target="YLL045C"/>
+<edge source="YNL216W" target="YLL055W"/>
+<edge source="YNL216W" target="YLL067C"/>
+<edge source="YNL216W" target="YLR003C"/>
+<edge source="YNL216W" target="YLR004C"/>
+<edge source="YNL216W" target="YLR005W"/>
+<edge source="YNL216W" target="YLR029C"/>
+<edge source="YNL216W" target="YLR044C"/>
+<edge source="YNL216W" target="YLR048W"/>
+<edge source="YNL216W" target="YLR061W"/>
+<edge source="YNL216W" target="YLR075W"/>
+<edge source="YNL216W" target="YLR076C"/>
+<edge source="YNL216W" target="YLR104W"/>
+<edge source="YNL216W" target="YLR110C"/>
+<edge source="YNL216W" target="YLR162W"/>
+<edge source="YNL216W" target="YLR167W"/>
+<edge source="YNL216W" target="YLR179C"/>
+<edge source="YNL216W" target="YLR185W"/>
+<edge source="YNL216W" target="YLR214W"/>
+<edge source="YNL216W" target="YLR231C"/>
+<edge source="YNL216W" target="YLR264W"/>
+<edge source="YNL216W" target="YLR286C"/>
+<edge source="YNL216W" target="YLR287C-A"/>
+<edge source="YNL216W" target="YLR303W"/>
+<edge source="YNL216W" target="YLR325C"/>
+<edge source="YNL216W" target="YLR333C"/>
+<edge source="YNL216W" target="YLR335W"/>
+<edge source="YNL216W" target="YLR339C"/>
+<edge source="YNL216W" target="YLR340W"/>
+<edge source="YNL216W" target="YLR344W"/>
+<edge source="YNL216W" target="YLR367W"/>
+<edge source="YNL216W" target="YLR388W"/>
+<edge source="YNL216W" target="YLR390W-A"/>
+<edge source="YNL216W" target="YLR438W"/>
+<edge source="YNL216W" target="YLR441C"/>
+<edge source="YNL216W" target="YLR448W"/>
+<edge source="YNL216W" target="YLR452C"/>
+<edge source="YNL216W" target="YML024W"/>
+<edge source="YNL216W" target="YML053C"/>
+<edge source="YNL216W" target="YML063W"/>
+<edge source="YNL216W" target="YML073C"/>
+<edge source="YNL216W" target="YML123C"/>
+<edge source="YNL216W" target="YML126C"/>
+<edge source="YNL216W" target="YMR015C"/>
+<edge source="YNL216W" target="YMR026C"/>
+<edge source="YNL216W" target="YMR027W"/>
+<edge source="YNL216W" target="YMR092C"/>
+<edge source="YNL216W" target="YMR116C"/>
+<edge source="YNL216W" target="YMR121C"/>
+<edge source="YNL216W" target="YMR142C"/>
+<edge source="YNL216W" target="YMR205C"/>
+<edge source="YNL216W" target="YMR242C"/>
+<edge source="YNL216W" target="YMR243C"/>
+<edge source="YNL216W" target="YNL010W"/>
+<edge source="YNL216W" target="YNL024C"/>
+<edge source="YNL216W" target="YNL066W"/>
+<edge source="YNL216W" target="YNL067W"/>
+<edge source="YNL216W" target="YNL069C"/>
+<edge source="YNL216W" target="YNL096C"/>
+<edge source="YNL216W" target="YNL101W"/>
+<edge source="YNL216W" target="YNL142W"/>
+<edge source="YNL216W" target="YNL144C"/>
+<edge source="YNL216W" target="YNL158W"/>
+<edge source="YNL216W" target="YNL162W"/>
+<edge source="YNL216W" target="YNL216W"/>
+<edge source="YNL216W" target="YNL288W"/>
+<edge source="YNL216W" target="YNL300W"/>
+<edge source="YNL216W" target="YNL301C"/>
+<edge source="YNL216W" target="YNL302C"/>
+<edge source="YNL216W" target="YNL327W"/>
+<edge source="YNL216W" target="YNR043W"/>
+<edge source="YNL216W" target="YOL039W"/>
+<edge source="YNL216W" target="YOL040C"/>
+<edge source="YNL216W" target="YOL041C"/>
+<edge source="YNL216W" target="YOL052C-A"/>
+<edge source="YNL216W" target="YOL059W"/>
+<edge source="YNL216W" target="YOL060C"/>
+<edge source="YNL216W" target="YOL086C"/>
+<edge source="YNL216W" target="YOL109W"/>
+<edge source="YNL216W" target="YOL119C"/>
+<edge source="YNL216W" target="YOL120C"/>
+<edge source="YNL216W" target="YOL121C"/>
+<edge source="YNL216W" target="YOL127W"/>
+<edge source="YNL216W" target="YOL128C"/>
+<edge source="YNL216W" target="YOL136C"/>
+<edge source="YNL216W" target="YOL161C"/>
+<edge source="YNL216W" target="YOR009W"/>
+<edge source="YNL216W" target="YOR063W"/>
+<edge source="YNL216W" target="YOR096W"/>
+<edge source="YNL216W" target="YOR234C"/>
+<edge source="YNL216W" target="YOR247W"/>
+<edge source="YNL216W" target="YOR292C"/>
+<edge source="YNL216W" target="YOR293W"/>
+<edge source="YNL216W" target="YOR298C-A"/>
+<edge source="YNL216W" target="YOR302W"/>
+<edge source="YNL216W" target="YOR303W"/>
+<edge source="YNL216W" target="YOR312C"/>
+<edge source="YNL216W" target="YOR315W"/>
+<edge source="YNL216W" target="YOR338W"/>
+<edge source="YNL216W" target="YOR355W"/>
+<edge source="YNL216W" target="YOR365C"/>
+<edge source="YNL216W" target="YOR367W"/>
+<edge source="YNL216W" target="YOR369C"/>
+<edge source="YNL216W" target="YOR374W"/>
+<edge source="YNL216W" target="YOR382W"/>
+<edge source="YNL216W" target="YPL079W"/>
+<edge source="YNL216W" target="YPL081W"/>
+<edge source="YNL216W" target="YPL090C"/>
+<edge source="YNL216W" target="YPL131W"/>
+<edge source="YNL216W" target="YPL136W"/>
+<edge source="YNL216W" target="YPL143W"/>
+<edge source="YNL216W" target="YPL145C"/>
+<edge source="YNL216W" target="YPL162C"/>
+<edge source="YNL216W" target="YPL171C"/>
+<edge source="YNL216W" target="YPL189W"/>
+<edge source="YNL216W" target="YPL197C"/>
+<edge source="YNL216W" target="YPL198W"/>
+<edge source="YNL216W" target="YPL199C"/>
+<edge source="YNL216W" target="YPL220W"/>
+<edge source="YNL216W" target="YPL226W"/>
+<edge source="YNL216W" target="YPL231W"/>
+<edge source="YNL216W" target="YPL249C-A"/>
+<edge source="YNL216W" target="YPL250C"/>
+<edge source="YNL216W" target="YPR030W"/>
+<edge source="YNL216W" target="YPR043W"/>
+<edge source="YNL216W" target="YPR080W"/>
+<edge source="YNL216W" target="YPR102C"/>
+<edge source="YNL216W" target="YPR110C"/>
+<edge source="YNL314W" target="YLR438W"/>
+<edge source="YOL028C" target="YGR234W"/>
+<edge source="YOL028C" target="YOL028C"/>
+<edge source="YOL108C" target="YBL043W"/>
+<edge source="YOL108C" target="YCR098C"/>
+<edge source="YOL108C" target="YDR277C"/>
+<edge source="YOL108C" target="YDR343C"/>
+<edge source="YOL108C" target="YEL073C"/>
+<edge source="YOL108C" target="YFL014W"/>
+<edge source="YOL108C" target="YFR053C"/>
+<edge source="YOL108C" target="YJL153C"/>
+<edge source="YOL108C" target="YJR073C"/>
+<edge source="YOL108C" target="YOL108C"/>
+<edge source="YOR113W" target="YDL037C"/>
+<edge source="YOR172W" target="YDR011W"/>
+<edge source="YOR172W" target="YGR224W"/>
+<edge source="YOR172W" target="YGR281W"/>
+<edge source="YOR172W" target="YLR346C"/>
+<edge source="YOR172W" target="YPL088W"/>
+<edge source="YOR380W" target="YOR378W"/>
+<edge source="YPL038W" target="YBL029W"/>
+<edge source="YPL038W" target="YGL184C"/>
+<edge source="YPL038W" target="YHL036W"/>
+<edge source="YPL038W" target="YPR167C"/>
+<edge source="YPL049C" target="YCL027W"/>
+<edge source="YPL049C" target="YFL026W"/>
+<edge source="YPL049C" target="YHR005C"/>
+<edge source="YPL049C" target="YIL015W"/>
+<edge source="YPL049C" target="YLR452C"/>
+<edge source="YPL075W" target="YAL038W"/>
+<edge source="YPL075W" target="YAR009C"/>
+<edge source="YPL075W" target="YBR196C"/>
+<edge source="YPL075W" target="YDR050C"/>
+<edge source="YPL075W" target="YDR418W"/>
+<edge source="YPL075W" target="YDR471W"/>
+<edge source="YPL075W" target="YER117W"/>
+<edge source="YPL075W" target="YER177W"/>
+<edge source="YPL075W" target="YGL012W"/>
+<edge source="YPL075W" target="YGR026W"/>
+<edge source="YPL075W" target="YGR038C-A"/>
+<edge source="YPL075W" target="YGR192C"/>
+<edge source="YPL075W" target="YGR214W"/>
+<edge source="YPL075W" target="YHL034C"/>
+<edge source="YPL075W" target="YKL152C"/>
+<edge source="YPL075W" target="YKL196C"/>
+<edge source="YPL075W" target="YLR044C"/>
+<edge source="YPL075W" target="YOL086C"/>
+<edge source="YPL075W" target="YOL121C"/>
+<edge source="YPL075W" target="YOR063W"/>
+<edge source="YPL089C" target="YDR077W"/>
+<edge source="YPL089C" target="YDR085C"/>
+<edge source="YPL089C" target="YDR309C"/>
+<edge source="YPL089C" target="YGR189C"/>
+<edge source="YPL089C" target="YGR218W"/>
+<edge source="YPL089C" target="YJL107C"/>
+<edge source="YPL089C" target="YJL108C"/>
+<edge source="YPL089C" target="YJL158C"/>
+<edge source="YPL089C" target="YJL159W"/>
+<edge source="YPL089C" target="YKL096W"/>
+<edge source="YPL089C" target="YKL096W-A"/>
+<edge source="YPL089C" target="YKL161C"/>
+<edge source="YPL089C" target="YKR091W"/>
+<edge source="YPL089C" target="YLR300W"/>
+<edge source="YPL089C" target="YLR342W"/>
+<edge source="YPL089C" target="YLR390W"/>
+<edge source="YPL089C" target="YLR390W-A"/>
+<edge source="YPL133C" target="YNL065W"/>
+<edge source="YPR104C" target="YBL027W"/>
+<edge source="YPR104C" target="YBL028C"/>
+<edge source="YPR104C" target="YBL087C"/>
+<edge source="YPR104C" target="YBL092W"/>
+<edge source="YPR104C" target="YBL093C"/>
+<edge source="YPR104C" target="YBR048W"/>
+<edge source="YPR104C" target="YBR085W"/>
+<edge source="YPR104C" target="YBR181C"/>
+<edge source="YPR104C" target="YBR189W"/>
+<edge source="YPR104C" target="YBR190W"/>
+<edge source="YPR104C" target="YBR191W"/>
+<edge source="YPR104C" target="YBR208C"/>
+<edge source="YPR104C" target="YBR209W"/>
+<edge source="YPR104C" target="YBR214W"/>
+<edge source="YPR104C" target="YDL060W"/>
+<edge source="YPR104C" target="YDL061C"/>
+<edge source="YPR104C" target="YDL075W"/>
+<edge source="YPR104C" target="YDL082W"/>
+<edge source="YPR104C" target="YDL083C"/>
+<edge source="YPR104C" target="YDL130W"/>
+<edge source="YPR104C" target="YDL133C-A"/>
+<edge source="YPR104C" target="YDL133W"/>
+<edge source="YPR104C" target="YDL191W"/>
+<edge source="YPR104C" target="YDR064W"/>
+<edge source="YPR104C" target="YDR418W"/>
+<edge source="YPR104C" target="YDR449C"/>
+<edge source="YPR104C" target="YDR450W"/>
+<edge source="YPR104C" target="YDR470C"/>
+<edge source="YPR104C" target="YDR471W"/>
+<edge source="YPR104C" target="YEL054C"/>
+<edge source="YPR104C" target="YER074W"/>
+<edge source="YPR104C" target="YER101C"/>
+<edge source="YPR104C" target="YER102W"/>
+<edge source="YPR104C" target="YER116C"/>
+<edge source="YPR104C" target="YER117W"/>
+<edge source="YPR104C" target="YER130C"/>
+<edge source="YPR104C" target="YER131W"/>
+<edge source="YPR104C" target="YGL103W"/>
+<edge source="YPR104C" target="YGL104C"/>
+<edge source="YPR104C" target="YGL135W"/>
+<edge source="YPR104C" target="YGL136C"/>
+<edge source="YPR104C" target="YGL147C"/>
+<edge source="YPR104C" target="YGL189C"/>
+<edge source="YPR104C" target="YGR033C"/>
+<edge source="YPR104C" target="YGR034W"/>
+<edge source="YPR104C" target="YGR086C"/>
+<edge source="YPR104C" target="YGR117C"/>
+<edge source="YPR104C" target="YGR118W"/>
+<edge source="YPR104C" target="YGR148C"/>
+<edge source="YPR104C" target="YGR149W"/>
+<edge source="YPR104C" target="YHL001W"/>
+<edge source="YPR104C" target="YHR010W"/>
+<edge source="YPR104C" target="YHR021C"/>
+<edge source="YPR104C" target="YHR141C"/>
+<edge source="YPR104C" target="YHR142W"/>
+<edge source="YPR104C" target="YHR203C"/>
+<edge source="YPR104C" target="YHR204W"/>
+<edge source="YPR104C" target="YIL018W"/>
+<edge source="YPR104C" target="YIL052C"/>
+<edge source="YPR104C" target="YIL133C"/>
+<edge source="YPR104C" target="YIL148W"/>
+<edge source="YPR104C" target="YIL149C"/>
+<edge source="YPR104C" target="YJL134W"/>
+<edge source="YPR104C" target="YJL135W"/>
+<edge source="YPR104C" target="YJL136C"/>
+<edge source="YPR104C" target="YJL177W"/>
+<edge source="YPR104C" target="YJL178C"/>
+<edge source="YPR104C" target="YJL189W"/>
+<edge source="YPR104C" target="YJL190C"/>
+<edge source="YPR104C" target="YJL191W"/>
+<edge source="YPR104C" target="YJL192C"/>
+<edge source="YPR104C" target="YJR123W"/>
+<edge source="YPR104C" target="YJR145C"/>
+<edge source="YPR104C" target="YJR146W"/>
+<edge source="YPR104C" target="YJR147W"/>
+<edge source="YPR104C" target="YKL006W"/>
+<edge source="YPR104C" target="YKL156W"/>
+<edge source="YPR104C" target="YKL180W"/>
+<edge source="YPR104C" target="YLR029C"/>
+<edge source="YPR104C" target="YLR030W"/>
+<edge source="YPR104C" target="YLR047C"/>
+<edge source="YPR104C" target="YLR048W"/>
+<edge source="YPR104C" target="YLR061W"/>
+<edge source="YPR104C" target="YLR075W"/>
+<edge source="YPR104C" target="YLR166C"/>
+<edge source="YPR104C" target="YLR167W"/>
+<edge source="YPR104C" target="YLR185W"/>
+<edge source="YPR104C" target="YLR333C"/>
+<edge source="YPR104C" target="YLR340W"/>
+<edge source="YPR104C" target="YLR344W"/>
+<edge source="YPR104C" target="YLR406C"/>
+<edge source="YPR104C" target="YLR407W"/>
+<edge source="YPR104C" target="YLR447C"/>
+<edge source="YPR104C" target="YLR448W"/>
+<edge source="YPR104C" target="YML024W"/>
+<edge source="YPR104C" target="YML025C"/>
+<edge source="YPR104C" target="YML026C"/>
+<edge source="YPR104C" target="YML063W"/>
+<edge source="YPR104C" target="YML064C"/>
+<edge source="YPR104C" target="YMR102C"/>
+<edge source="YPR104C" target="YMR142C"/>
+<edge source="YPR104C" target="YMR143W"/>
+<edge source="YPR104C" target="YMR242C"/>
+<edge source="YPR104C" target="YMR245W"/>
+<edge source="YPR104C" target="YNL096C"/>
+<edge source="YPR104C" target="YNL162W"/>
+<edge source="YPR104C" target="YNL163C"/>
+<edge source="YPR104C" target="YNL302C"/>
+<edge source="YPR104C" target="YOL039W"/>
+<edge source="YPR104C" target="YOL040C"/>
+<edge source="YPR104C" target="YOL120C"/>
+<edge source="YPR104C" target="YOL127W"/>
+<edge source="YPR104C" target="YOL128C"/>
+<edge source="YPR104C" target="YOR096W"/>
+<edge source="YPR104C" target="YOR183W"/>
+<edge source="YPR104C" target="YOR234C"/>
+<edge source="YPR104C" target="YOR292C"/>
+<edge source="YPR104C" target="YOR293W"/>
+<edge source="YPR104C" target="YOR312C"/>
+<edge source="YPR104C" target="YOR369C"/>
+<edge source="YPR104C" target="YPL090C"/>
+<edge source="YPR104C" target="YPL143W"/>
+<edge source="YPR104C" target="YPL249C-A"/>
+<edge source="YPR104C" target="YPR043W"/>
+<edge source="YPR104C" target="YPR102C"/>
+<edge source="YPR104C" target="YPR103W"/>
+<edge source="YPR104C" target="YPR131C"/>
+<edge source="YPR104C" target="YPR132W"/>
+<edge source="YPR199C" target="YJR044C"/>
+<edge source="YPR199C" target="YLR082C"/>
+<edge source="YPR199C" target="YPR200C"/>
+</graph></graphml>
