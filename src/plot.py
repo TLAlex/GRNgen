@@ -3,14 +3,19 @@ import math
 import pandas as pd
 import networkx as nx
 from collections import Counter
+import os
 
 from typing import Optional
 
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 from matplotlib.ticker import ScalarFormatter
 import seaborn as sns
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
+import glob
+import random
+from multiprocessing import Pool, cpu_count
 
 def plot_in_out_total_degree_distribution(
     G,
@@ -1785,3 +1790,80 @@ def plot_histogram_distribution(
         fig.write_image(save_path)
     
     return fig
+
+def _extract_degrees_from_file(filepath):
+    try:
+        G = nx.read_graphml(filepath)
+        if isinstance(G, (nx.DiGraph, nx.MultiDiGraph)):
+            in_deg = [int(round(d)) for _, d in G.in_degree()]
+            out_deg = [int(round(d)) for _, d in G.out_degree()]
+            return (in_deg, out_deg)
+        return [], []
+    except Exception as e:
+        print(f"Error loading {filepath}: {e}")
+        return [], []
+
+def load_degrees_parallel(sim_folder, pattern="*.graphml", max_samples=100):
+    files = sorted(glob.glob(os.path.join(sim_folder, pattern)))
+    if not files: return [], []
+    if len(files) > max_samples:
+        files = random.sample(files, max_samples)
+    with Pool(cpu_count()) as pool:
+        results = pool.map(_extract_degrees_from_file, files)
+    return [r[0] for r in results if r[0]], [r[1] for r in results if r[1]]
+
+def to_points(arr, xmin):
+    arr = np.array(arr)
+    filtered = arr[arr >= xmin]
+    if len(filtered) == 0: return np.array([]), np.array([])
+    vals, counts = np.unique(filtered, return_counts=True)
+    return vals, counts / len(filtered)
+
+def plot_deg_ref_vs_multi_sim_2panels(ref_g, sim_folder, xmin=1, 
+                                       ref_label="Reference", save_path=None):
+    ref_in = [int(round(d)) for _, d in ref_g.in_degree()]
+    ref_out = [int(round(d)) for _, d in ref_g.out_degree()]
+    sim_in_list, sim_out_list = load_degrees_parallel(sim_folder)
+
+    fig, axes = plt.subplots(1, 2, figsize=(16, 8), sharey=False) 
+    
+    labels = ["In-degree Distribution", "Out-degree Distribution"]
+    ref_arrs = [ref_in, ref_out]
+    sim_lists = [sim_in_list, sim_out_list]
+    colors = ["tab:orange", "tab:green"]
+
+    for ax, lab, col, r_arr, s_list in zip(axes, labels, colors, ref_arrs, sim_lists):
+        # 1. Plot Individual Simulations (Dashed dimgray lines)
+        for s_arr in s_list:
+            xs, ys = to_points(s_arr, xmin)
+            if xs.size:
+                ax.plot(xs, ys, color="dimgray", alpha=0.15, lw=1.0, ls="--")
+
+        # 2. Plot Reference (Scatter/Points)
+        xr, yr = to_points(r_arr, xmin)
+        if xr.size:
+            # We use scatter here so simulation lines remain visible behind/around points
+            ax.scatter(xr, yr, color=col, s=50, label=f'{ref_label}', zorder=10)
+
+        # Formatting
+        ax.set_xscale("log")
+        ax.set_yscale("log")
+        ax.set_title(lab, pad=20)
+        ax.set_xlabel("Degree (d)")
+        ax.set_ylabel("P(d)")
+        ax.xaxis.set_major_formatter(ScalarFormatter())
+        ax.ticklabel_format(style='plain', axis='x')
+        
+        # 3. PROXY ARTIST LEGEND 
+        # Update legend to show a line for Simulations and a dot for Reference
+        legend_elements = [
+            Line2D([0], [0], color='dimgray', lw=2, ls='--', label='Random Graphs'),
+            Line2D([0], [0], marker='o', color='w', label=f'{ref_label}',
+                   markerfacecolor=col, markersize=10, linestyle='None')
+        ]
+        ax.legend(handles=legend_elements, frameon=False, loc='best')
+
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, bbox_inches='tight', dpi=300)
+    plt.show()

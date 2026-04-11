@@ -23,7 +23,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 # -----------------------
 # Local modules
 # -----------------------
-from process_data import *
+from src.process_data import *
 
 # =========================================================
 # Connectivity utilities
@@ -418,8 +418,6 @@ def generate_one_graph(
     i,
     ground_truth_in_degree,
     ground_truth_out_degree,
-    out_in_pairs,
-    out_out_pairs,
     ground_truth_graph,
     output_dir,
     specie,
@@ -434,9 +432,6 @@ def generate_one_graph(
     args = {
         "in_degree": ground_truth_in_degree,
         "out_degree": ground_truth_out_degree,
-        "pairs": out_in_pairs,           
-        "out_in_pairs": out_in_pairs,    
-        "out_out_pairs": out_out_pairs,  
         "reference_graph": ground_truth_graph,
         "connect_type": connect_type,
         "N": N,
@@ -467,8 +462,6 @@ def generate_random_graphs(
     ngraphs,
     ground_truth_in_degree,
     ground_truth_out_degree,
-    out_in_pairs,
-    out_out_pairs,
     ground_truth_graph,
     output_dir,
     specie,
@@ -491,8 +484,6 @@ def generate_random_graphs(
                     i,
                     ground_truth_in_degree,
                     ground_truth_out_degree,
-                    out_in_pairs,
-                    out_out_pairs,
                     ground_truth_graph,
                     output_dir,
                     specie,
@@ -526,8 +517,6 @@ def generate_random_graphs(
                 i,
                 ground_truth_in_degree,
                 ground_truth_out_degree,
-                out_in_pairs,
-                out_out_pairs,
                 ground_truth_graph,
                 output_dir,
                 specie,
