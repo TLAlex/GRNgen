@@ -413,137 +413,111 @@ def call_generator(generator, args_dict):
     }
     return generator(**valid_args)
 
-# Pipeline with failure tracking
 def generate_one_graph(
     i,
     ground_truth_in_degree,
     ground_truth_out_degree,
+    out_in_pairs,
+    out_out_pairs,
     ground_truth_graph,
-    output_dir,
     specie,
     connect_type="random",
     method="c_cm",
     N=None,
-    check_failures=True, # Default to True to capture the data
-    save_graphs=True
+    check_failures=True
 ):
     generator = GENERATORS[method]
-
     args = {
         "in_degree": ground_truth_in_degree,
         "out_degree": ground_truth_out_degree,
+        "pairs": out_in_pairs,           
+        "out_in_pairs": out_in_pairs,    
+        "out_out_pairs": out_out_pairs,  
         "reference_graph": ground_truth_graph,
         "connect_type": connect_type,
         "N": N,
     }
 
-    failcounts = 0
     try:
-        if check_failures:
-            random_graph, failcounts = call_generator(generator, args)
-        else:
-            random_graph, _ = call_generator(generator, args)
-
-        if save_graphs:
-            graph_path = f"{output_dir}/{specie}_random{i}.graphml"
-            nx.write_graphml(random_graph, graph_path)
+        random_graph, failcounts = call_generator(generator, args) if check_failures else (call_generator(generator, args)[0], 0)
 
         random_stats = compute_network_properties(random_graph)
         random_motifs = count_motifs(random_graph)
         
-        # Return failcounts as the "error/metadata" field
-        return i, random_stats, random_motifs, failcounts
+        graph_json = json.dumps(nx.to_dict_of_lists(random_graph))
+        
+        return i, random_stats, random_motifs, failcounts, graph_json
 
     except Exception as e:
         print(f"Error in graph {i}: {e}")
-        return i, None, None, str(e)
+        return i, None, None, str(e), None
+    
+import pandas as pd
+from concurrent.futures import ProcessPoolExecutor, as_completed
+from tqdm import tqdm
 
 def generate_random_graphs(
     ngraphs,
     ground_truth_in_degree,
     ground_truth_out_degree,
+    out_in_pairs,
+    out_out_pairs,
     ground_truth_graph,
     output_dir,
     specie,
-    parallel=True,
     n_jobs=None,
     connect_type='random',
     method='c_cm',
-    N=None,
-    save_graphs=True
+    N=None
 ):
-    stat_results = []
-    motif_results = []
-    failure_results = [] # New list for tracking failures
+    results = []
 
-    if parallel:
-        with ProcessPoolExecutor(max_workers=n_jobs) as executor:
-            futures = [
-                executor.submit(
-                    generate_one_graph,
-                    i,
-                    ground_truth_in_degree,
-                    ground_truth_out_degree,
-                    ground_truth_graph,
-                    output_dir,
-                    specie,
-                    connect_type,
-                    method,
-                    N,
-                    True, # check_failures,
-                    save_graphs
-                )
-                for i in range(ngraphs)
-            ]
-
-            for future in tqdm(as_completed(futures),
-                               total=ngraphs,
-                               desc="Generating random graphs"):
-                i, stats, motifs, fail_data = future.result()
-
-                # If fail_data is a string, it's an error message
-                if isinstance(fail_data, str):
-                    print(f"[{i}] Graph could not be generated: {fail_data}")
-                    continue
-                stats['graph_id'] = i
-                motifs['graph_id'] = i
-                stat_results.append(stats)
-                motif_results.append(motifs)
-                failure_results.append({"graph_id": i, "failure_count": fail_data})
-
-    else:
-        for i in tqdm(range(ngraphs), desc="Generating random graphs"):
-            i, stats, motifs, fail_data = generate_one_graph(
+    with ProcessPoolExecutor(max_workers=n_jobs) as executor:
+        futures = [
+            executor.submit(
+                generate_one_graph,
                 i,
                 ground_truth_in_degree,
                 ground_truth_out_degree,
+                out_in_pairs,
+                out_out_pairs,
                 ground_truth_graph,
-                output_dir,
                 specie,
                 connect_type,
                 method,
                 N,
                 True
             )
+            for i in range(ngraphs)
+        ]
+
+        for future in tqdm(as_completed(futures), total=ngraphs, desc=f"Generating {specie} ensemble"):
+            i, stats, motifs, fail_data, graph_json = future.result()
 
             if isinstance(fail_data, str):
-                print(f"[{i}] Graph could not be generated: {fail_data}")
                 continue
-            stats['graph_id'] = i
-            motifs['graph_id'] = i
-            stat_results.append(stats)
-            motif_results.append(motifs)
-            failure_results.append({"graph_id": i, "failure_count": fail_data})
+            
+            combined_row = {
+                "graph_id": i,
+                **stats,
+                **motifs,
+                "failure_count": fail_data,
+                "graph_structure": graph_json
+            }
+            results.append(combined_row)
 
-    # Saving properties and motifs
-    df_stats = pd.DataFrame(stat_results)
-    df_motifs = pd.DataFrame(motif_results).astype("int32")
-    df_stats.to_csv(f"{output_dir}/random_properties.csv", index=False)
-    df_motifs.to_csv(f"{output_dir}/random_motifs.csv", index=False)
+    df_final = pd.DataFrame(results)
 
-    df_failures = pd.DataFrame(failure_results)
-    df_failures.to_csv(f"{output_dir}/random_failures.csv", index=False)
+    motif_cols = [c for c in df_final.columns if 'motif' in c.lower()]
+    df_final[motif_cols] = df_final[motif_cols].fillna(0).astype("int32")
 
-    print(f"Pipeline completed successfully. Average failures per graph: {df_failures['failure_count'].mean():.2f}")
+    df_final.to_parquet(
+        output_dir, 
+        engine='pyarrow', 
+        compression='zstd', 
+        compression_level=3,
+        index=False
+    )
 
-    return df_stats, df_motifs
+    print(f"Successfully saved {len(df_final)} graphs to {output_dir}")
+    return df_final

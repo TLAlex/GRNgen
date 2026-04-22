@@ -1819,12 +1819,33 @@ def to_points(arr, xmin):
     vals, counts = np.unique(filtered, return_counts=True)
     return vals, counts / len(filtered)
 
-def plot_deg_ref_vs_multi_sim_2panels(ref_g, sim_folder, xmin=1, 
-                                       ref_label="Reference", save_path=None):
+def plot_deg_ref_vs_multi_sim(ref_g, parquet_path, xmin=1, 
+                                        ref_label="Reference", save_path=None):
+    
     ref_in = [int(round(d)) for _, d in ref_g.in_degree()]
     ref_out = [int(round(d)) for _, d in ref_g.out_degree()]
-    sim_in_list, sim_out_list = load_degrees_parallel(sim_folder)
 
+    print(f"Chargement des données depuis {parquet_path}...")
+    df = pd.read_parquet(parquet_path, columns=['graph_structure'])
+    
+    sim_in_list = []
+    sim_out_list = []
+
+    for json_str in df['graph_structure']:
+        if json_str:
+            adj = json.loads(json_str)
+            
+            out_degrees = [len(neighbors) for neighbors in adj.values()]
+            
+            in_counts = {node: 0 for node in adj.keys()}
+            for neighbors in adj.values():
+                for n in neighbors:
+                    if n in in_counts:
+                        in_counts[n] += 1
+            
+            sim_in_list.append(list(in_counts.values()))
+            sim_out_list.append(out_degrees)
+    
     fig, axes = plt.subplots(1, 2, figsize=(16, 8), sharey=False) 
     
     labels = ["In-degree Distribution", "Out-degree Distribution"]
@@ -1833,16 +1854,13 @@ def plot_deg_ref_vs_multi_sim_2panels(ref_g, sim_folder, xmin=1,
     colors = ["tab:orange", "tab:green"]
 
     for ax, lab, col, r_arr, s_list in zip(axes, labels, colors, ref_arrs, sim_lists):
-        # 1. Plot Individual Simulations (Dashed dimgray lines)
         for s_arr in s_list:
             xs, ys = to_points(s_arr, xmin)
             if xs.size:
                 ax.plot(xs, ys, color="dimgray", alpha=0.15, lw=1.0, ls="--")
 
-        # 2. Plot Reference (Scatter/Points)
         xr, yr = to_points(r_arr, xmin)
         if xr.size:
-            # We use scatter here so simulation lines remain visible behind/around points
             ax.scatter(xr, yr, color=col, s=50, label=f'{ref_label}', zorder=10)
 
         # Formatting
@@ -1854,8 +1872,7 @@ def plot_deg_ref_vs_multi_sim_2panels(ref_g, sim_folder, xmin=1,
         ax.xaxis.set_major_formatter(ScalarFormatter())
         ax.ticklabel_format(style='plain', axis='x')
         
-        # 3. PROXY ARTIST LEGEND 
-        # Update legend to show a line for Simulations and a dot for Reference
+        # 3. Legend
         legend_elements = [
             Line2D([0], [0], color='dimgray', lw=2, ls='--', label='Random Graphs'),
             Line2D([0], [0], marker='o', color='w', label=f'{ref_label}',
@@ -1866,4 +1883,3 @@ def plot_deg_ref_vs_multi_sim_2panels(ref_g, sim_folder, xmin=1,
     plt.tight_layout()
     if save_path:
         plt.savefig(save_path, bbox_inches='tight', dpi=300)
-    plt.show()
