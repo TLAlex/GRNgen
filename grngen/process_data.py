@@ -162,19 +162,44 @@ def edgelist_to_graph(network: str, verbose=False):
     return graph
 
 # =========== Compute properties ===========
-def get_degrees_original(G):
+# def get_degrees_original(G):
+#     in_degree = [d for n, d in G.in_degree()]
+#     out_degree = [d for n, d in G.out_degree()]
+#     return in_degree, out_degree
+
+def get_node_degrees(G):
+    """
+    Extract the in-degree and out-degree sequences from a directed graph.
+
+    This function computes the in-degree and out-degree for each node in the
+    given directed graph and returns as tuple.
+
+    Parameters
+    ----------
+    G : networkx.DiGraph
+        A NetworkX directed graph from which to extract degree information.
+
+    Returns
+    -------
+    tuple of (list, list)
+        in_degree : list of int
+            A list containing the in-degree of each node in the graph.
+        out_degree : list of int
+            A list containing the out-degree of each node in the graph.
+    """
     in_degree = [d for n, d in G.in_degree()]
     out_degree = [d for n, d in G.out_degree()]
-    return in_degree, out_degree
+    return (in_degree, out_degree)
 
-def get_degree_pairs(G):
-    out_deg = dict(G.out_degree())
-    in_deg = dict(G.in_degree())
-    out_out = [(out_deg[u], out_deg[v]) for u, v in G.edges()]
-    out_in = [(out_deg[u], in_deg[v]) for u, v in G.edges()]
-    in_out = [(in_deg[u], out_deg[v]) for u, v in G.edges()]
-    in_in = [(in_deg[u], in_deg[v]) for u, v in G.edges()]
-    return out_out, out_in, in_out, in_in
+
+# def get_degree_pairs(G):
+#     out_deg = dict(G.out_degree())
+#     in_deg = dict(G.in_degree())
+#     out_out = [(out_deg[u], out_deg[v]) for u, v in G.edges()]
+#     out_in = [(out_deg[u], in_deg[v]) for u, v in G.edges()]
+#     in_out = [(in_deg[u], out_deg[v]) for u, v in G.edges()]
+#     in_in = [(in_deg[u], in_deg[v]) for u, v in G.edges()]
+#     return out_out, out_in, in_out, in_in
 
 def compute_modularity(G):
     """
@@ -338,48 +363,7 @@ def count_motifs(G, save_path=None, nx_graph=True):
 
     return motif_counts_dict_sorted
 
-def harmonize_stats(ground_truth_stat, df_stats, save_path=None):
 
-    keys_to_remove = {
-        "degrees",
-        "degree_counts",
-        "degree_proba",
-        "strongly_connected",
-        "weakly_connected",
-        "nb_nodes",
-        "avg_degree",
-        "modularity",
-        "density",
-        "nb_edges",
-        'avg_clustering_undir', 
-        'avg_path_undir', 
-        'diameter_undir'
-    }
-
-    ground_truth_clean = {
-        k: v for k, v in sorted(ground_truth_stat.items())
-        if k not in keys_to_remove
-    }
-
-    cols_to_drop = ["avg_degree", "nb_nodes", "density", "energies"]
-    cols_to_drop = [col for col in cols_to_drop if col in df_stats.columns]
-    df_clean = df_stats.drop(columns=cols_to_drop)
-
-    # Compute energies using only keys present in both
-    gt_keys = set(ground_truth_clean.keys())
-    
-    df_clean["energies"] = df_clean.apply(
-        lambda row: energy_delta(
-            {k: row[k] for k in gt_keys if k in row.index},
-            ground_truth_clean
-        ),
-        axis=1,
-    )
-
-    if save_path:
-        df_clean.to_csv(save_path, index=False)
-
-    return df_clean, ground_truth_clean
 
 # =========== Load prepocess data ===========
 def load_graphs(folderpath=None):
@@ -394,13 +378,6 @@ def load_graphs(folderpath=None):
         print(f"Loaded graph motif counts from {folderpath}_motifs.json.")
         return ground_truth_graph, ground_truth_stat, ground_truth_motifs
 
-def load_experiment_results(folderpath):
-
-    df_stats = pd.read_csv(f"{folderpath}/random_properties.csv")
-    df_motifs = pd.read_csv(f"{folderpath}/random_motifs.csv")
-
-    return df_stats, df_motifs
-
 def combine_experiments(df_list, label_list):
     updated_df_list = []
     for df, label in zip(df_list, label_list):
@@ -408,41 +385,6 @@ def combine_experiments(df_list, label_list):
         df["condition"] = label
         updated_df_list.append(df)
     return pd.concat(updated_df_list, ignore_index=True)
-
-def get_best_indices(df_combined, label_list):
-    idx_list = []
-    for label in label_list:
-        subset = df_combined[df_combined["condition"] == label]
-        best_row_idx = subset["energies"].idxmin()
-        best_graph_id = df_combined.loc[best_row_idx, "graph_id"]
-        idx_list.append(best_graph_id)
-    return idx_list
-
-
-def compute_errors(ground_truth_combined, df_combined_features):
-    """
-    Computes signed errors for each metric and the total aggregated energy.
-    """
-    detailed_losses = []
-    total_energies = []
-
-    for _, row in df_combined_features.iterrows():
-        # current_values: extract only keys that exist in our target ground truth
-        current_values = {k: row[k] for k in ground_truth_combined.keys() if k in row.index}
-        
-        # Use the corrected energy_delta logic
-        energy, contributions = energy_delta(
-            current_values, 
-            ground_truth_combined, 
-            return_details=True
-        )
-        
-        detailed_losses.append(contributions)
-        total_energies.append(energy)
-
-    df_loss = pd.DataFrame(detailed_losses)
-    df_loss["loss_sum"] = total_energies
-    return df_loss
 
 def compute_relative_error(df, target_dict):
     df_errors = pd.DataFrame(index=df.index)
@@ -455,13 +397,6 @@ def compute_relative_error(df, target_dict):
     df_errors['graph_id'] = df['graph_id'].values
 
     return df_errors
-
-def get_best_index(df_errors):
-    
-    closest_to_zero = df_errors["total_error"].abs().idxmin()
-    best_graph_id = df_errors.loc[closest_to_zero, "graph_id"]
-    
-    return best_graph_id
 
 def get_best_indices(df, n_top=5, criteria="total_error"):
     smallest_list_norm = list(

@@ -8,6 +8,7 @@ import json
 import math
 import random
 from collections import Counter
+import os
 
 # -----------------------
 # Third-party libraries
@@ -23,7 +24,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 # -----------------------
 # Local modules
 # -----------------------
-from src.process_data import *
+from .process_data import *
 
 # =========================================================
 # Connectivity utilities
@@ -33,58 +34,58 @@ def connect_components(G, reference_graph=None, method="random"):
     if method == "random":
         return connect_components_random(G)
 
-    if method == "min":
-        return connect_components_min_diameter(G)
+#     if method == "min":
+#         return connect_components_min_diameter(G)
 
-    if method == "undir":
-        if reference_graph is None:
-            raise ValueError("reference_graph required for 'undir'")
-        return connect_components_adj_diameter(G, reference_graph)
+#     if method == "undir":
+#         if reference_graph is None:
+#             raise ValueError("reference_graph required for 'undir'")
+#         return connect_components_adj_diameter(G, reference_graph)
 
-    if method == "dir":
-        if reference_graph is None:
-            raise ValueError("reference_graph required for 'dir'")
-        return connect_components_adj_dir_diameter(G, reference_graph)
+#     if method == "dir":
+#         if reference_graph is None:
+#             raise ValueError("reference_graph required for 'dir'")
+#         return connect_components_adj_dir_diameter(G, reference_graph)
 
     raise ValueError(f"Unknown connection method: {method}")
 
-def connect_components_min_diameter(G):
-    """
-    Connect all weakly connected components to the largest one
-    by adding edges. Does NOT preserve degrees.
-    Guarantees that the diameter of the LCC does not increase.
-    """
+# def connect_components_min_diameter(G):
+#     """
+#     Connect all weakly connected components to the largest one
+#     by adding edges. Does NOT preserve degrees.
+#     Guarantees that the diameter of the LCC does not increase.
+#     """
 
-    # Make sure we work on directed graph
-    if not isinstance(G, nx.DiGraph):
-        raise ValueError("Graph must be a directed graph.")
+#     # Make sure we work on directed graph
+#     if not isinstance(G, nx.DiGraph):
+#         raise ValueError("Graph must be a directed graph.")
 
-    while True:
-        comps = list(nx.weakly_connected_components(G))
-        if len(comps) == 1:
-            return G  # connected
+#     while True:
+#         comps = list(nx.weakly_connected_components(G))
+#         if len(comps) == 1:
+#             return G  # connected
 
-        # Largest component
-        LCC = max(comps, key=len)
-        UG = G.subgraph(LCC).to_undirected()
+#         # Largest component
+#         LCC = max(comps, key=len)
+#         UG = G.subgraph(LCC).to_undirected()
 
-        # Compute center of LCC
-        ecc = nx.eccentricity(UG)
-        min_e = min(ecc.values())
-        centers = [n for n, e in ecc.items() if e == min_e]
-        center = random.choice(centers)
+#         # Compute center of LCC
+#         ecc = nx.eccentricity(UG)
+#         min_e = min(ecc.values())
+#         centers = [n for n, e in ecc.items() if e == min_e]
+#         center = random.choice(centers)
 
-        # Connect every other component one by one
-        for C in comps:
-            if C is LCC:
-                continue
+#         # Connect every other component one by one
+#         for C in comps:
+#             if C is LCC:
+#                 continue
 
-            # pick arbitrary node in C
-            target = random.choice(list(C))
+#             # pick arbitrary node in C
+#             target = random.choice(list(C))
 
-            # add an edge (center target)
-            # direction doesn't matter for weak connectivity
-            G.add_edge(center, target)
+#             # add an edge (center target)
+#             # direction doesn't matter for weak connectivity
+#             G.add_edge(center, target)
 
 def connect_components_random(G):
     """
@@ -110,137 +111,134 @@ def connect_components_random(G):
 
     return G
 
-def connect_components_adj_diameter(G, reference_graph, max_trials=100):
-    """
-    Connect weakly connected components by adding edges, trying to match
-    the reference graph's undirected diameter.
-    Does NOT preserve degrees.
-    """
+# def connect_components_adj_diameter(G, reference_graph, max_trials=100):
+#     """
+#     Connect weakly connected components by adding edges, trying to match
+#     the reference graph's undirected diameter.
+#     Does NOT preserve degrees.
+#     """
 
-    D_ref_undir = nx.diameter(reference_graph.to_undirected())
+#     D_ref_undir = nx.diameter(reference_graph.to_undirected())
 
-    #pbar = tqdm(desc="Connecting components")
+#     #pbar = tqdm(desc="Connecting components")
 
-    while True:
-        comps = list(nx.weakly_connected_components(G))
-        if len(comps) == 1:
-            break
+#     while True:
+#         comps = list(nx.weakly_connected_components(G))
+#         if len(comps) == 1:
+#             break
 
-        #pbar.update(1)
+#         #pbar.update(1)
 
-        LCC = max(comps, key=len)
-        G_LCC = G.subgraph(LCC)
-        UG_LCC = G_LCC.to_undirected()
-        ecc_LCC_undir = nx.eccentricity(UG_LCC)
+#         LCC = max(comps, key=len)
+#         G_LCC = G.subgraph(LCC)
+#         UG_LCC = G_LCC.to_undirected()
+#         ecc_LCC_undir = nx.eccentricity(UG_LCC)
 
-        C = random.choice([c for c in comps if c != LCC])
-        G_C = G.subgraph(C)
-        UG_C = G_C.to_undirected()
-        ecc_C_undir = nx.eccentricity(UG_C)
+#         C = random.choice([c for c in comps if c != LCC])
+#         G_C = G.subgraph(C)
+#         UG_C = G_C.to_undirected()
+#         ecc_C_undir = nx.eccentricity(UG_C)
 
-        rad_C = min(ecc_C_undir.values())
-        # centers_C = [n for n, e in ecc_C_undir.items() if e == rad_C]
+#         rad_C = min(ecc_C_undir.values())
+#         # centers_C = [n for n, e in ecc_C_undir.items() if e == rad_C]
         
-        min_LCC = min(ecc_LCC_undir.values())
-        if min_LCC + 1 + rad_C > D_ref_undir:
-            # impossible to connect C under the constraint
-            continue
+#         min_LCC = min(ecc_LCC_undir.values())
+#         if min_LCC + 1 + rad_C > D_ref_undir:
+#             # impossible to connect C under the constraint
+#             continue
 
-        for _ in range(max_trials):
-            u = random.choice(list(LCC)) # pick random node in LCC
-            target = random.choice(list(C))
-            new_diam = max(
-                max(ecc_LCC_undir.values()), # diameter is equal either to max eccentricity
-                ecc_LCC_undir[u] + 1 + rad_C # or the eccentricity of the selected target + the added edge + the radius of the component
-            )
+#         for _ in range(max_trials):
+#             u = random.choice(list(LCC)) # pick random node in LCC
+#             target = random.choice(list(C))
+#             new_diam = max(
+#                 max(ecc_LCC_undir.values()), # diameter is equal either to max eccentricity
+#                 ecc_LCC_undir[u] + 1 + rad_C # or the eccentricity of the selected target + the added edge + the radius of the component
+#             )
 
-            if new_diam <= D_ref_undir: # if the new diam is still smaller connect
-                G.add_edge(u, target)
-                break
-            else: # otherwise retry another node
-                continue
+#             if new_diam <= D_ref_undir: # if the new diam is still smaller connect
+#                 G.add_edge(u, target)
+#                 break
+#             else: # otherwise retry another node
+#                 continue
 
-    #pbar.close()
-    return G
+#     #pbar.close()
+#     return G
 
 
-def connect_components_adj_dir_diameter(G, reference_graph):
-    """
-    Connect weakly connected components by adding edges, trying to match
-    the reference graph's directed diameter.
-    Does NOT preserve degrees.
-    Uses incremental directed-diameter estimation.
-    """
+# def connect_components_adj_dir_diameter(G, reference_graph):
+#     """
+#     Connect weakly connected components by adding edges, trying to match
+#     the reference graph's directed diameter.
+#     Does NOT preserve degrees.
+#     Uses incremental directed-diameter estimation.
+#     """
 
-    if not isinstance(G, nx.DiGraph):
-        raise ValueError("Graph must be a directed graph.")
-    # Compute diameter once. Fitting procedure will evolve with local changes
-    _, diameter_dir_ref = directed_path_stats(reference_graph)
-    _, D_current = directed_path_stats(G)
-    # print(f'Ref diameter: {diameter_dir_ref}')
-    # print(f'LCC diameter: {D_current}')
+#     if not isinstance(G, nx.DiGraph):
+#         raise ValueError("Graph must be a directed graph.")
+#     _, diameter_dir_ref = directed_path_stats(reference_graph)
+#     _, D_current = directed_path_stats(G)
 
-    while True:
-        comps = list(nx.weakly_connected_components(G))
-        # print(f'There are currently {len(comps)} remaining.')
-        if len(comps) == 1:
-            return G
-        LCC = max(comps, key=len)
-        G_LCC = G.subgraph(LCC)
-        UG_LCC = G_LCC.to_undirected()
-        ecc_LCC_undir = nx.eccentricity(UG_LCC) # compute eccentricity instead of diameter
+#     while True:
+#         comps = list(nx.weakly_connected_components(G))
+#         # print(f'There are currently {len(comps)} remaining.')
+#         if len(comps) == 1:
+#             return G
+#         LCC = max(comps, key=len)
+#         G_LCC = G.subgraph(LCC)
+#         UG_LCC = G_LCC.to_undirected()
+#         ecc_LCC_undir = nx.eccentricity(UG_LCC) # compute eccentricity instead of diameter
 
-        ### estimate diameter with out eccentricity. Double check the method ######################
-        ecc_LCC_out = {
-            u: max(nx.single_source_shortest_path_length(G_LCC, u).values())
-            for u in G_LCC.nodes()
-        }
+#         ### estimate diameter with out eccentricity.######################
+#         ecc_LCC_out = {
+#             u: max(nx.single_source_shortest_path_length(G_LCC, u).values())
+#             for u in G_LCC.nodes()
+#         }
 
-        C = random.choice([c for c in comps if c is not LCC])
-        # print(f'Connecting LCC of size {len(LCC)} and CC of size {len(C)}.')
-        G_C = G.subgraph(C)
-        UG_C = G_C.to_undirected()
-        ecc_C_undir = nx.eccentricity(UG_C)
+#         C = random.choice([c for c in comps if c is not LCC])
+#         # print(f'Connecting LCC of size {len(LCC)} and CC of size {len(C)}.')
+#         G_C = G.subgraph(C)
+#         UG_C = G_C.to_undirected()
+#         ecc_C_undir = nx.eccentricity(UG_C)
 
-        ### estimate diameter with out eccentricity. Double check the method ######################
-        ecc_C_out = {
-            u: max(nx.single_source_shortest_path_length(G_C, u).values())
-            for u in G_C.nodes()
-        }
+#         ### estimate diameter with out eccentricity.######################
+#         ecc_C_out = {
+#             u: max(nx.single_source_shortest_path_length(G_C, u).values())
+#             for u in G_C.nodes()
+#         }
 
-        rad_C = min(ecc_C_undir.values())
-        centers_C = [n for n, e in ecc_C_undir.items() if e == rad_C]
-        target = random.choice(centers_C)
+#         rad_C = min(ecc_C_undir.values())
+#         centers_C = [n for n, e in ecc_C_undir.items() if e == rad_C]
+#         target = random.choice(centers_C)
 
-        D_ref_undir = nx.diameter(reference_graph.to_undirected())
-        desired_ecc = max(0, D_ref_undir - 1 - rad_C)
-        center = min(
-            ecc_LCC_undir,
-            key=lambda n: abs(ecc_LCC_undir[n] - desired_ecc)
-        )
+#         D_ref_undir = nx.diameter(reference_graph.to_undirected())
+#         desired_ecc = max(0, D_ref_undir - 1 - rad_C)
+#         center = min(
+#             ecc_LCC_undir,
+#             key=lambda n: abs(ecc_LCC_undir[n] - desired_ecc)
+#         )
         
-        # estimate diameter change with upperbound change without graph mutation
-        # Case 1: center -> target
-        D_est_forward = max(
-            D_current,
-            ecc_LCC_out[center] + 1 + ecc_C_out[target]
-        )
+#         # estimate diameter change with upperbound change without graph mutation
+#         # Case 1: center -> target
+#         D_est_forward = max(
+#             D_current,
+#             ecc_LCC_out[center] + 1 + ecc_C_out[target]
+#         )
 
-        # Case 2: target -> center
-        D_est_reverse = max(
-            D_current,
-            ecc_C_out[target] + 1 + ecc_LCC_out[center]
-        )
+#         # Case 2: target -> center
+#         D_est_reverse = max(
+#             D_current,
+#             ecc_C_out[target] + 1 + ecc_LCC_out[center]
+#         )
 
-        # Select best direction
-        if abs(D_est_forward - diameter_dir_ref) <= abs(D_est_reverse - diameter_dir_ref):
-            G.add_edge(center, target)
-            D_current = D_est_forward
-        else:
-            G.add_edge(target, center)
-            D_current = D_est_reverse
-        print(f'Forward changes: {abs(D_est_forward - diameter_dir_ref)}')
-        print(f'Reverse changes: {abs(D_est_reverse - diameter_dir_ref)}')
+#         # Select best direction
+#         if abs(D_est_forward - diameter_dir_ref) <= abs(D_est_reverse - diameter_dir_ref):
+#             G.add_edge(center, target)
+#             D_current = D_est_forward
+#         else:
+#             G.add_edge(target, center)
+#             D_current = D_est_reverse
+#         print(f'Forward changes: {abs(D_est_forward - diameter_dir_ref)}')
+#         print(f'Reverse changes: {abs(D_est_reverse - diameter_dir_ref)}')
 
 # =========================================================
 # Graph generation algorithms
@@ -321,7 +319,10 @@ def random_config_graph_igraph(in_degree, out_degree, reference_graph=None, conn
 
 
 
-def random_config_graph_degree_relax(in_degree, out_degree, reference_graph=None, connect_type='random'):
+def grngen(node_degree_sequence, reference_graph=None, connect_type='random'):
+    in_degree = node_degree_sequence[0]
+    out_degree = node_degree_sequence[1]
+    
     # Check degree coherence
     validate_degree_sequences(in_degree, out_degree)
     
@@ -391,8 +392,6 @@ def random_config_graph_degree_relax(in_degree, out_degree, reference_graph=None
     # print('Random graph generated. Now connecting isolated components...')
     return connect_components(G, reference_graph, connect_type), failcount
 
-
-
 import inspect
 
 # =========================================================
@@ -400,9 +399,8 @@ import inspect
 # =========================================================
 
 GENERATORS = {
-    "c_cm": random_config_graph_degree_relax,
+    "grngen": grngen,
 }
-
 
 def call_generator(generator, args_dict):
     """Call generator while passing only supported kwargs."""
@@ -415,27 +413,16 @@ def call_generator(generator, args_dict):
 
 def generate_one_graph(
     i,
-    ground_truth_in_degree,
-    ground_truth_out_degree,
-    out_in_pairs,
-    out_out_pairs,
-    ground_truth_graph,
+    node_degree_sequence,
     specie,
     connect_type="random",
-    method="c_cm",
-    N=None,
+    method="grngen",
     check_failures=True
 ):
     generator = GENERATORS[method]
     args = {
-        "in_degree": ground_truth_in_degree,
-        "out_degree": ground_truth_out_degree,
-        "pairs": out_in_pairs,           
-        "out_in_pairs": out_in_pairs,    
-        "out_out_pairs": out_out_pairs,  
-        "reference_graph": ground_truth_graph,
+        "node_degree_sequence": node_degree_sequence,
         "connect_type": connect_type,
-        "N": N,
     }
 
     try:
@@ -458,18 +445,18 @@ from tqdm import tqdm
 
 def generate_random_graphs(
     ngraphs,
-    ground_truth_in_degree,
-    ground_truth_out_degree,
-    out_in_pairs,
-    out_out_pairs,
-    ground_truth_graph,
+    node_degree_sequence,
     output_dir,
     specie,
     n_jobs=None,
     connect_type='random',
-    method='c_cm',
-    N=None
+    method='grngen',
+    #N=None
 ):
+
+    if n_jobs is None:
+        os.cpu_count() - 1
+
     results = []
 
     with ProcessPoolExecutor(max_workers=n_jobs) as executor:
@@ -477,15 +464,10 @@ def generate_random_graphs(
             executor.submit(
                 generate_one_graph,
                 i,
-                ground_truth_in_degree,
-                ground_truth_out_degree,
-                out_in_pairs,
-                out_out_pairs,
-                ground_truth_graph,
+                node_degree_sequence,
                 specie,
                 connect_type,
                 method,
-                N,
                 True
             )
             for i in range(ngraphs)

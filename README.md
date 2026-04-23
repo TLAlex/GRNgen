@@ -12,16 +12,15 @@ This guarantees that every out-degree is satisfied, resulting in a valid simple 
 Once all arcs are placed, any remaining isolated components are merged through random arc additions until the graph forms a single weakly connected component.
 
 ### Main Features
-**Degree constraint:** Takes an input sequence of In-Out degrees ($d^i, d^o$) to guide the generation.
+**Degree constraint:** Takes an input sequence of In-Out degrees ($d^i, d^o$).
 
 **Multi-Property Optimization:** Uses a weighted error function across graph properties (including path-related metrics and motif distributions) to rank the generated ensemble.
 
 **Ensemble Generation:** Generates $n$ random graphs, allowing users to select samples that best represent the target network topology.
 
-**Analysis Tools:** Normalizes properties, generates comparison plots, and identifies the Top-N best-fitting graphs.
-
 # Installation
-*In progress*
+The package can be installed by running the command `pip install .` while within the folder GRNgen.
 
 # Examples
-*In progress*
+Example of graph generation is provided in GRNgen/notebooks/paper where ensemble of graphs are generated from specific degree sequences.
+We recommend leveraging on parallelization if using motif counts to rank the generated ensemble as it is cpu intensive.

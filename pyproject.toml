@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grngen"
+version = "0.1.0"
+description = "Relaxed Directed Configuration Model for GRN generation"
+requires-python = ">=3.10.4"
+dependencies = [
+    "numpy",
+    "pandas",
+    "networkx",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "igraph",
+    "tqdm",
+    "kaleido==0.1.0"
+]
+
+[tool.setuptools]
+packages = ["grngen"]
