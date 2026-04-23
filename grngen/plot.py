@@ -162,7 +162,7 @@ def plot_deg_ref_vs_multi_sim(ref_g, parquet_path, xmin=1,
     ref_in = [int(round(d)) for _, d in ref_g.in_degree()]
     ref_out = [int(round(d)) for _, d in ref_g.out_degree()]
 
-    print(f"Chargement des données depuis {parquet_path}...")
+    print(f"Data loaded from {parquet_path}...")
     df = pd.read_parquet(parquet_path, columns=['graph_structure'])
     
     sim_in_list = []
