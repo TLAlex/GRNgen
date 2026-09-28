@@ -407,3 +407,31 @@ def get_best_indices(df, n_top=5, criteria="total_error"):
         )
     
     return smallest_list_norm
+
+def load_graphs_from_parquet(parquet_path, graph_ids=None):
+    """
+    Load NetworkX DiGraphs from parquet with proper integer node IDs.
+    """
+    filters = [('graph_id', 'in', graph_ids)] if graph_ids else None
+    
+    df = pd.read_parquet(
+        parquet_path,
+        columns=['graph_id', 'graph_structure'],
+        filters=filters
+    )
+    
+    graphs = {}
+    for _, row in df.iterrows():
+        dict_of_lists = json.loads(row['graph_structure'])
+        
+        dict_of_lists_int = {
+            int(k): [int(n) for n in v] 
+            for k, v in dict_of_lists.items()
+        }
+        
+        graphs[row['graph_id']] = nx.from_dict_of_lists(
+            dict_of_lists_int, 
+            create_using=nx.DiGraph()
+        )
+    
+    return graphs

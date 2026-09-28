@@ -9,6 +9,7 @@ import math
 import random
 from collections import Counter
 import os
+import time
 
 # -----------------------
 # Third-party libraries
@@ -503,3 +504,37 @@ def generate_random_graphs(
 
     print(f"Successfully saved {len(df_final)} graphs to {output_dir}")
     return df_final
+
+def generate_one_graph_profiled(
+    node_degree_sequence,
+    specie,
+    connect_type="random",
+    method="grngen",
+    check_failures=True
+):
+    generator = GENERATORS[method]
+    args = {
+        "node_degree_sequence": node_degree_sequence,
+        "connect_type": connect_type,
+    }
+
+    #Time Graph Generation
+    t0 = time.perf_counter()
+    gen_result = call_generator(generator, args)
+    if check_failures:
+        random_graph, failcounts = gen_result
+    else:
+        random_graph, failcounts = gen_result[0], 0
+    t1 = time.perf_counter()
+    
+    generation_time = t1 - t0
+
+    # Time Property Computation (stats + motifs)
+    t2 = time.perf_counter()
+    random_stats = compute_network_properties(random_graph)
+    random_motifs = count_motifs(random_graph)
+    t3 = time.perf_counter()
+    
+    computation_time = t3 - t2
+
+    return generation_time, computation_time

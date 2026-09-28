@@ -16,6 +16,7 @@ import seaborn as sns
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import glob
+from scipy import stats
 
 def plot_histogram_distribution(
     df: pd.DataFrame,
@@ -274,3 +275,40 @@ def plot_best_profiles(df_errors, idces, specie, label_mapping, output_dir=None)
             fig.write_image(f"{base_name}.{ext}")
     
     return fig
+
+def scatter_with_correlation(df, x_col, y_col, ax=None, color='blue'):
+    """
+    Scatter plot with Pearson correlation and regression line.
+    """
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(8, 6))
+    
+    x = df[x_col]
+    y = df[y_col]
+    
+    # Pearson correlation
+    r, p_value = stats.pearsonr(x, y)
+    
+    # Scatter
+    ax.scatter(x, y, alpha=0.6, color=color)
+    
+    # Regression line
+    m, b = np.polyfit(x, y, 1)
+    x_line = np.linspace(x.min(), x.max(), 100)
+    ax.plot(x_line, m * x_line + b, 'r-', linewidth=2)
+    
+    # Annotation
+    ax.text(
+        0.05, 0.95, 
+        f'r = {r:.3f}\np = {p_value:.2e}', 
+        transform=ax.transAxes,
+        verticalalignment='top',
+        fontsize=11,
+        bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5)
+    )
+    
+    ax.set_xlabel(x_col)
+    ax.set_ylabel(y_col)
+    ax.set_title(f'{x_col} vs {y_col}')
+    
+    return r, p_value
