@@ -13,6 +13,11 @@
   "nthreads": 220,
   "iterations": 1,
   "feature_list": [
+    "Bi-Mutual",
+    "Cascade",
+    "Clique",
+    "FBL",
+    "FFL",
     "Fan-In",
     "Fan-Out",
     "Mutual-Cascade",

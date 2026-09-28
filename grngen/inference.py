@@ -193,3 +193,161 @@ def evaluate_inference_v2(true_adj, inferred_adj, gene_names=None, plot=False):
         plt.show()
     
     return auroc, auprc
+
+
+def evaluate_inference_epr(true_adj, inferred_adj, gene_names=None, plot=False, k1=50, k2=100):
+    """
+    Evaluate inferred network against ground truth using AUROC, AUPRC, and EP at multiple k values.
+    
+    Parameters
+    ----------
+    true_adj : np.ndarray or sparse matrix
+        Ground truth adjacency matrix (can be signed: -1, 0, +1).
+        Any non-zero value is treated as an edge.
+    inferred_adj : np.ndarray or sparse matrix
+        Inferred adjacency matrix with edge weights/scores.
+        Higher values = higher confidence of edge existence.
+    gene_names : list, optional
+        List of gene names (not used in computation, for future extensions).
+    plot : bool, optional
+        If True, plot ROC and PR curves.
+    k1 : int, optional
+        First custom top-k value for Early Precision (default: 50).
+    k2 : int, optional
+        Second custom top-k value for Early Precision (default: 100).
+    
+    Returns
+    -------
+    auroc : float
+        Area Under the ROC Curve.
+    auprc : float
+        Area Under the Precision-Recall Curve.
+    ep : float
+        Early Precision (bounded 0-1). Fraction of true positives in top-k predictions,
+        where k = number of true edges.
+    ep_k1 : float
+        Early Precision at top-k1 predictions.
+    ep_k2 : float
+        Early Precision at top-k2 predictions.
+    """
+    # Convert sparse to dense if needed
+    if sparse.issparse(true_adj):
+        true_adj = true_adj.toarray()
+    if sparse.issparse(inferred_adj):
+        inferred_adj = inferred_adj.toarray()
+    
+    # Flatten matrices
+    y_true = true_adj.flatten()
+    y_scores = inferred_adj.flatten()
+    
+    # Convert to binary (any edge = 1, no edge = 0)
+    y_true_binary = (y_true != 0).astype(int)
+    
+    # Remove self-loops (diagonal) from evaluation
+    n = true_adj.shape[0]
+    mask = ~np.eye(n, dtype=bool).flatten()
+    y_true_binary = y_true_binary[mask]
+    y_scores = y_scores[mask]
+    
+    # Handle edge cases
+    if len(np.unique(y_true_binary)) < 2:
+        print("Warning: Only one class present in ground truth. Metrics may be undefined.")
+        return np.nan, np.nan, np.nan, np.nan, np.nan
+    
+    # Compute AUROC and AUPRC
+    auroc = roc_auc_score(y_true_binary, y_scores)
+    auprc = average_precision_score(y_true_binary, y_scores)
+    
+    # Compute baseline (random) AUPRC = edge density
+    baseline_auprc = y_true_binary.sum() / len(y_true_binary)
+    
+    # =========================================================================
+    # Compute Early Precision (EP) at multiple k values
+    # =========================================================================
+    
+    # Sort predictions by score (descending)
+    sorted_indices = np.argsort(y_scores)[::-1]
+    
+    # Number of true edges (k)
+    k = int(y_true_binary.sum())
+    
+    # Validate k1 and k2
+    max_k = len(y_true_binary)
+    if k1 > max_k:
+        print(f"Warning: k1={k1} exceeds max possible edges ({max_k}). Setting k1={max_k}.")
+        k1 = max_k
+    if k2 > max_k:
+        print(f"Warning: k2={k2} exceeds max possible edges ({max_k}). Setting k2={max_k}.")
+        k2 = max_k
+    
+    # Early Precision at k (number of true edges)
+    top_k_indices = sorted_indices[:k]
+    ep = y_true_binary[top_k_indices].sum() / k
+    
+    # Early Precision at k1
+    top_k1_indices = sorted_indices[:k1]
+    ep_k1 = y_true_binary[top_k1_indices].sum() / k1
+    
+    # Early Precision at k2
+    top_k2_indices = sorted_indices[:k2]
+    ep_k2 = y_true_binary[top_k2_indices].sum() / k2
+    
+    if plot:
+        fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+        
+        # ROC Curve
+        fpr, tpr, _ = roc_curve(y_true_binary, y_scores)
+        axes[0].plot(fpr, tpr, 'b-', label=f'AUROC = {auroc:.3f}')
+        axes[0].plot([0, 1], [0, 1], 'k--', label='Random (0.500)')
+        axes[0].set_xlabel('False Positive Rate')
+        axes[0].set_ylabel('True Positive Rate')
+        axes[0].set_title('ROC Curve')
+        axes[0].legend(loc='lower right')
+        axes[0].set_xlim([0, 1])
+        axes[0].set_ylim([0, 1])
+        
+        # Precision-Recall Curve
+        precision, recall, _ = precision_recall_curve(y_true_binary, y_scores)
+        axes[1].plot(recall, precision, 'b-', label=f'AUPRC = {auprc:.3f}')
+        axes[1].axhline(y=baseline_auprc, color='k', linestyle='--', 
+                        label=f'Random = {baseline_auprc:.3f}')
+        
+        # Mark EP points on PR curve
+        # For EP@k: recall = TP/total_positives, precision = TP/k
+        tp_at_k = y_true_binary[top_k_indices].sum()
+        tp_at_k1 = y_true_binary[top_k1_indices].sum()
+        tp_at_k2 = y_true_binary[top_k2_indices].sum()
+        
+        recall_k = tp_at_k / k
+        recall_k1 = tp_at_k1 / k
+        recall_k2 = tp_at_k2 / k
+        
+        axes[1].scatter([recall_k], [ep], color='red', s=100, zorder=5, 
+                        label=f'EP@{k} = {ep:.3f}')
+        axes[1].scatter([recall_k1], [ep_k1], color='green', s=100, zorder=5, 
+                        marker='s', label=f'EP@{k1} = {ep_k1:.3f}')
+        axes[1].scatter([recall_k2], [ep_k2], color='orange', s=100, zorder=5, 
+                        marker='^', label=f'EP@{k2} = {ep_k2:.3f}')
+        
+        axes[1].set_xlabel('Recall')
+        axes[1].set_ylabel('Precision')
+        axes[1].set_title('Precision-Recall Curve')
+        axes[1].legend(loc='upper right')
+        axes[1].set_xlim([0, 1])
+        axes[1].set_ylim([0, 1])
+        
+        plt.tight_layout()
+        plt.show()
+        
+        # Print summary
+        print(f"\n{'='*50}")
+        print(f"Evaluation Summary")
+        print(f"{'='*50}")
+        print(f"AUROC:            {auroc:.4f}  (random = 0.5)")
+        print(f"AUPRC:            {auprc:.4f}  (random = {baseline_auprc:.4f})")
+        print(f"EP@{k:<6}        {ep:.4f}  (k = # true edges)")
+        print(f"EP@{k1:<6}        {ep_k1:.4f}")
+        print(f"EP@{k2:<6}        {ep_k2:.4f}")
+        print(f"{'='*50}")
+    
+    return auroc, auprc, ep, ep_k1, ep_k2
