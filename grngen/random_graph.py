@@ -393,6 +393,66 @@ def grngen(node_degree_sequence, reference_graph=None, connect_type='random'):
     # print('Random graph generated. Now connecting isolated components...')
     return connect_components(G, reference_graph, connect_type), failcount
 
+def randomize_edge_signs(A, prob_inhibitor=0.5, seed=None):
+    """
+    Convert a binary adjacency matrix (0/1) to a signed matrix (-1/0/1).
+    
+    Parameters:
+    -----------
+    A : np.ndarray or scipy.sparse matrix
+        Binary adjacency matrix with 0s and 1s
+    prob_inhibitor : float
+        Probability that an edge becomes inhibitory (-1)
+        Default 0.5 means 50% activators, 50% inhibitors
+    seed : int, optional
+        Random seed for reproducibility
+    
+    Returns:
+    --------
+    Signed adjacency matrix with -1 (inhibitor), 0 (no edge), 1 (activator)
+    """
+    rng = np.random.default_rng(seed)
+    is_sparse = sparse.issparse(A)
+    
+    if is_sparse:
+        # Work with sparse matrix
+        A_signed = A.tocsr().copy()
+        
+        # Get number of non-zero elements
+        nnz = A_signed.nnz
+        
+        # Generate random signs: -1 with prob_inhibitor, +1 otherwise
+        random_signs = rng.choice(
+            [-1, 1], 
+            size=nnz, 
+            p=[prob_inhibitor, 1 - prob_inhibitor]
+        )
+        
+        # Apply signs to non-zero data
+        A_signed.data = A_signed.data * random_signs
+        
+        return A_signed
+    
+    else:
+        # Work with dense matrix
+        A_signed = A.copy().astype(int)
+        
+        # Find edges (non-zero entries)
+        edges = np.where(A == 1)
+        n_edges = len(edges[0])
+        
+        # Generate random signs
+        random_signs = rng.choice(
+            [-1, 1], 
+            size=n_edges, 
+            p=[prob_inhibitor, 1 - prob_inhibitor]
+        )
+        
+        # Apply signs
+        A_signed[edges] = random_signs
+        
+        return A_signed
+
 import inspect
 
 # =========================================================
