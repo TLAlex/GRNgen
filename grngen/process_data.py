@@ -366,17 +366,61 @@ def count_motifs(G, save_path=None, nx_graph=True):
 
 
 # =========== Load prepocess data ===========
+# def load_graphs(folderpath=None):
+#     if folderpath:
+#         ground_truth_graph = nx.read_graphml(f"{folderpath}_g.graphml")
+#         print(f"Loaded graph from {folderpath}_g.graphml.")
+#         with open(f'{folderpath}_stat.json') as f:
+#             ground_truth_stat = json.load(f)
+#         print(f"Loaded graph stats from {folderpath}_stat.json.")
+#         with open(f'{folderpath}_motifs.json') as f:
+#             ground_truth_motifs = json.load(f)
+#         print(f"Loaded graph motif counts from {folderpath}_motifs.json.")
+#         return ground_truth_graph, ground_truth_stat, ground_truth_motifs
+
+import json
+import networkx as nx
+import gcsfs
+
 def load_graphs(folderpath=None):
-    if folderpath:
-        ground_truth_graph = nx.read_graphml(f"{folderpath}_g.graphml")
-        print(f"Loaded graph from {folderpath}_g.graphml.")
-        with open(f'{folderpath}_stat.json') as f:
+    if not folderpath:
+        return None, None, None
+    
+    # Check if GCS path
+    is_gcs = folderpath.startswith("gs://")
+    
+    if is_gcs:
+        fs = gcsfs.GCSFileSystem()
+        
+        # Load graph
+        with fs.open(f"{folderpath}_g.graphml", 'rb') as f:
+            ground_truth_graph = nx.read_graphml(f)
+        print(f"Loaded graph from {folderpath}_g.graphml")
+        
+        # Load stats
+        with fs.open(f"{folderpath}_stat.json", 'r') as f:
             ground_truth_stat = json.load(f)
-        print(f"Loaded graph stats from {folderpath}_stat.json.")
-        with open(f'{folderpath}_motifs.json') as f:
+        print(f"Loaded graph stats from {folderpath}_stat.json")
+        
+        # Load motifs
+        with fs.open(f"{folderpath}_motifs.json", 'r') as f:
             ground_truth_motifs = json.load(f)
-        print(f"Loaded graph motif counts from {folderpath}_motifs.json.")
-        return ground_truth_graph, ground_truth_stat, ground_truth_motifs
+        print(f"Loaded graph motif counts from {folderpath}_motifs.json")
+    
+    else:
+        # Local files
+        ground_truth_graph = nx.read_graphml(f"{folderpath}_g.graphml")
+        print(f"Loaded graph from {folderpath}_g.graphml")
+        
+        with open(f"{folderpath}_stat.json", 'r') as f:
+            ground_truth_stat = json.load(f)
+        print(f"Loaded graph stats from {folderpath}_stat.json")
+        
+        with open(f"{folderpath}_motifs.json", 'r') as f:
+            ground_truth_motifs = json.load(f)
+        print(f"Loaded graph motif counts from {folderpath}_motifs.json")
+    
+    return ground_truth_graph, ground_truth_stat, ground_truth_motifs
 
 def combine_experiments(df_list, label_list):
     updated_df_list = []
