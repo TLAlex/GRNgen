@@ -8,15 +8,19 @@ version = "0.1.0"
 description = "Relaxed Directed Configuration Model for GRN generation"
 requires-python = ">=3.10.4"
 dependencies = [
-    "numpy",
-    "pandas",
-    "networkx",
-    "matplotlib",
-    "seaborn",
-    "plotly",
-    "igraph",
-    "tqdm",
-    "kaleido==0.1.0"
+    "pandas==2.3.3",
+    "numpy==2.2.6",
+    "tqdm==4.70.1",
+    "matplotlib==3.10.9",
+    "seaborn==0.13.2",
+    "plotly==7.1.0",
+    "networkx==3.4.2",
+    "igraph==1.0.0",
+    "gcsfs==2026.8.1",
+    "scipy==1.15.3",
+    "scikit-learn==1.7.2",
+    "h5py==3.16.0",
+    "pyarrow==25.0.1",
 ]
 
 [tool.setuptools]
