@@ -8,3 +8,4 @@ from .plot import plot_histogram_distribution, plot_deg_ref_vs_multi_sim, plot_b
 from .feature_processing import select_optimal_graphs, evaluate_selection, plot_hist_comparison, plot_var_summary, plot_std_summary, select_optimal_graphs_fast, compute_cv_robust, norm_min_max, norm_mad
 from .inference import evaluate_inference, evaluate_inference_epr
 from .sim import randomize_edge_signs, simulate_multi_bool_parallel
+from .GENIE3 import *
